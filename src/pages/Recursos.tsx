@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, ComponentType } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -7,6 +7,14 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 import { fichasTecnicas, cursosDeVida, intervenciones, FichaTecnica } from "@/data/biblioteca";
 import { Search, FileText, Copy, Download, Eye, FileDown, Frown } from "lucide-react";
+import html2pdf from "html2pdf.js";
+import GuiaPrimeraInfancia from "@/components/recursos/GuiaPrimeraInfancia";
+import "@/components/recursos/styles.css";
+
+// Mapa de componentes React disponibles
+const componentMap: Record<string, ComponentType> = {
+  GuiaPrimeraInfancia,
+};
 
 const Recursos = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -15,6 +23,21 @@ const Recursos = () => {
   const [selectedTipos, setSelectedTipos] = useState<string[]>([]);
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState<FichaTecnica | null>(null);
+
+  const handleGeneratePDF = () => {
+    const element = document.getElementById("recurso-content");
+    if (!element) return;
+
+    const opt = {
+      margin: 12,
+      filename: `${current?.titulo?.replace(/\s+/g, "-") || "recurso"}.pdf`,
+      image: { type: "jpeg" as const, quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true },
+      jsPDF: { unit: "mm" as const, format: "a4" as const, orientation: "portrait" as const },
+    };
+
+    html2pdf().set(opt).from(element).save();
+  };
 
   const tiposDisponibles = useMemo(() => {
     return Array.from(new Set(fichasTecnicas.map(f => f.tipo)));
@@ -244,8 +267,15 @@ const Recursos = () => {
           <DialogHeader>
             <DialogTitle>{current?.titulo}</DialogTitle>
           </DialogHeader>
-          <div className="flex-1 overflow-hidden rounded-lg border h-full">
+          <div className="flex-1 overflow-auto rounded-lg border h-full" id="recurso-content">
             {(() => {
+              // Si hay componente React, renderizarlo
+              if (current?.componentName && componentMap[current.componentName]) {
+                const Component = componentMap[current.componentName];
+                return <Component />;
+              }
+
+              // Fallback a PDF o imagen
               const url = current?.htmlUrl ?? current?.pdfUrl;
               if (!url) return <div className="flex items-center justify-center h-full text-muted-foreground">No hay contenido disponible</div>;
               
@@ -272,8 +302,20 @@ const Recursos = () => {
               );
             })()}
           </div>
-          <DialogFooter>
-            {current?.pdfUrl && (
+          <DialogFooter className="gap-2">
+            {/* Si hay componente React, generar PDF desde HTML */}
+            {current?.componentName && componentMap[current.componentName] && (
+              <Button
+                size="lg"
+                onClick={handleGeneratePDF}
+              >
+                <Download className="w-4 h-4 mr-2" />
+                Descargar PDF
+              </Button>
+            )}
+            
+            {/* Si no hay componente, descargar PDF estático */}
+            {!current?.componentName && current?.pdfUrl && (
               <Button
                 size="lg"
                 asChild

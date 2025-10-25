@@ -5,8 +5,9 @@ export interface FichaTecnica {
   cursoDeVida: string;
   intervencion: string;
   tema: string;
-  htmlUrl?: string;    // URL para visualización web (opcional)
-  pdfUrl?: string;     // Ruta absoluta desde /public (ej: "/recursos/infografia-ccu.pdf")
+  componentName?: string; // Nombre del componente React a renderizar
+  htmlUrl?: string;       // URL para visualización web (opcional, deprecated)
+  pdfUrl?: string;        // Ruta absoluta desde /public (ej: "/recursos/infografia-ccu.pdf")
   fuente?: string;
   version?: string;
 }
@@ -95,9 +96,10 @@ export const fichasTecnicas: FichaTecnica[] = [
     cursoDeVida: "Primera Infancia",
     intervencion: "Valoración integral",
     tema: "Crecimiento y Desarrollo",
+    componentName: "GuiaPrimeraInfancia",
     pdfUrl: "/recursos/r3280_rpms_primera-infancia_guia_v20251025.pdf",
     fuente: "Resolución 3280 de 2018 - RPMS",
-    version: "1.1",
+    version: "1.2",
   },
 ];
 

@@ -1,0 +1,245 @@
+/* Variables CSS para recursos */
+:root {
+  --recurso-blue-dark: #1E3A5F;
+  --recurso-blue-mid: #3B82C4;
+  --recurso-blue-light: #E6F0FA;
+  --recurso-gray-light: #F5F7FA;
+  --recurso-white: #FFFFFF;
+  --recurso-text: #0f172a;
+  --recurso-muted: #475569;
+}
+
+/* Contenedor principal - simula A4 */
+.recurso-container {
+  background: var(--recurso-gray-light);
+  min-height: 100%;
+  padding: 16px;
+}
+
+.recurso-page {
+  width: 100%;
+  max-width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background: var(--recurso-white);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.recurso-inner {
+  padding: 12mm;
+}
+
+/* Tipografía */
+.recurso-page h1 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  color: var(--recurso-white);
+}
+
+.recurso-page h2 {
+  font-size: 15px;
+  line-height: 1.2;
+  margin: 14px 0 8px;
+  color: var(--recurso-blue-dark);
+}
+
+.recurso-page h3 {
+  font-size: 13px;
+  line-height: 1.2;
+  margin: 10px 0 6px;
+  color: var(--recurso-blue-dark);
+}
+
+.recurso-page p {
+  margin: 0 0 6px;
+}
+
+.recurso-page ul {
+  margin: 4px 0 8px 18px;
+}
+
+.recurso-page li {
+  margin: 2px 0;
+}
+
+/* Hero section */
+.recurso-hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  padding: 14px;
+  background: var(--recurso-blue-dark);
+  color: var(--recurso-white);
+  border-radius: 12px;
+}
+
+.recurso-chips {
+  margin-top: 6px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.recurso-chip {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+}
+
+.recurso-meta {
+  font-size: 11.5px;
+  text-align: right;
+}
+
+.recurso-meta b {
+  color: #fff;
+}
+
+/* Cards */
+.recurso-card {
+  background: var(--recurso-blue-light);
+  border: 1px solid var(--recurso-blue-mid);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.recurso-card.recurso-white {
+  background: var(--recurso-white);
+}
+
+.recurso-card.recurso-vlight {
+  background: #F1F6FD;
+}
+
+.recurso-card.recurso-border {
+  border: 1px solid var(--recurso-blue-mid);
+}
+
+/* Layouts */
+.recurso-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.recurso-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+/* Tables */
+.recurso-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.recurso-table thead th {
+  background: var(--recurso-blue-mid);
+  color: #fff;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.recurso-table tbody td {
+  border: 1px solid #dbe7f6;
+  padding: 6px 8px;
+  vertical-align: top;
+}
+
+/* Bullets */
+.recurso-bullet {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.recurso-bullet i {
+  font-style: normal;
+  width: 18px;
+  text-align: center;
+}
+
+.recurso-list-tight li {
+  margin: 1px 0;
+}
+
+/* Box */
+.recurso-box {
+  border: 1px solid var(--recurso-blue-mid);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.recurso-box.recurso-white-bg {
+  background: var(--recurso-white);
+}
+
+/* Footer */
+.recurso-footer {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 2px solid var(--recurso-blue-mid);
+  font-size: 11px;
+  color: var(--recurso-muted);
+}
+
+/* Evitar quiebre de página en elementos importantes */
+.recurso-table,
+.recurso-hero,
+.recurso-card,
+.recurso-box {
+  page-break-inside: avoid;
+}
+
+/* Estilos para impresión y generación de PDF */
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  .recurso-container {
+    background: white;
+    padding: 0;
+  }
+
+  .recurso-page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .recurso-inner {
+    padding: 0;
+  }
+}
+
+/* Responsive para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .recurso-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .recurso-meta {
+    text-align: left;
+  }
+
+  .recurso-two,
+  .recurso-three {
+    grid-template-columns: 1fr;
+  }
+
+  .recurso-table {
+    font-size: 10px;
+  }
+
+  .recurso-table thead th,
+  .recurso-table tbody td {
+    padding: 4px 6px;
+  }
+}
