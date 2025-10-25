@@ -272,28 +272,20 @@ const Recursos = () => {
               );
             })()}
           </div>
-          <DialogFooter className="gap-2">
-            {current?.fuente && (
-              <Button 
-                variant="outline" 
-                onClick={() => {
-                  const cita = `Fuente: ${current.fuente} — versión ${current.version || ""}`;
-                  navigator.clipboard.writeText(cita);
-                }}
-              >
-                <Copy className="w-4 h-4 mr-2" />
-                Copiar cita
-              </Button>
-            )}
+          <DialogFooter>
             {current?.pdfUrl && (
-              <a 
-                className="inline-flex items-center justify-center px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-md text-sm font-medium transition-colors"
-                href={current.pdfUrl} 
-                download
+              <Button
+                size="lg"
+                asChild
               >
-                <Download className="w-4 h-4 mr-2" />
-                Descargar
-              </a>
+                <a 
+                  href={current.pdfUrl} 
+                  download
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  Descargar PDF
+                </a>
+              </Button>
             )}
           </DialogFooter>
         </DialogContent>
