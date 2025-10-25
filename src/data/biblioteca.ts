@@ -88,6 +88,17 @@ export const fichasTecnicas: FichaTecnica[] = [
     tema: "Envejecimiento Saludable",
     pdfUrl: "#",
   },
+  {
+    id: 9,
+    titulo: "Guía resumida — Primera Infancia",
+    tipo: "Guía",
+    cursoDeVida: "Primera Infancia",
+    intervencion: "Valoración integral",
+    tema: "Crecimiento y Desarrollo",
+    pdfUrl: "/recursos/r3280_rpms_primera-infancia_guia_v20251025.pdf",
+    fuente: "Resolución 3280 de 2018 - RPMS",
+    version: "1.1",
+  },
 ];
 
 export const cursosDeVida = [
