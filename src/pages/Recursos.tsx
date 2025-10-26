@@ -14,6 +14,13 @@ import GuiaAdolescencia from "@/components/recursos/GuiaAdolescencia";
 import GuiaJuventud from "@/components/recursos/GuiaJuventud";
 import GuiaAdultez from "@/components/recursos/GuiaAdultez";
 import GuiaVejez from "@/components/recursos/GuiaVejez";
+import GpcCancerCuelloUterino from "@/components/recursos/GpcCancerCuelloUterino";
+import GpcCancerMama from "@/components/recursos/GpcCancerMama";
+import GpcCancerProstata from "@/components/recursos/GpcCancerProstata";
+import GpcCancerColonRecto from "@/components/recursos/GpcCancerColonRecto";
+import GpcPlanificacionFamiliar from "@/components/recursos/GpcPlanificacionFamiliar";
+import GpcLactanciaMaterna from "@/components/recursos/GpcLactanciaMaterna";
+import GpcSaludBucal from "@/components/recursos/GpcSaludBucal";
 import "@/components/recursos/styles.css";
 
 // Mapa de componentes React disponibles
@@ -24,6 +31,13 @@ const componentMap: Record<string, ComponentType> = {
   GuiaJuventud,
   GuiaAdultez,
   GuiaVejez,
+  GpcCancerCuelloUterino,
+  GpcCancerMama,
+  GpcCancerProstata,
+  GpcCancerColonRecto,
+  GpcPlanificacionFamiliar,
+  GpcLactanciaMaterna,
+  GpcSaludBucal,
 };
 
 const Recursos = () => {
