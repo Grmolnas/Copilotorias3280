@@ -169,6 +169,18 @@ export const fichasTecnicas: FichaTecnica[] = [
     fuente: "Resolución 3280 de 2018 - RPMS",
     version: "1.0",
   },
+  {
+    id: 20,
+    titulo: "Eficacia de métodos anticonceptivos",
+    tipo: "Infografía",
+    cursoDeVida: "Todos",
+    intervencion: "Salud reproductiva",
+    tema: "Anticoncepción",
+    componentName: "InfografiaEficaciaMetodos",
+    pdfUrl: "#",
+    fuente: "Resolución 3280 de 2018 - RPMS",
+    version: "1.0",
+  },
 ];
 
 export const cursosDeVida = [

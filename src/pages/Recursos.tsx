@@ -21,6 +21,7 @@ import GpcCancerColonRecto from "@/components/recursos/GpcCancerColonRecto";
 import GpcPlanificacionFamiliar from "@/components/recursos/GpcPlanificacionFamiliar";
 import GpcLactanciaMaterna from "@/components/recursos/GpcLactanciaMaterna";
 import GpcSaludBucal from "@/components/recursos/GpcSaludBucal";
+import InfografiaEficaciaMetodos from "@/components/recursos/InfografiaEficaciaMetodos";
 import "@/components/recursos/styles.css";
 
 // Mapa de componentes React disponibles
@@ -38,6 +39,7 @@ const componentMap: Record<string, ComponentType> = {
   GpcPlanificacionFamiliar,
   GpcLactanciaMaterna,
   GpcSaludBucal,
+  InfografiaEficaciaMetodos,
 };
 
 const Recursos = () => {
