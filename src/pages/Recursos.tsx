@@ -9,11 +9,21 @@ import { fichasTecnicas, cursosDeVida, intervenciones, FichaTecnica } from "@/da
 import { Search, FileText, Copy, Download, Eye, FileDown, Frown } from "lucide-react";
 import html2pdf from "html2pdf.js";
 import GuiaPrimeraInfancia from "@/components/recursos/GuiaPrimeraInfancia";
+import GuiaInfancia from "@/components/recursos/GuiaInfancia";
+import GuiaAdolescencia from "@/components/recursos/GuiaAdolescencia";
+import GuiaJuventud from "@/components/recursos/GuiaJuventud";
+import GuiaAdultez from "@/components/recursos/GuiaAdultez";
+import GuiaVejez from "@/components/recursos/GuiaVejez";
 import "@/components/recursos/styles.css";
 
 // Mapa de componentes React disponibles
 const componentMap: Record<string, ComponentType> = {
   GuiaPrimeraInfancia,
+  GuiaInfancia,
+  GuiaAdolescencia,
+  GuiaJuventud,
+  GuiaAdultez,
+  GuiaVejez,
 };
 
 const Recursos = () => {
