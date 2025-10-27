@@ -302,6 +302,1521 @@
           "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
         }
       ]
+    },
+    {
+      "tema": "Infancia – Intervención Individual (RPMS)",
+      "topic_id": "infancia-intervencion-individual",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "Infancia Intervención Individual y Directrices de obligatorio cumplimiento.docx",
+        "doc_titulo": "Infancia – Intervención Individual y Directrices de obligatorio cumplimiento",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "infancia-Q001",
+          "enunciado": "Según el esquema de consultas en infancia, ¿cuántas atenciones por medicina general, pediatría o medicina familiar están programadas?",
+          "opciones": ["2", "3", "4", "5"],
+          "indice_correcto": 3,
+          "explicacion_correcta": "El Cuadro de Frecuencia de Consultas establece 5 atenciones por medicina general/pediatría/medicina familiar: a los 5, 6, 7, 8 y 10 años.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "medicina", "CUPS 890201"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q002",
+          "enunciado": "¿Cuántas atenciones por profesional de enfermería están programadas en infancia?",
+          "opciones": ["2", "3", "4", "5"],
+          "indice_correcto": 3,
+          "explicacion_correcta": "La tabla de frecuencias indica 5 consultas por enfermería: 5A, 6A, 7A, 9A y 11A.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "enfermeria", "CUPS 890205"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q003",
+          "enunciado": "La atención en salud bucal por odontología durante la infancia se programa:",
+          "opciones": [
+            "Cada 3 meses",
+            "Cada 6 meses (una vez al año)",
+            "Solo ante caries",
+            "Únicamente a los 5 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica una atención cada 6 meses (una vez al año) con profesional en odontología.",
+          "dificultad": "facil",
+          "tags": ["odontologia", "frecuencia", "CUPS 890203"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q004",
+          "enunciado": "La suplementación con hierro en infancia se indica:",
+          "opciones": [
+            "De manera universal sin evaluación previa",
+            "De acuerdo con el resultado de hemoglobina y valoración del profesional",
+            "Solo ante anemia severa",
+            "Únicamente en prematuros"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La guía establece suplementación según resultado de hemoglobina y criterio profesional.",
+          "dificultad": "media",
+          "tags": ["suplementacion", "hierro"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q005",
+          "enunciado": "La desparasitación intestinal antihelmíntica durante la infancia se recomienda:",
+          "opciones": [
+            "Mensual",
+            "Dos veces al año con albendazol 400 mg VO dosis única",
+            "Solo ante síntomas digestivos",
+            "Una vez al año"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica dos veces al año con albendazol 400 mg vía oral en dosis única.",
+          "dificultad": "facil",
+          "tags": ["desparasitacion", "antihelminticos"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q006",
+          "enunciado": "El tamizaje para hemoglobina en infancia debe realizarse:",
+          "opciones": [
+            "Mensualmente",
+            "Cada 6 meses de manera universal",
+            "De acuerdo con el riesgo identificado",
+            "Solo ante palidez clínica"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La guía lo establece de acuerdo con el riesgo identificado durante la valoración.",
+          "dificultad": "facil",
+          "tags": ["tamizaje", "hemoglobina"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q007",
+          "enunciado": "La valoración de agudeza visual en infancia se realiza:",
+          "opciones": [
+            "Solo ante síntomas visuales",
+            "En todas las consultas con optotipos morfoscópicos o angulares",
+            "Únicamente a los 5 años",
+            "Solo por oftalmología"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se recomienda en todas las consultas utilizando optotipos morfoscópicos o angulares.",
+          "dificultad": "facil",
+          "tags": ["vision", "agudeza-visual"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q008",
+          "enunciado": "La toma de tensión arterial (TA) durante la consulta de infancia es:",
+          "opciones": [
+            "Opcional",
+            "Obligatoria en todas las consultas",
+            "Solo ante síntomas cardiovasculares",
+            "Únicamente en mayores de 10 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige la toma de tensión arterial de manera obligatoria en todas las consultas de infancia.",
+          "dificultad": "facil",
+          "tags": ["tension-arterial", "signos-vitales"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q009",
+          "enunciado": "El cuestionario VALE en infancia está orientado a la valoración de:",
+          "opciones": [
+            "Salud visual",
+            "Salud auditiva y comunicativa",
+            "Estado nutricional",
+            "Desarrollo motor"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica el uso del cuestionario VALE para salud auditiva y comunicativa.",
+          "dificultad": "facil",
+          "tags": ["VALE", "auditiva", "comunicativa"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q010",
+          "enunciado": "La aplicación de sellantes dentales en infancia se contempla:",
+          "opciones": [
+            "Solo ante caries activa",
+            "Desde los 5 años hasta los 15 años",
+            "Únicamente en molares permanentes",
+            "En todos los dientes sin excepción"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica su indicación desde los 5 años (dentro del rango de 3 a 15 años) para reducir riesgo de caries.",
+          "dificultad": "media",
+          "tags": ["salud-bucal", "sellantes"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q011",
+          "enunciado": "La aplicación de flúor en barniz durante la infancia se recomienda:",
+          "opciones": [
+            "Mensual",
+            "Dos veces al año (una por semestre)",
+            "Anual",
+            "Solo ante caries activa"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica dos veces por año (una por semestre).",
+          "dificultad": "facil",
+          "tags": ["salud-bucal", "fluor"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q012",
+          "enunciado": "Durante la consulta de valoración en infancia, respecto a la presencia del cuidador:",
+          "opciones": [
+            "No es necesaria",
+            "Es opcional",
+            "Se requiere la presencia del cuidador y/o acompañante",
+            "Está contraindicada"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La descripción del procedimiento exige la presencia del cuidador/acompañante.",
+          "dificultad": "facil",
+          "tags": ["cuidador", "procedimiento"],
+          "fuente": { "seccion": "1.5 – Descripción del Procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q013",
+          "enunciado": "La educación individual (padres/cuidadores) durante la infancia tiene una duración por sesión de:",
+          "opciones": [
+            "10 a 15 minutos",
+            "20 a 30 minutos",
+            "45 minutos",
+            "60 minutos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se fija una duración de 20 a 30 minutos por sesión.",
+          "dificultad": "facil",
+          "tags": ["educacion-individual", "CUPS 9902"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q014",
+          "enunciado": "Los ciclos de educación grupal para familias durante la infancia deben ser como mínimo:",
+          "opciones": [
+            "1 ciclo por momento del curso de vida",
+            "2 ciclos por momento del curso de vida",
+            "3 ciclos por momento del curso de vida",
+            "Sin mínimo definido"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen al menos dos ciclos educativos por momento del curso de vida.",
+          "dificultad": "media",
+          "tags": ["educacion-grupal", "familia"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q015",
+          "enunciado": "La evaluación del desarrollo infantil durante la consulta en infancia se realiza mediante:",
+          "opciones": [
+            "Escala Abreviada de Desarrollo-3 (EAD-3)",
+            "Test de Denver",
+            "Escala de Bayley",
+            "Test de Wechsler"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "La EAD-3 se aplica para valorar el desarrollo durante la infancia.",
+          "dificultad": "facil",
+          "tags": ["desarrollo", "EAD-3"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q016",
+          "enunciado": "El tamizaje de salud oral en infancia incluye:",
+          "opciones": [
+            "Solo valoración de caries",
+            "Valoración de caries, placa bacteriana y gingivitis",
+            "Únicamente ortodoncia",
+            "Solo fluorosis"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se incluye valoración integral: caries, placa bacteriana y gingivitis.",
+          "dificultad": "media",
+          "tags": ["salud-bucal", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q017",
+          "enunciado": "La valoración antropométrica en infancia incluye:",
+          "opciones": [
+            "Solo peso",
+            "Peso, talla e IMC",
+            "Solo talla",
+            "Únicamente perímetro cefálico"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece la valoración de peso, talla e índice de masa corporal (IMC).",
+          "dificultad": "facil",
+          "tags": ["antropometria", "nutricion"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q018",
+          "enunciado": "La valoración del esquema de vacunación en infancia debe realizarse:",
+          "opciones": [
+            "Solo al inicio del curso de vida",
+            "En todas las consultas",
+            "Únicamente ante brotes epidémicos",
+            "Solo a los 5 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige la valoración del esquema de vacunación en todas las consultas.",
+          "dificultad": "facil",
+          "tags": ["vacunacion", "inmunizacion"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q019",
+          "enunciado": "Los temas prioritarios para educación en infancia incluyen:",
+          "opciones": [
+            "Solo prevención de accidentes",
+            "Nutrición, actividad física, salud bucal, prevención de accidentes y buen trato",
+            "Únicamente vacunación",
+            "Solo higiene personal"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen como temas prioritarios: nutrición, actividad física, salud bucal, prevención de accidentes y buen trato.",
+          "dificultad": "media",
+          "tags": ["educacion", "temas-prioritarios"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "infancia-Q020",
+          "enunciado": "Según el talento humano requerido, la atención en infancia puede ser realizada por:",
+          "opciones": [
+            "Solo pediatra",
+            "Médico general, pediatra, médico familiar o profesional de enfermería según corresponda",
+            "Únicamente médico general",
+            "Solo profesional de enfermería"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece que puede ser realizada por médico general, pediatra, médico familiar o profesional de enfermería según el tipo de atención.",
+          "dificultad": "facil",
+          "tags": ["talento-humano"],
+          "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Adolescencia – Intervención Individual (RPMS)",
+      "topic_id": "adolescencia-intervencion-individual",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "Adolescencia Intervención Individual y Directrices de obligatorio cumplimiento.docx",
+        "doc_titulo": "Adolescencia – Intervención Individual y Directrices de obligatorio cumplimiento",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "adolescencia-Q001",
+          "enunciado": "Según el esquema de consultas en adolescencia, ¿cuántas atenciones por medicina general o medicina familiar están programadas?",
+          "opciones": ["2", "3", "4", "5"],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El Cuadro de Frecuencia de Consultas establece 3 atenciones por medicina general/medicina familiar: a los 12, 14 y 16 años.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "medicina", "CUPS 890201"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q002",
+          "enunciado": "¿Cuántas atenciones por profesional de enfermería están programadas en adolescencia?",
+          "opciones": ["2", "3", "4", "5"],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La tabla de frecuencias indica 3 consultas por enfermería: 13A, 15A y 17A.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "enfermeria", "CUPS 890205"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q003",
+          "enunciado": "La atención en salud bucal por odontología durante la adolescencia se programa:",
+          "opciones": [
+            "Cada 3 meses",
+            "Cada 6 meses (una vez al año)",
+            "Solo ante caries",
+            "Únicamente a los 12 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica una atención cada 6 meses (una vez al año) con profesional en odontología.",
+          "dificultad": "facil",
+          "tags": ["odontologia", "frecuencia", "CUPS 890203"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q004",
+          "enunciado": "La suplementación con hierro en adolescencia se indica:",
+          "opciones": [
+            "De manera universal sin evaluación previa",
+            "De acuerdo con el resultado de hemoglobina y valoración del profesional",
+            "Solo en mujeres gestantes",
+            "Únicamente ante anemia severa"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La guía establece suplementación según resultado de hemoglobina y criterio profesional.",
+          "dificultad": "media",
+          "tags": ["suplementacion", "hierro"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q005",
+          "enunciado": "La desparasitación intestinal antihelmíntica durante la adolescencia se recomienda:",
+          "opciones": [
+            "Mensual",
+            "Dos veces al año con albendazol 400 mg VO dosis única",
+            "Solo ante síntomas digestivos",
+            "Una vez al año"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica dos veces al año con albendazol 400 mg vía oral en dosis única.",
+          "dificultad": "facil",
+          "tags": ["desparasitacion", "antihelminticos"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q006",
+          "enunciado": "El tamizaje para hemoglobina en adolescencia debe realizarse:",
+          "opciones": [
+            "Mensualmente",
+            "Cada 6 meses de manera universal",
+            "De acuerdo con el riesgo identificado",
+            "Solo ante palidez clínica"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La guía lo establece de acuerdo con el riesgo identificado durante la valoración.",
+          "dificultad": "facil",
+          "tags": ["tamizaje", "hemoglobina"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q007",
+          "enunciado": "La valoración de agudeza visual en adolescencia se realiza:",
+          "opciones": [
+            "Solo ante síntomas visuales",
+            "En todas las consultas",
+            "Únicamente a los 12 años",
+            "Solo por oftalmología"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se recomienda en todas las consultas la valoración de agudeza visual.",
+          "dificultad": "facil",
+          "tags": ["vision", "agudeza-visual"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q008",
+          "enunciado": "La toma de tensión arterial (TA) durante la consulta de adolescencia es:",
+          "opciones": [
+            "Opcional",
+            "Obligatoria en todas las consultas",
+            "Solo ante síntomas cardiovasculares",
+            "Únicamente en mayores de 15 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige la toma de tensión arterial de manera obligatoria en todas las consultas de adolescencia.",
+          "dificultad": "facil",
+          "tags": ["tension-arterial", "signos-vitales"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q009",
+          "enunciado": "La aplicación de sellantes dentales en adolescencia se contempla:",
+          "opciones": [
+            "Solo ante caries activa",
+            "Hasta los 15 años",
+            "Únicamente en molares permanentes",
+            "No se aplican en adolescencia"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica su indicación desde los 3 años hasta los 15 años, por lo que aplica hasta esta edad en adolescencia.",
+          "dificultad": "media",
+          "tags": ["salud-bucal", "sellantes"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q010",
+          "enunciado": "La aplicación de flúor en barniz durante la adolescencia se recomienda:",
+          "opciones": [
+            "Mensual",
+            "Dos veces al año (una por semestre)",
+            "Anual",
+            "No se aplica en adolescencia"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica dos veces por año (una por semestre).",
+          "dificultad": "facil",
+          "tags": ["salud-bucal", "fluor"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q011",
+          "enunciado": "La educación individual durante la adolescencia tiene una duración por sesión de:",
+          "opciones": [
+            "10 a 15 minutos",
+            "20 a 30 minutos",
+            "45 minutos",
+            "60 minutos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se fija una duración de 20 a 30 minutos por sesión.",
+          "dificultad": "facil",
+          "tags": ["educacion-individual", "CUPS 9902"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q012",
+          "enunciado": "Los ciclos de educación grupal durante la adolescencia deben ser como mínimo:",
+          "opciones": [
+            "1 ciclo por momento del curso de vida",
+            "2 ciclos por momento del curso de vida",
+            "3 ciclos por momento del curso de vida",
+            "Sin mínimo definido"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen al menos dos ciclos educativos por momento del curso de vida.",
+          "dificultad": "media",
+          "tags": ["educacion-grupal"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q013",
+          "enunciado": "La valoración antropométrica en adolescencia incluye:",
+          "opciones": [
+            "Solo peso",
+            "Peso, talla e IMC",
+            "Solo talla",
+            "Únicamente IMC"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece la valoración de peso, talla e índice de masa corporal (IMC).",
+          "dificultad": "facil",
+          "tags": ["antropometria", "nutricion"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q014",
+          "enunciado": "La valoración del esquema de vacunación en adolescencia debe realizarse:",
+          "opciones": [
+            "Solo al inicio del curso de vida",
+            "En todas las consultas",
+            "Únicamente ante brotes epidémicos",
+            "Solo a los 12 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige la valoración del esquema de vacunación en todas las consultas.",
+          "dificultad": "facil",
+          "tags": ["vacunacion", "inmunizacion"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q015",
+          "enunciado": "Los temas prioritarios para educación en adolescencia incluyen:",
+          "opciones": [
+            "Solo prevención de embarazo",
+            "Salud sexual y reproductiva, prevención de violencias, proyecto de vida, nutrición y actividad física",
+            "Únicamente vacunación",
+            "Solo consumo de sustancias"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen como temas prioritarios: salud sexual y reproductiva, prevención de violencias, proyecto de vida, nutrición y actividad física.",
+          "dificultad": "media",
+          "tags": ["educacion", "temas-prioritarios"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q016",
+          "enunciado": "La asesoría en salud sexual y reproductiva en adolescencia debe incluir:",
+          "opciones": [
+            "Solo prevención de ITS",
+            "Anticoncepción, prevención de ITS, prevención de embarazo y proyecto de vida",
+            "Únicamente anticoncepción",
+            "Solo prevención de embarazo"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Debe ser integral e incluir: anticoncepción, prevención de ITS, prevención de embarazo y proyecto de vida.",
+          "dificultad": "media",
+          "tags": ["salud-sexual", "asesoria"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q017",
+          "enunciado": "La valoración del desarrollo psicosocial en adolescencia incluye:",
+          "opciones": [
+            "Solo estado de ánimo",
+            "Valoración de riesgos psicosociales, proyecto de vida, relaciones familiares y sociales",
+            "Únicamente rendimiento escolar",
+            "Solo consumo de sustancias"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Incluye valoración integral: riesgos psicosociales, proyecto de vida, relaciones familiares y sociales.",
+          "dificultad": "media",
+          "tags": ["desarrollo-psicosocial"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q018",
+          "enunciado": "El tamizaje de salud mental en adolescencia debe realizarse:",
+          "opciones": [
+            "Solo ante síntomas evidentes",
+            "En todas las consultas",
+            "Únicamente a los 12 años",
+            "Solo si hay antecedentes familiares"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece tamizaje de salud mental en todas las consultas de adolescencia.",
+          "dificultad": "facil",
+          "tags": ["salud-mental", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q019",
+          "enunciado": "La valoración de conductas de riesgo en adolescencia incluye:",
+          "opciones": [
+            "Solo consumo de alcohol",
+            "Consumo de sustancias psicoactivas, conductas sexuales de riesgo, violencias y accidentalidad",
+            "Únicamente tabaquismo",
+            "Solo conducta suicida"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece valoración integral de: consumo de SPA, conductas sexuales de riesgo, violencias y accidentalidad.",
+          "dificultad": "media",
+          "tags": ["conductas-riesgo"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adolescencia-Q020",
+          "enunciado": "Según el talento humano requerido, la atención en adolescencia puede ser realizada por:",
+          "opciones": [
+            "Solo médico especialista en adolescencia",
+            "Médico general, médico familiar o profesional de enfermería según corresponda",
+            "Únicamente psicólogo",
+            "Solo trabajador social"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece que puede ser realizada por médico general, médico familiar o profesional de enfermería según el tipo de atención.",
+          "dificultad": "facil",
+          "tags": ["talento-humano"],
+          "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Juventud – Intervención Individual (RPMS)",
+      "topic_id": "juventud-intervencion-individual",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "Juventud Intervención Individual y Directrices de obligatorio cumplimiento.docx",
+        "doc_titulo": "Juventud – Intervención Individual y Directrices de obligatorio cumplimiento",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "juventud-Q001",
+          "enunciado": "Según el esquema de consultas en juventud, ¿cuántas atenciones por medicina general o medicina familiar están programadas?",
+          "opciones": ["2", "3", "4", "5"],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El Cuadro de Frecuencia de Consultas establece 3 atenciones por medicina general/medicina familiar: a los 18, 22 y 26 años.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "medicina", "CUPS 890201"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q002",
+          "enunciado": "¿Cuántas atenciones por profesional de enfermería están programadas en juventud?",
+          "opciones": ["2", "3", "4", "5"],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La tabla de frecuencias indica 3 consultas por enfermería: 20A, 24A y 28A.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "enfermeria", "CUPS 890205"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q003",
+          "enunciado": "La atención en salud bucal por odontología durante la juventud se programa:",
+          "opciones": [
+            "Cada 3 meses",
+            "Cada 6 meses (una vez al año)",
+            "Solo ante caries",
+            "Únicamente a los 18 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica una atención cada 6 meses (una vez al año) con profesional en odontología.",
+          "dificultad": "facil",
+          "tags": ["odontologia", "frecuencia", "CUPS 890203"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q004",
+          "enunciado": "El tamizaje para hemoglobina en juventud debe realizarse:",
+          "opciones": [
+            "Mensualmente",
+            "Cada 6 meses de manera universal",
+            "De acuerdo con el riesgo identificado",
+            "Solo en mujeres"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La guía lo establece de acuerdo con el riesgo identificado durante la valoración.",
+          "dificultad": "facil",
+          "tags": ["tamizaje", "hemoglobina"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q005",
+          "enunciado": "La valoración de agudeza visual en juventud se realiza:",
+          "opciones": [
+            "Solo ante síntomas visuales",
+            "En todas las consultas",
+            "Únicamente a los 18 años",
+            "Solo por oftalmología"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se recomienda en todas las consultas la valoración de agudeza visual.",
+          "dificultad": "facil",
+          "tags": ["vision", "agudeza-visual"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q006",
+          "enunciado": "La toma de tensión arterial (TA) durante la consulta de juventud es:",
+          "opciones": [
+            "Opcional",
+            "Obligatoria en todas las consultas",
+            "Solo ante síntomas cardiovasculares",
+            "Únicamente en mayores de 25 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige la toma de tensión arterial de manera obligatoria en todas las consultas de juventud.",
+          "dificultad": "facil",
+          "tags": ["tension-arterial", "signos-vitales"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q007",
+          "enunciado": "La educación individual durante la juventud tiene una duración por sesión de:",
+          "opciones": [
+            "10 a 15 minutos",
+            "20 a 30 minutos",
+            "45 minutos",
+            "60 minutos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se fija una duración de 20 a 30 minutos por sesión.",
+          "dificultad": "facil",
+          "tags": ["educacion-individual", "CUPS 9902"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q008",
+          "enunciado": "Los ciclos de educación grupal durante la juventud deben ser como mínimo:",
+          "opciones": [
+            "1 ciclo por momento del curso de vida",
+            "2 ciclos por momento del curso de vida",
+            "3 ciclos por momento del curso de vida",
+            "Sin mínimo definido"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen al menos dos ciclos educativos por momento del curso de vida.",
+          "dificultad": "media",
+          "tags": ["educacion-grupal"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q009",
+          "enunciado": "La valoración antropométrica en juventud incluye:",
+          "opciones": [
+            "Solo peso",
+            "Peso, talla e IMC",
+            "Solo talla",
+            "Únicamente IMC"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece la valoración de peso, talla e índice de masa corporal (IMC).",
+          "dificultad": "facil",
+          "tags": ["antropometria", "nutricion"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q010",
+          "enunciado": "Los temas prioritarios para educación en juventud incluyen:",
+          "opciones": [
+            "Solo prevención de embarazo",
+            "Salud sexual y reproductiva, proyecto de vida, prevención de violencias, nutrición y actividad física",
+            "Únicamente vacunación",
+            "Solo consumo de sustancias"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen como temas prioritarios: salud sexual y reproductiva, proyecto de vida, prevención de violencias, nutrición y actividad física.",
+          "dificultad": "media",
+          "tags": ["educacion", "temas-prioritarios"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q011",
+          "enunciado": "La asesoría en salud sexual y reproductiva en juventud debe incluir:",
+          "opciones": [
+            "Solo prevención de ITS",
+            "Anticoncepción, prevención de ITS, prevención de embarazo no planeado y proyecto de vida",
+            "Únicamente anticoncepción",
+            "Solo prevención de embarazo"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Debe ser integral e incluir: anticoncepción, prevención de ITS, prevención de embarazo no planeado y proyecto de vida.",
+          "dificultad": "media",
+          "tags": ["salud-sexual", "asesoria"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q012",
+          "enunciado": "El tamizaje de salud mental en juventud debe realizarse:",
+          "opciones": [
+            "Solo ante síntomas evidentes",
+            "En todas las consultas",
+            "Únicamente a los 18 años",
+            "Solo si hay antecedentes familiares"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece tamizaje de salud mental en todas las consultas de juventud.",
+          "dificultad": "facil",
+          "tags": ["salud-mental", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q013",
+          "enunciado": "La valoración de conductas de riesgo en juventud incluye:",
+          "opciones": [
+            "Solo consumo de alcohol",
+            "Consumo de sustancias psicoactivas, conductas sexuales de riesgo, violencias y accidentalidad",
+            "Únicamente tabaquismo",
+            "Solo conducta suicida"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece valoración integral de: consumo de SPA, conductas sexuales de riesgo, violencias y accidentalidad.",
+          "dificultad": "media",
+          "tags": ["conductas-riesgo"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q014",
+          "enunciado": "El tamizaje de cáncer de cuello uterino en mujeres jóvenes debe iniciarse a partir de:",
+          "opciones": [
+            "18 años",
+            "25 años",
+            "21 años o inicio de vida sexual",
+            "30 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece inicio del tamizaje de cáncer de cuello uterino a partir de los 25 años.",
+          "dificultad": "media",
+          "tags": ["cancer-cuello-uterino", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q015",
+          "enunciado": "La valoración del riesgo cardiovascular en juventud debe incluir:",
+          "opciones": [
+            "Solo presión arterial",
+            "Presión arterial, IMC, antecedentes familiares y hábitos de vida",
+            "Únicamente colesterol",
+            "Solo glicemia"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece valoración integral: presión arterial, IMC, antecedentes familiares y hábitos de vida.",
+          "dificultad": "media",
+          "tags": ["riesgo-cardiovascular"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q016",
+          "enunciado": "La valoración del desarrollo psicosocial en juventud incluye:",
+          "opciones": [
+            "Solo estado de ánimo",
+            "Proyecto de vida, relaciones interpersonales, desarrollo laboral/académico y salud mental",
+            "Únicamente rendimiento académico",
+            "Solo consumo de sustancias"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Incluye valoración integral: proyecto de vida, relaciones interpersonales, desarrollo laboral/académico y salud mental.",
+          "dificultad": "media",
+          "tags": ["desarrollo-psicosocial"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q017",
+          "enunciado": "El tamizaje de salud oral en juventud incluye:",
+          "opciones": [
+            "Solo valoración de caries",
+            "Valoración de caries, enfermedad periodontal y lesiones de mucosa oral",
+            "Únicamente ortodoncia",
+            "Solo fluorosis"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se incluye valoración integral: caries, enfermedad periodontal y lesiones de mucosa oral.",
+          "dificultad": "media",
+          "tags": ["salud-bucal", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q018",
+          "enunciado": "La valoración del esquema de vacunación en juventud debe incluir:",
+          "opciones": [
+            "Solo vacuna contra tétanos",
+            "Verificación y actualización del esquema completo de vacunación",
+            "Únicamente VPH",
+            "Solo influenza"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece verificación y actualización del esquema completo de vacunación.",
+          "dificultad": "facil",
+          "tags": ["vacunacion", "inmunizacion"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q019",
+          "enunciado": "La asesoría en planificación familiar en juventud debe incluir:",
+          "opciones": [
+            "Solo información sobre métodos anticonceptivos",
+            "Información sobre métodos, asesoría personalizada, suministro y seguimiento",
+            "Únicamente suministro de anticonceptivos",
+            "Solo asesoría ante embarazo"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Debe ser integral e incluir: información, asesoría personalizada, suministro y seguimiento.",
+          "dificultad": "media",
+          "tags": ["planificacion-familiar", "asesoria"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "juventud-Q020",
+          "enunciado": "Según el talento humano requerido, la atención en juventud puede ser realizada por:",
+          "opciones": [
+            "Solo médico general",
+            "Médico general, médico familiar o profesional de enfermería según corresponda",
+            "Únicamente psicólogo",
+            "Solo trabajador social"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece que puede ser realizada por médico general, médico familiar o profesional de enfermería según el tipo de atención.",
+          "dificultad": "facil",
+          "tags": ["talento-humano"],
+          "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Adultez – Intervención Individual (RPMS)",
+      "topic_id": "adultez-intervencion-individual",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "Adultez Intervención Individual y Directrices de obligatorio cumplimiento.docx",
+        "doc_titulo": "Adultez – Intervención Individual y Directrices de obligatorio cumplimiento",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "adultez-Q001",
+          "enunciado": "Según el esquema de consultas en adultez, ¿cuántas atenciones por medicina general o medicina familiar están programadas?",
+          "opciones": ["2", "4", "6", "8"],
+          "indice_correcto": 2,
+          "explicacion_correcta": "El Cuadro de Frecuencia de Consultas establece 6 atenciones por medicina general/medicina familiar: 30, 35, 40, 45, 50 y 55 años.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "medicina", "CUPS 890201"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q002",
+          "enunciado": "¿Cuántas atenciones por profesional de enfermería están programadas en adultez?",
+          "opciones": ["4", "5", "6", "7"],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La tabla de frecuencias indica 6 consultas por enfermería intercaladas con medicina.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "enfermeria", "CUPS 890205"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q003",
+          "enunciado": "La atención en salud bucal por odontología durante la adultez se programa:",
+          "opciones": [
+            "Cada 3 meses",
+            "Cada 6 meses (una vez al año)",
+            "Solo ante enfermedad periodontal",
+            "Únicamente a los 30 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica una atención cada 6 meses (una vez al año) con profesional en odontología.",
+          "dificultad": "facil",
+          "tags": ["odontologia", "frecuencia", "CUPS 890203"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q004",
+          "enunciado": "El tamizaje de cáncer de cuello uterino en mujeres adultas mediante citología cervicouterina se realiza:",
+          "opciones": [
+            "Cada año sin excepción",
+            "Cada 3 años en mujeres de 25-50 años después de dos citologías anuales negativas",
+            "Solo ante síntomas",
+            "Cada 6 meses"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece cada 3 años en mujeres de 25-50 años después de dos citologías anuales consecutivas negativas.",
+          "dificultad": "media",
+          "tags": ["cancer-cuello-uterino", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q005",
+          "enunciado": "El tamizaje de cáncer de mama mediante mamografía se indica:",
+          "opciones": [
+            "Anual desde los 30 años",
+            "Cada 2 años en mujeres de 50-69 años",
+            "Solo ante antecedentes familiares",
+            "Mensual con autoexamen"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece mamografía cada 2 años en mujeres de 50 a 69 años.",
+          "dificultad": "media",
+          "tags": ["cancer-mama", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q006",
+          "enunciado": "El tamizaje de cáncer de próstata mediante antígeno prostático (PSA) se recomienda:",
+          "opciones": [
+            "Anual desde los 40 años",
+            "A partir de los 50 años con decisión informada",
+            "Solo ante síntomas urinarios",
+            "Mensual"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece a partir de los 50 años con decisión informada del paciente.",
+          "dificultad": "media",
+          "tags": ["cancer-prostata", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q007",
+          "enunciado": "El tamizaje de cáncer colorrectal mediante sangre oculta en materia fecal se indica:",
+          "opciones": [
+            "Desde los 30 años",
+            "A partir de los 50 años anualmente",
+            "Solo ante antecedentes familiares",
+            "Únicamente ante síntomas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece desde los 50 años con periodicidad anual mediante prueba de sangre oculta en materia fecal.",
+          "dificultad": "media",
+          "tags": ["cancer-colorrectal", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q008",
+          "enunciado": "La valoración del riesgo cardiovascular en adultez debe realizarse:",
+          "opciones": [
+            "Solo ante síntomas",
+            "En todas las consultas mediante escalas de riesgo",
+            "Únicamente a los 50 años",
+            "Solo en hombres"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece valoración del riesgo cardiovascular en todas las consultas mediante escalas validadas.",
+          "dificultad": "facil",
+          "tags": ["riesgo-cardiovascular"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q009",
+          "enunciado": "El tamizaje de diabetes tipo 2 mediante glicemia en ayunas se recomienda:",
+          "opciones": [
+            "Anual en todos los adultos",
+            "Cada 3 años en adultos de 45 años o más, o antes si hay factores de riesgo",
+            "Solo ante síntomas",
+            "Mensual"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece cada 3 años desde los 45 años, o antes si hay factores de riesgo.",
+          "dificultad": "media",
+          "tags": ["diabetes", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q010",
+          "enunciado": "El tamizaje de dislipidemia mediante perfil lipídico se indica:",
+          "opciones": [
+            "Anual desde los 30 años",
+            "A partir de los 35 años en hombres y 45 años en mujeres, o antes si hay factores de riesgo",
+            "Solo ante obesidad",
+            "Únicamente ante antecedentes familiares"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece desde los 35 años en hombres y 45 años en mujeres, o antes si hay factores de riesgo.",
+          "dificultad": "media",
+          "tags": ["dislipidemia", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q011",
+          "enunciado": "La toma de tensión arterial durante la consulta de adultez es:",
+          "opciones": [
+            "Opcional",
+            "Obligatoria en todas las consultas",
+            "Solo ante síntomas",
+            "Únicamente en mayores de 50 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige la toma de tensión arterial de manera obligatoria en todas las consultas de adultez.",
+          "dificultad": "facil",
+          "tags": ["tension-arterial", "signos-vitales"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q012",
+          "enunciado": "La valoración antropométrica en adultez incluye:",
+          "opciones": [
+            "Solo peso",
+            "Peso, talla, IMC y perímetro abdominal",
+            "Solo IMC",
+            "Únicamente perímetro abdominal"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece la valoración de peso, talla, IMC y perímetro abdominal.",
+          "dificultad": "facil",
+          "tags": ["antropometria", "nutricion"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q013",
+          "enunciado": "La educación individual durante la adultez tiene una duración por sesión de:",
+          "opciones": [
+            "10 a 15 minutos",
+            "20 a 30 minutos",
+            "45 minutos",
+            "60 minutos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se fija una duración de 20 a 30 minutos por sesión.",
+          "dificultad": "facil",
+          "tags": ["educacion-individual", "CUPS 9902"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q014",
+          "enunciado": "Los ciclos de educación grupal durante la adultez deben ser como mínimo:",
+          "opciones": [
+            "1 ciclo por momento del curso de vida",
+            "2 ciclos por momento del curso de vida",
+            "3 ciclos por momento del curso de vida",
+            "Sin mínimo definido"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen al menos dos ciclos educativos por momento del curso de vida.",
+          "dificultad": "media",
+          "tags": ["educacion-grupal"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q015",
+          "enunciado": "Los temas prioritarios para educación en adultez incluyen:",
+          "opciones": [
+            "Solo prevención de enfermedades crónicas",
+            "Estilos de vida saludable, prevención de enfermedades crónicas, salud sexual y reproductiva, y salud mental",
+            "Únicamente nutrición",
+            "Solo actividad física"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen como temas prioritarios: estilos de vida saludable, prevención de enfermedades crónicas, salud sexual y reproductiva, y salud mental.",
+          "dificultad": "media",
+          "tags": ["educacion", "temas-prioritarios"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q016",
+          "enunciado": "El tamizaje de salud mental en adultez debe realizarse:",
+          "opciones": [
+            "Solo ante síntomas evidentes",
+            "En todas las consultas",
+            "Únicamente a los 30 años",
+            "Solo si hay antecedentes familiares"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece tamizaje de salud mental en todas las consultas de adultez.",
+          "dificultad": "facil",
+          "tags": ["salud-mental", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q017",
+          "enunciado": "La valoración del consumo de alcohol mediante AUDIT se recomienda:",
+          "opciones": [
+            "Solo ante consumo evidente",
+            "En todas las consultas",
+            "Únicamente en hombres",
+            "Solo a los 30 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece aplicación del AUDIT en todas las consultas para valorar consumo de alcohol.",
+          "dificultad": "media",
+          "tags": ["alcohol", "AUDIT"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q018",
+          "enunciado": "La valoración del esquema de vacunación en adultez debe incluir:",
+          "opciones": [
+            "Solo vacuna contra tétanos",
+            "Verificación y actualización del esquema completo según edad y riesgo",
+            "Únicamente influenza",
+            "Solo neumococo"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece verificación y actualización del esquema completo de vacunación según edad y factores de riesgo.",
+          "dificultad": "facil",
+          "tags": ["vacunacion", "inmunizacion"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q019",
+          "enunciado": "La asesoría en planificación familiar en adultez debe incluir:",
+          "opciones": [
+            "Solo información sobre métodos anticonceptivos",
+            "Información sobre métodos, asesoría personalizada, suministro, seguimiento y consejería preconcepcional",
+            "Únicamente suministro",
+            "Solo asesoría ante embarazo"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Debe ser integral e incluir: información, asesoría personalizada, suministro, seguimiento y consejería preconcepcional.",
+          "dificultad": "media",
+          "tags": ["planificacion-familiar", "asesoria"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "adultez-Q020",
+          "enunciado": "Según el talento humano requerido, la atención en adultez puede ser realizada por:",
+          "opciones": [
+            "Solo médico general",
+            "Médico general, médico familiar o profesional de enfermería según corresponda",
+            "Únicamente especialista",
+            "Solo profesional de enfermería"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece que puede ser realizada por médico general, médico familiar o profesional de enfermería según el tipo de atención.",
+          "dificultad": "facil",
+          "tags": ["talento-humano"],
+          "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Vejez – Intervención Individual (RPMS)",
+      "topic_id": "vejez-intervencion-individual",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "Vejez Intervención Individual y Directrices de obligatorio cumplimiento.docx",
+        "doc_titulo": "Vejez – Intervención Individual y Directrices de obligatorio cumplimiento",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "vejez-Q001",
+          "enunciado": "Según el esquema de consultas en vejez, ¿cuántas atenciones por medicina general o medicina familiar están programadas?",
+          "opciones": ["3", "5", "7", "10"],
+          "indice_correcto": 2,
+          "explicacion_correcta": "El Cuadro de Frecuencia de Consultas establece 7 atenciones por medicina general/medicina familiar cada 5 años de los 60 a 90 años.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "medicina", "CUPS 890201"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q002",
+          "enunciado": "¿Cuántas atenciones por profesional de enfermería están programadas en vejez?",
+          "opciones": ["5", "6", "7", "8"],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La tabla de frecuencias indica 7 consultas por enfermería intercaladas con medicina.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "enfermeria", "CUPS 890205"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q003",
+          "enunciado": "La atención en salud bucal por odontología durante la vejez se programa:",
+          "opciones": [
+            "Cada 3 meses",
+            "Cada 6 meses (una vez al año)",
+            "Solo ante enfermedad periodontal",
+            "Únicamente a los 60 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica una atención cada 6 meses (una vez al año) con profesional en odontología.",
+          "dificultad": "facil",
+          "tags": ["odontologia", "frecuencia", "CUPS 890203"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q004",
+          "enunciado": "La Valoración Integral de la Persona Mayor (VIPM) incluye:",
+          "opciones": [
+            "Solo valoración clínica",
+            "Valoración clínica, funcional, mental, social y nutricional",
+            "Únicamente valoración funcional",
+            "Solo valoración mental"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La VIPM es integral e incluye: valoración clínica, funcional, mental, social y nutricional.",
+          "dificultad": "media",
+          "tags": ["VIPM", "valoracion-integral"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q005",
+          "enunciado": "La valoración funcional en vejez se realiza mediante:",
+          "opciones": [
+            "Solo preguntas",
+            "Escalas de Actividades Básicas de la Vida Diaria (ABVD) e Instrumentales (AIVD)",
+            "Únicamente observación",
+            "Solo valoración física"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se utilizan escalas validadas: ABVD (Actividades Básicas) e AIVD (Actividades Instrumentales de la Vida Diaria).",
+          "dificultad": "media",
+          "tags": ["valoracion-funcional", "ABVD", "AIVD"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q006",
+          "enunciado": "La valoración cognitiva en personas mayores se recomienda mediante:",
+          "opciones": [
+            "Solo observación clínica",
+            "Aplicación de escalas como el Mini-Mental State Examination (MMSE)",
+            "Únicamente ante síntomas evidentes",
+            "Solo valoración por neurología"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se recomienda uso de escalas validadas como el MMSE para valoración cognitiva.",
+          "dificultad": "media",
+          "tags": ["valoracion-cognitiva", "MMSE"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q007",
+          "enunciado": "La valoración del riesgo de caídas en vejez debe incluir:",
+          "opciones": [
+            "Solo preguntar por caídas previas",
+            "Evaluación del equilibrio, marcha, fuerza muscular y entorno",
+            "Únicamente valoración de la marcha",
+            "Solo ante antecedente de caídas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Debe ser integral: equilibrio, marcha, fuerza muscular y evaluación del entorno.",
+          "dificultad": "media",
+          "tags": ["riesgo-caidas"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q008",
+          "enunciado": "El tamizaje de deterioro cognitivo en vejez debe realizarse:",
+          "opciones": [
+            "Solo ante síntomas evidentes",
+            "En todas las consultas",
+            "Únicamente a los 60 años",
+            "Solo si hay antecedentes familiares"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece tamizaje de deterioro cognitivo en todas las consultas de vejez.",
+          "dificultad": "facil",
+          "tags": ["deterioro-cognitivo", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q009",
+          "enunciado": "El tamizaje de depresión en personas mayores se recomienda mediante:",
+          "opciones": [
+            "Solo observación clínica",
+            "Aplicación de escalas validadas como la Escala de Depresión Geriátrica (GDS)",
+            "Únicamente ante síntomas evidentes",
+            "Solo valoración por psiquiatría"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se recomienda uso de escalas validadas como la GDS (Geriatric Depression Scale).",
+          "dificultad": "media",
+          "tags": ["depresion", "GDS"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q010",
+          "enunciado": "La valoración del estado nutricional en vejez incluye:",
+          "opciones": [
+            "Solo peso",
+            "Peso, talla, IMC y aplicación del Mini Nutritional Assessment (MNA)",
+            "Solo IMC",
+            "Únicamente perímetro abdominal"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece valoración integral: peso, talla, IMC y aplicación del MNA.",
+          "dificultad": "media",
+          "tags": ["valoracion-nutricional", "MNA"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q011",
+          "enunciado": "El tamizaje de cáncer de cuello uterino en mujeres mayores se recomienda:",
+          "opciones": [
+            "Hasta los 65 años si ha tenido tamizaje adecuado previo",
+            "De por vida sin límite de edad",
+            "Solo hasta los 60 años",
+            "No se recomienda en vejez"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "Se establece hasta los 65 años si la mujer ha tenido tamizaje adecuado previo.",
+          "dificultad": "media",
+          "tags": ["cancer-cuello-uterino", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q012",
+          "enunciado": "El tamizaje de cáncer de mama en mujeres mayores se recomienda:",
+          "opciones": [
+            "De por vida sin límite",
+            "Hasta los 69 años mediante mamografía cada 2 años",
+            "Solo hasta los 65 años",
+            "No se recomienda en vejez"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece hasta los 69 años con mamografía cada 2 años.",
+          "dificultad": "media",
+          "tags": ["cancer-mama", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q013",
+          "enunciado": "El tamizaje de cáncer colorrectal en vejez se recomienda:",
+          "opciones": [
+            "De por vida sin límite",
+            "Hasta los 75 años mediante sangre oculta en materia fecal anual",
+            "Solo hasta los 70 años",
+            "No se recomienda en vejez"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece hasta los 75 años mediante prueba de sangre oculta en materia fecal anual.",
+          "dificultad": "media",
+          "tags": ["cancer-colorrectal", "tamizaje"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q014",
+          "enunciado": "La toma de tensión arterial durante la consulta de vejez es:",
+          "opciones": [
+            "Opcional",
+            "Obligatoria en todas las consultas",
+            "Solo ante síntomas",
+            "Solo en diabéticos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige la toma de tensión arterial de manera obligatoria en todas las consultas de vejez.",
+          "dificultad": "facil",
+          "tags": ["tension-arterial", "signos-vitales"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q015",
+          "enunciado": "La educación individual durante la vejez tiene una duración por sesión de:",
+          "opciones": [
+            "10 a 15 minutos",
+            "20 a 30 minutos",
+            "45 minutos",
+            "60 minutos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se fija una duración de 20 a 30 minutos por sesión.",
+          "dificultad": "facil",
+          "tags": ["educacion-individual", "CUPS 9902"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q016",
+          "enunciado": "Los ciclos de educación grupal durante la vejez deben ser como mínimo:",
+          "opciones": [
+            "1 ciclo por momento del curso de vida",
+            "2 ciclos por momento del curso de vida",
+            "3 ciclos por momento del curso de vida",
+            "Sin mínimo definido"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen al menos dos ciclos educativos por momento del curso de vida.",
+          "dificultad": "media",
+          "tags": ["educacion-grupal"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q017",
+          "enunciado": "Los temas prioritarios para educación en vejez incluyen:",
+          "opciones": [
+            "Solo prevención de caídas",
+            "Envejecimiento activo, prevención de caídas, nutrición, adherencia terapéutica y salud mental",
+            "Únicamente nutrición",
+            "Solo actividad física"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen como temas prioritarios: envejecimiento activo, prevención de caídas, nutrición, adherencia terapéutica y salud mental.",
+          "dificultad": "media",
+          "tags": ["educacion", "temas-prioritarios"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q018",
+          "enunciado": "La valoración del esquema de vacunación en vejez debe incluir:",
+          "opciones": [
+            "Solo vacuna contra tétanos",
+            "Verificación y aplicación de vacunas para influenza, neumococo y herpes zóster según indicación",
+            "Únicamente influenza",
+            "Solo neumococo"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece verificación y aplicación de vacunas: influenza anual, neumococo y herpes zóster según indicación.",
+          "dificultad": "media",
+          "tags": ["vacunacion", "inmunizacion"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q019",
+          "enunciado": "La valoración de polifarmacia en vejez debe incluir:",
+          "opciones": [
+            "Solo contar número de medicamentos",
+            "Revisión de todos los medicamentos, interacciones, adherencia y medicación potencialmente inapropiada",
+            "Únicamente verificar adherencia",
+            "Solo ante efectos adversos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Debe ser integral: revisión de medicamentos, interacciones, adherencia y detección de medicación potencialmente inapropiada.",
+          "dificultad": "media",
+          "tags": ["polifarmacia"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "vejez-Q020",
+          "enunciado": "Según el talento humano requerido, la atención en vejez puede ser realizada por:",
+          "opciones": [
+            "Solo geriatra",
+            "Médico general, médico familiar, geriatra o profesional de enfermería según corresponda",
+            "Únicamente médico general",
+            "Solo profesional de enfermería"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establece que puede ser realizada por médico general, médico familiar, geriatra o profesional de enfermería según el tipo de atención.",
+          "dificultad": "facil",
+          "tags": ["talento-humano"],
+          "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
+        }
+      ]
     }
   ]
 }
