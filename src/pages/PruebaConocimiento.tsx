@@ -15,6 +15,8 @@ import {
 import { BookOpen, Target } from "lucide-react";
 
 const PruebaConocimiento = () => {
+  const LIMITE_PREGUNTAS = 5;
+  
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -43,7 +45,9 @@ const PruebaConocimiento = () => {
     }
 
     const preguntasMezcladas = mezclarPreguntas(preguntasFiltradas);
-    setPreguntas(preguntasMezcladas);
+    const preguntasLimitadas = preguntasMezcladas.slice(0, LIMITE_PREGUNTAS);
+    
+    setPreguntas(preguntasLimitadas);
     setStarted(true);
     setCurrentIndex(0);
     setCorrectas(0);
@@ -138,7 +142,7 @@ const PruebaConocimiento = () => {
                   Comenzar prueba
                 </Button>
                 <p className="text-xs text-muted-foreground text-center mt-3">
-                  Total de preguntas disponibles: {todasLasPreguntas.length}
+                  Se seleccionarán {LIMITE_PREGUNTAS} preguntas aleatorias del banco disponible ({todasLasPreguntas.length} preguntas en total)
                 </p>
               </div>
             </CardContent>
@@ -172,6 +176,7 @@ const PruebaConocimiento = () => {
 
             {/* Pregunta actual */}
             <QuestionCard
+              key={preguntas[currentIndex].id}
               pregunta={preguntas[currentIndex]}
               numeroPregunta={currentIndex + 1}
               totalPreguntas={preguntas.length}
