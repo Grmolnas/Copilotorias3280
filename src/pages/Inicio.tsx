@@ -165,14 +165,14 @@ const Inicio = () => {
           <Card className="border-border shadow-soft">
             <CardContent className="pt-6 text-center">
               <Search className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <p className="text-3xl font-bold text-foreground mb-2">42</p>
+              <p className="text-3xl font-bold text-foreground mb-2">25</p>
               <p className="text-muted-foreground">Fichas validadas</p>
             </CardContent>
           </Card>
           <Card className="border-border shadow-soft">
             <CardContent className="pt-6 text-center">
               <CheckCircle className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <p className="text-3xl font-bold text-foreground mb-2">15/10/2024</p>
+              <p className="text-3xl font-bold text-foreground mb-2">26/10/2025</p>
               <p className="text-muted-foreground">Última actualización del corpus</p>
             </CardContent>
           </Card>

@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Target, Database, RefreshCw, Users } from "lucide-react";
+import { Target, Database, RefreshCw, User, BookOpen, GraduationCap, Mail } from "lucide-react";
 
 const Acerca = () => {
   return (
@@ -59,6 +61,88 @@ const Acerca = () => {
               <p className="text-sm text-foreground">
                 <strong>Corpus cerrado:</strong> El Copiloto <strong>NO</strong> tiene acceso a internet ni a fuentes externas. Solo consulta las fichas técnicas que han sido validadas e indexadas en su base de conocimiento interna.
               </p>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Recursos */}
+        <Card className="shadow-medium">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <BookOpen className="w-6 h-6 text-primary" />
+              Recursos y Biblioteca
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <p className="text-muted-foreground">
+              La sección de Recursos proporciona acceso directo a las fichas técnicas validadas y material educativo complementario:
+            </p>
+            <ul className="space-y-2 text-muted-foreground ml-4">
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span>Fichas técnicas en formato PDF organizadas por curso de vida</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span>Guías de práctica clínica (GPC) sobre cáncer de mama, próstata, colon, cuello uterino, planificación familiar, lactancia materna y salud bucal</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span>Infografías educativas sobre eficacia de métodos anticonceptivos</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span>Material de consulta organizado por: Primera Infancia, Infancia, Adolescencia, Juventud, Adultez y Vejez</span>
+              </li>
+            </ul>
+            <div className="pt-4">
+              <Link to="/recursos">
+                <Button variant="outline" className="w-full sm:w-auto">
+                  <BookOpen className="mr-2 h-4 w-4" />
+                  Explorar Recursos
+                </Button>
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Prueba de Conocimientos */}
+        <Card className="shadow-medium">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <GraduationCap className="w-6 h-6 text-primary" />
+              Prueba de Conocimientos
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <p className="text-muted-foreground">
+              Evalúa y fortalece tu comprensión sobre las intervenciones de la RIAS 3280 mediante un sistema interactivo de preguntas:
+            </p>
+            <ul className="space-y-2 text-muted-foreground ml-4">
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span><strong>12 temas disponibles:</strong> Cursos de vida (Primera Infancia, Infancia, Adolescencia, Juventud, Adultez, Vejez) y temas específicos (Planificación Familiar, Lactancia Materna, Salud Bucal, Cáncer de Mama, Cáncer de Próstata, Cáncer de Cuello Uterino)</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span><strong>250 preguntas en total:</strong> Banco extenso de preguntas validadas</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span><strong>5 preguntas por sesión:</strong> Selección aleatoria para cada evaluación</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary mt-1">•</span>
+                <span><strong>Retroalimentación inmediata:</strong> Explicaciones detalladas con referencias a las fichas técnicas</span>
+              </li>
+            </ul>
+            <div className="pt-4">
+              <Link to="/prueba-conocimiento">
+                <Button variant="outline" className="w-full sm:w-auto">
+                  <GraduationCap className="mr-2 h-4 w-4" />
+                  Iniciar Prueba
+                </Button>
+              </Link>
             </div>
           </CardContent>
         </Card>
@@ -130,41 +214,39 @@ const Acerca = () => {
           </CardContent>
         </Card>
 
-        {/* Team */}
+        {/* Desarrollador */}
         <Card className="shadow-medium">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Users className="w-6 h-6 text-primary" />
-              Equipo y Responsables
+              <User className="w-6 h-6 text-primary" />
+              Desarrollador
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-muted-foreground">
-              El desarrollo y mantenimiento del Copiloto RIAS 3280 está a cargo de un equipo multidisciplinario que incluye:
+              Esta herramienta educativa fue desarrollada por el <strong className="text-foreground">Dr. Gabriel Molina</strong>, Médico especialista en Medicina Familiar, con el objetivo de facilitar el acceso a información validada sobre las Rutas Integrales de Atención en Salud establecidas en la Resolución 3280/2018.
             </p>
-            <ul className="space-y-2 text-muted-foreground">
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span><strong className="text-foreground">Especialistas en salud pública:</strong> Validan el contenido técnico de las fichas</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span><strong className="text-foreground">Equipo de desarrollo:</strong> Mantiene la infraestructura tecnológica del Copiloto</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span><strong className="text-foreground">Coordinación académica:</strong> Supervisa la calidad educativa de la herramienta</span>
-              </li>
-            </ul>
 
             <div className="mt-6 p-4 bg-muted rounded-lg">
-              <p className="text-sm text-muted-foreground">
-                <strong className="text-foreground">Responsable del proyecto:</strong>
-              </p>
-              <p className="text-sm text-muted-foreground mt-2">
-                [Nombre de la institución o dependencia responsable]<br />
-                Contacto: soporte@copilotorias.edu.co
-              </p>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-sm font-semibold text-foreground">Responsable del proyecto</p>
+                  <p className="text-sm text-muted-foreground mt-1">Dr. Gabriel Molina</p>
+                </div>
+                <div>
+                  <p className="text-sm font-semibold text-foreground">Especialidad</p>
+                  <p className="text-sm text-muted-foreground mt-1">Medicina Familiar</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="w-4 h-4 text-primary" />
+                  <a 
+                    href="mailto:familiarmdrss@gmail.com" 
+                    className="text-sm text-primary hover:underline"
+                  >
+                    familiarmdrss@gmail.com
+                  </a>
+                </div>
+              </div>
             </div>
           </CardContent>
         </Card>

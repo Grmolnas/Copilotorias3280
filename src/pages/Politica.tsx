@@ -200,7 +200,7 @@ const Politica = () => {
               Esta política de uso puede actualizarse periódicamente para reflejar cambios en el funcionamiento del Copiloto, nuevas regulaciones o mejoras en el sistema. Se recomienda revisar esta sección regularmente.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              <strong className="text-foreground">Última actualización:</strong> 15 de octubre de 2024
+              <strong className="text-foreground">Última actualización:</strong> 26 de octubre de 2025
             </p>
           </CardContent>
         </Card>
