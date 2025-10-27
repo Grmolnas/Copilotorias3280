@@ -1817,6 +1817,2034 @@
           "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
         }
       ]
+    },
+    {
+      "tema": "Atención para la Planificación Familiar y la Anticoncepción (RPMS)",
+      "topic_id": "planificacion-familiar-anticoncepcion",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "ATENCIÓN PARA LA PLANIFICACIÓN FAMILIAR Y LA ANTICONCEPCIÓN.docx",
+        "doc_titulo": "Atención para la Planificación Familiar y la Anticoncepción – Directrices RPMS",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "pf-Q001",
+          "enunciado": "Según la RPMS, ¿cuál es un objetivo central de la atención en planificación familiar?",
+          "opciones": [
+            "Aumentar el uso de un único método para toda la población",
+            "Garantizar asesoría y provisión efectiva para una elección informada y autónoma",
+            "Restringir el acceso a anticonceptivos en adolescentes",
+            "Priorizar métodos quirúrgicos sobre los reversibles"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La atención busca asesorar y proveer el método elegido de forma oportuna, con base en derechos y elección informada.",
+          "dificultad": "facil",
+          "tags": ["objetivos", "eleccion-informada"],
+          "fuente": { "seccion": "13.1 – Objetivos", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q002",
+          "enunciado": "¿Quiénes conforman la población sujeto de esta atención?",
+          "opciones": [
+            "Solo mujeres entre 20 y 35 años",
+            "Hombres y mujeres en edad fértil, incluidas personas que iniciarán actividad sexual",
+            "Únicamente mujeres posparto",
+            "Solo personas con hijos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se dirige a mujeres y hombres en edad fértil, incluyendo quienes se preparan para iniciar relaciones sexuales penetrativas.",
+          "dificultad": "facil",
+          "tags": ["poblacion-sujeto"],
+          "fuente": { "seccion": "13.2 – Población sujeto", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q003",
+          "enunciado": "¿Cuáles atenciones están incluidas en el procedimiento?",
+          "opciones": [
+            "Únicamente provisión de métodos",
+            "Asesoría inicial, elección/suministro y control",
+            "Solo control semestral",
+            "Remisión a ginecología de rutina"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Incluye asesoría, elección y suministro del método e intervención de control.",
+          "dificultad": "facil",
+          "tags": ["atenciones-incluidas"],
+          "fuente": { "seccion": "13.3 – Atenciones incluidas", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q004",
+          "enunciado": "Sobre talento humano, la RPMS indica que el profesional de enfermería:",
+          "opciones": [
+            "Solo puede educar, no ordenar",
+            "Puede realizar procedimientos y ordenar medicamentos/insumos definidos en esta intervención",
+            "Debe remitir todo a medicina",
+            "No puede insertar dispositivos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Enfermería está habilitada para realizar procedimientos y ordenar medicamentos/insumos dentro de esta intervención.",
+          "dificultad": "facil",
+          "tags": ["talento-humano", "enfermeria"],
+          "fuente": { "seccion": "13.4 – Talento humano", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q005",
+          "enunciado": "En la asesoría, se deben abordar como mínimo:",
+          "opciones": [
+            "Únicamente mecanismo de acción del método",
+            "Derechos sexuales y reproductivos, planes de vida, antecedentes y oferta completa de métodos (incluyendo LARC)",
+            "Solo efectos secundarios de los ACO",
+            "Preferencias estéticas del usuario"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La asesoría incluye DSDR, planes de vida, antecedentes y la oferta integral de métodos con énfasis en LARC.",
+          "dificultad": "media",
+          "tags": ["asesoria", "DSDR", "LARC"],
+          "fuente": { "seccion": "13.5 – Descripción del procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q006",
+          "enunciado": "Adolescentes y confidencialidad: la RPMS establece que la consulta debe:",
+          "opciones": [
+            "Ser siempre con acudiente y sin confidencialidad",
+            "Garantizar privacidad; el adolescente puede asistir solo o acompañado",
+            "Limitar la información para evitar sesgos",
+            "Restringirse a mayores de 18 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se debe asegurar confidencialidad y respeto a la autonomía; pueden asistir solos o acompañados.",
+          "dificultad": "facil",
+          "tags": ["adolescentes", "confidencialidad"],
+          "fuente": { "seccion": "13.5 – Descripción del procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q007",
+          "enunciado": "En menores de 14 años con relaciones sexuales penetrativas, la conducta es:",
+          "opciones": [
+            "Negar anticoncepción",
+            "Iniciar el método elegido y activar de inmediato la ruta de violencia sexual",
+            "Esperar autorización judicial",
+            "Remitir sin iniciar método"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se inicia el método seleccionado y se activa la ruta de atención de violencia sexual, informando a autoridades.",
+          "dificultad": "media",
+          "tags": ["menores-14", "violencia-sexual"],
+          "fuente": { "seccion": "13.5 – Descripción del procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q008",
+          "enunciado": "Antes de suministrar el método, el plan de cuidado debe:",
+          "opciones": [
+            "Descartar gestación con criterios/PRU cuando aplique y aplicar Criterios de Elegibilidad OMS",
+            "Solicitar ecografía a toda mujer",
+            "Esperar la siguiente menstruación siempre",
+            "Exigir autorización conyugal"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "Se usan criterios para estar razonablemente seguros de no embarazo (o prueba rápida) y se aplican los MEC de OMS.",
+          "dificultad": "media",
+          "tags": ["plan-de-cuidado", "MEC-OMS"],
+          "fuente": { "seccion": "13.5.2 – Plan de cuidado", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q009",
+          "enunciado": "Respecto al momento de inicio del método:",
+          "opciones": [
+            "Solo el día 1 del ciclo",
+            "Debe entregarse/aplicarse en la misma consulta, sin importar el día del ciclo",
+            "Siempre en fase lútea",
+            "Solo tras tres meses de seguimiento"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La provisión debe hacerse en la consulta, independientemente del día del ciclo.",
+          "dificultad": "facil",
+          "tags": ["provision-inmediata"],
+          "fuente": { "seccion": "13.5.2 – Plan de cuidado", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q010",
+          "enunciado": "Para adolescentes, se recomienda que el suministro del método:",
+          "opciones": [
+            "Se tramite en farmacia para control",
+            "Exija acompañamiento obligatorio",
+            "No requiera trámite en farmacia para garantizar confidencialidad",
+            "Se posponga a control posterior"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se sugiere evitar el trámite en farmacia para proteger la confidencialidad.",
+          "dificultad": "facil",
+          "tags": ["adolescentes", "confidencialidad"],
+          "fuente": { "seccion": "13.5.2 – Plan de cuidado", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q011",
+          "enunciado": "Tras iniciar el método, la información en salud debe enfatizar:",
+          "opciones": [
+            "Suspensión de controles",
+            "Doble protección contra ITS/VIH, señales de alarma y uso de AE ante fallas",
+            "Evitar el uso de preservativos",
+            "Uso exclusivo de métodos naturales"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se debe reforzar doble protección con condón, signos de alarma y AE si hay fallo del método.",
+          "dificultad": "facil",
+          "tags": ["informacion-para-la-salud", "ITS"],
+          "fuente": { "seccion": "13.5.3 – Información en salud", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q012",
+          "enunciado": "Periodicidad de control recomendada para hormonales (en general):",
+          "opciones": [
+            "Cada mes de forma indefinida",
+            "A los 3 meses y luego anual",
+            "Solo anual",
+            "Cada 6 meses"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Para hormonales: control a los 3 meses y luego cada año.",
+          "dificultad": "facil",
+          "tags": ["controles", "hormonales"],
+          "fuente": { "seccion": "Cuadro de controles – 13.5.4", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q013",
+          "enunciado": "Controles recomendados para implante subdérmico:",
+          "opciones": [
+            "Al mes, a los 3 meses y luego anual",
+            "Solo anual",
+            "Semanal por 3 semanas",
+            "Cada 6 meses siempre"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "El esquema es 1 mes, 3 meses y luego anual.",
+          "dificultad": "facil",
+          "tags": ["controles", "implante"],
+          "fuente": { "seccion": "Cuadro de controles – 13.5.4", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q014",
+          "enunciado": "Controles para DIU de intervalo:",
+          "opciones": [
+            "A la semana y al año",
+            "Al mes, a los 6 meses y luego anual",
+            "Solo a los 6 meses",
+            "Mensual por un año"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "DIU de intervalo: 1 mes, 6 meses y anual posteriormente.",
+          "dificultad": "facil",
+          "tags": ["controles", "DIU"],
+          "fuente": { "seccion": "Cuadro de controles – 13.5.4", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q015",
+          "enunciado": "Provisión recomendada de métodos en control (dispensación):",
+          "opciones": [
+            "ACO/inyectable mensual: 1 mes; condones: 5/mes",
+            "ACO/inyectable mensual: 3 meses (3 ciclos); inyectable trimestral: 6 meses (2 dosis); condones: 3 meses (15/mes)",
+            "ACO: 12 meses; condones ilimitados",
+            "Inyectable trimestral: 12 meses (4 dosis)"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La guía sugiere provisión ampliada para asegurar continuidad y adherencia.",
+          "dificultad": "media",
+          "tags": ["dispensacion", "continuidad"],
+          "fuente": { "seccion": "13.5.4 – Control (provisión)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q016",
+          "enunciado": "Efectividad típica del implante subdérmico de solo progestágeno (primer año):",
+          "opciones": [
+            "0.05%",
+            "0.8%",
+            "3%",
+            "8%"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "El implante presenta ~0,05% de embarazos en el primer año de uso típico.",
+          "dificultad": "media",
+          "tags": ["efectividad", "implante"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos (APS-implante)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q017",
+          "enunciado": "DMPA (medroxiprogesterona) de depósito intramuscular se aplica:",
+          "opciones": [
+            "Cada 4 semanas",
+            "Cada 3 meses; admite hasta 4 semanas de retraso si no hay embarazo",
+            "Cada 6 meses",
+            "Según fecha del sangrado"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El inyectable de depósito es trimestral y permite un retraso de hasta 4 semanas si se descarta gestación.",
+          "dificultad": "media",
+          "tags": ["inyectable-trimestral", "DMPA"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos (PID)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q018",
+          "enunciado": "Píldoras de solo progestágeno (PSP): inicio y respaldo:",
+          "opciones": [
+            "Iniciar cualquier día; nunca requieren respaldo",
+            "Iniciar dentro de 5 días del sangrado; si >5 días, usar respaldo 2 días",
+            "Solo día 1 del ciclo",
+            "Iniciar tras 3 ciclos naturales"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "PSP: iniciar en 5 días del sangrado; si se inicia después, usar método adicional 2 días.",
+          "dificultad": "media",
+          "tags": ["PSP", "inicio"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos (PSP)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q019",
+          "enunciado": "Anticonceptivos combinados (ACO/parche/anillo) – efectividad típica referida:",
+          "opciones": [
+            "0.3%",
+            "3%",
+            "8%",
+            "15%"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "El uso típico se asocia a ~8% de embarazos el primer año.",
+          "dificultad": "media",
+          "tags": ["efectividad", "combinados"],
+          "fuente": { "seccion": "Cuadro de efectividad – 13.5.1.1", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q020",
+          "enunciado": "Patrón de uso del anillo vaginal combinado:",
+          "opciones": [
+            "Continuo por 4 semanas, sin retiro",
+            "3 semanas de uso y 1 semana de retiro",
+            "Uso intermitente solo en días fértiles",
+            "Aplicación diaria nocturna"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El anillo se usa 3 semanas y se retira 1 semana.",
+          "dificultad": "facil",
+          "tags": ["anillo", "uso"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos (anillo)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q021",
+          "enunciado": "DIU T de Cobre (Cu380): duración y efectividad típica (primer año):",
+          "opciones": [
+            "5 años y 3%",
+            "10–12 años y ~0.8%",
+            "2 años y 8%",
+            "15 años y 0.05%"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El Cu380 tiene evidencia de 10–12 años de duración y ~0,8% de embarazos en uso típico el primer año.",
+          "dificultad": "media",
+          "tags": ["DIU-cobre", "duracion", "efectividad"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos (DIU-Cu)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q022",
+          "enunciado": "Vasectomía: indicación posoperatoria esencial:",
+          "opciones": [
+            "Abstinencia total por 6 meses",
+            "Uso de método de barrera durante los primeros 3 meses hasta espermiograma negativo",
+            "No requiere medidas adicionales",
+            "Prueba de PSA mensual"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se debe usar barrera hasta documentar negativización espermática (usualmente a los 3 meses).",
+          "dificultad": "media",
+          "tags": ["vasectomia", "posoperatorio"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos permanentes", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q023",
+          "enunciado": "Método de Amenorrea por Lactancia (MELA) es válido si:",
+          "opciones": [
+            "Lactancia parcial y hasta 12 meses",
+            "Exclusiva, amenorrea y hasta 6 meses posparto",
+            "Siempre que haya cualquier lactancia, hasta 1 año",
+            "Solo si se complementa con ACO"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "MELA requiere lactancia exclusiva, amenorrea y aplicarse dentro de los primeros 6 meses.",
+          "dificultad": "facil",
+          "tags": ["MELA", "lactancia"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos naturales", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q024",
+          "enunciado": "Método de Días Estándar (MDE) aplica para ciclos de 26–32 días evitando relaciones sin protección en los días:",
+          "opciones": [
+            "1–7",
+            "8–19",
+            "12–21",
+            "20–28"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El MDE indica evitar coito sin protección entre días 8 y 19 del ciclo regular.",
+          "dificultad": "media",
+          "tags": ["MDE", "fertilidad"],
+          "fuente": { "seccion": "13.5.1.1 – Métodos naturales", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q025",
+          "enunciado": "Anticoncepción de emergencia (AE): opción más efectiva y ventana máxima:",
+          "opciones": [
+            "PAE combinada; 72 horas",
+            "Levonorgestrel; 72 horas exclusivamente",
+            "Ulipristal; 96 horas",
+            "DIU de cobre; hasta 120 horas (>99% efectividad)"
+          ],
+          "indice_correcto": 3,
+          "explicacion_correcta": "El DIU-Cu como AE reduce el riesgo de embarazo >99% si se inserta dentro de 120 horas.",
+          "dificultad": "media",
+          "tags": ["AE", "DIU-Cu"],
+          "fuente": { "seccion": "13.5.1.1 – AE", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q026",
+          "enunciado": "Caso: Mujer posparto inmediato (24–48 h), desea anticoncepción y lactará en forma exclusiva. ¿Qué opción de inicio es acorde con RPMS?",
+          "opciones": [
+            "ACO combinados ahora",
+            "Implante subdérmico antes de 6 semanas (MEC 2) o DIU intraparto/posparto inmediato si está disponible y es elegible",
+            "DMPA dentro de las primeras 6 semanas (MEC 1)",
+            "Parche combinado a la semana"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "En lactancia: implante <6 semanas es MEC 2; DIU puede colocarse intraparto/posparto inmediato según elegibilidad; ACO/estrógenos se difieren.",
+          "dificultad": "dificil",
+          "tags": ["caso", "posparto", "MEC"],
+          "fuente": { "seccion": "13.5.1.1 – APS/DIU y consideraciones posparto", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q027",
+          "enunciado": "Caso: Adolescente de 16 años consulta sola para iniciar anticoncepción. ¿Qué debe garantizar el equipo?",
+          "opciones": [
+            "Negar atención por falta de acudiente",
+            "Atender con confidencialidad, ofertar todo el abanico de métodos (énfasis LARC) y suministrar en la misma consulta",
+            "Exigir firma de los padres para cualquier método",
+            "Remitir sin asesoría"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se respeta confidencialidad y autonomía, se ofrece asesoría integral y se provee el método en la misma consulta.",
+          "dificultad": "facil",
+          "tags": ["caso", "adolescente", "confidencialidad"],
+          "fuente": { "seccion": "13.5 – Descripción del procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q028",
+          "enunciado": "Caso: Mujer tuvo coito sin protección hace 4 días (96 h). IMC alto. ¿Cuál es la mejor opción de AE según RPMS?",
+          "opciones": [
+            "Levonorgestrel 1.5 mg",
+            "Ulipristal 30 mg o DIU-Cu; considerar que ulipristal mantiene eficacia 72–120 h y DIU-Cu >99%",
+            "Método Yuzpe exclusivamente",
+            "Esperar la próxima menstruación"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Entre 72–120 h, ulipristal es más eficaz que LNG; el DIU-Cu es la AE más efectiva. El IMC alto puede reducir eficacia de PAE.",
+          "dificultad": "media",
+          "tags": ["caso", "AE", "ulipristal", "DIU-Cu"],
+          "fuente": { "seccion": "13.5.1.1 – AE (ventana y consideraciones)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q029",
+          "enunciado": "Caso: Usuario con DMPA se presenta 5 semanas tarde a su siguiente dosis. Prueba de embarazo negativa. Conducta:",
+          "opciones": [
+            "No aplicar y esperar 3 meses",
+            "Aplicar hoy (admite 4 semanas de retraso), indicar respaldo 7 días y control próximo",
+            "Suspender definitivamente",
+            "Cambiar a ACO sin asesoría"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El DMPA permite hasta 4 semanas de retraso; a 5 semanas tardías, aplicar si se descarta embarazo y usar respaldo 7 días.",
+          "dificultad": "dificil",
+          "tags": ["caso", "DMPA", "retraso"],
+          "fuente": { "seccion": "13.5.1.1 – PID (ventanas y respaldo)", "pagina": "s/p" }
+        },
+        {
+          "id": "pf-Q030",
+          "enunciado": "Caso: Varón post-vasectomía a las 2 semanas pregunta si puede suspender el condón. ¿Qué se le indica?",
+          "opciones": [
+            "Sí, la vasectomía es efectiva de inmediato",
+            "Puede suspender si no hay eyaculación",
+            "Debe mantener barrera hasta confirmar espermiograma negativo (aprox. 3 meses)",
+            "Usar ACO de su pareja por 1 mes"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se requiere método de barrera hasta comprobar azoospermia en control de 3 meses.",
+          "dificultad": "facil",
+          "tags": ["caso", "vasectomia", "posoperatorio"],
+          "fuente": { "seccion": "13.5.1.1 – Vasectomía (seguimiento)", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Detección temprana de cáncer de colon y recto (RPMS)",
+      "topic_id": "deteccion-temprana-ccr",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "DETECCIÓN TEMPRANA DE CÁNCER DE COLON Y RECTO.docx",
+        "doc_titulo": "Detección temprana de cáncer de colon y recto – Directrices RPMS",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "ccr-Q001",
+          "enunciado": "¿Cuál es el objetivo principal de la detección temprana de cáncer de colon y recto en la RPMS?",
+          "opciones": [
+            "Detectar el cáncer en estadios tempranos mediante tamización poblacional organizada",
+            "Realizar colonoscopias anuales a toda la población",
+            "Tamizar solo a personas con síntomas digestivos",
+            "Confirmar metástasis en pacientes con dolor abdominal"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "La detección busca identificar CCR en fases tempranas con tamización poblacional organizada para hombres y mujeres.",
+          "dificultad": "facil",
+          "tags": ["objetivo", "tamizacion"],
+          "fuente": { "seccion": "12 – Objetivo y alcance", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q002",
+          "enunciado": "¿Cuál es la población sujeto para tamización de CCR según la RPMS?",
+          "opciones": [
+            "Mujeres de 40 a 69 años",
+            "Hombres y mujeres de 50 a 75 años",
+            "Solo hombres de 55 a 70 años",
+            "Solo personas con antecedentes familiares"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La población sujeto son hombres y mujeres entre 50 y 75 años.",
+          "dificultad": "facil",
+          "tags": ["poblacion", "edad"],
+          "fuente": { "seccion": "12 – Población sujeto", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q003",
+          "enunciado": "¿Cuál es un método de tamización indicado y su periodicidad?",
+          "opciones": [
+            "Test inmunoquímico de sangre oculta en materia fecal (FIT) cada 2 años",
+            "Colonoscopia cada 2 años",
+            "Ecografía abdominal anual",
+            "Enema baritado cada 5 años"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "La tamización puede realizarse con FIT cada dos años.",
+          "dificultad": "facil",
+          "tags": ["FIT", "frecuencia"],
+          "fuente": { "seccion": "12 – Métodos de tamización y frecuencia", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q004",
+          "enunciado": "Cuando esté disponible, la colonoscopia como prueba de tamización poblacional se realiza:",
+          "opciones": [
+            "Cada año",
+            "Cada cinco años",
+            "Cada diez años",
+            "Una sola vez en la vida"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La periodicidad establecida para colonoscopia es cada diez años.",
+          "dificultad": "facil",
+          "tags": ["colonoscopia", "frecuencia"],
+          "fuente": { "seccion": "12 – Métodos de tamización y frecuencia", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q005",
+          "enunciado": "Dentro de las atenciones incluidas, ¿qué se debe garantizar siempre?",
+          "opciones": [
+            "Entrega de resultados únicamente por teléfono",
+            "Información/educación sobre las pruebas y la importancia de reclamar el resultado",
+            "Tamización solo a demanda del usuario",
+            "Remitir de rutina a cirugía general"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se debe educar a la persona sobre la prueba y asegurar que reclame y comprenda su resultado.",
+          "dificultad": "facil",
+          "tags": ["educacion", "resultados"],
+          "fuente": { "seccion": "12 – Atenciones incluidas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q006",
+          "enunciado": "Respecto al número de muestras del FIT, la directriz indica:",
+          "opciones": [
+            "Una única muestra es obligatoria",
+            "Dos muestras en días consecutivos",
+            "Tres muestras en días diferentes",
+            "Cinco muestras la misma semana"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se establecen tres muestras en días diferentes para la prueba FIT.",
+          "dificultad": "media",
+          "tags": ["FIT", "muestras"],
+          "fuente": { "seccion": "12 – Atenciones incluidas (orden de FIT)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q007",
+          "enunciado": "Si el resultado del FIT es positivo, la conducta correcta es:",
+          "opciones": [
+            "Repetir FIT en 6 meses",
+            "Solicitar colonoscopia",
+            "Esperar a que aparezcan síntomas",
+            "Realizar sigmoidoscopia rígida"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Un FIT positivo obliga a solicitar colonoscopia para confirmación diagnóstica.",
+          "dificultad": "facil",
+          "tags": ["FIT", "positiva", "colonoscopia"],
+          "fuente": { "seccion": "12 – Manejo de resultados positivos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q008",
+          "enunciado": "Ante resultados anormales en pruebas de tamización, el programa debe:",
+          "opciones": [
+            "Esperar a que el usuario regrese por su cuenta",
+            "Realizar búsqueda activa y asignar cita prioritaria de entrega de resultados",
+            "Remitir al usuario a urgencias sin gestión",
+            "Cerrar el caso si no hay contacto inicial"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se exige búsqueda activa y cita prioritaria para gestionar colonoscopia/biopsia según corresponda.",
+          "dificultad": "media",
+          "tags": ["gestion", "prioridad"],
+          "fuente": { "seccion": "12 – Manejo de resultados positivos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q009",
+          "enunciado": "La colonoscopia debe ser realizada por:",
+          "opciones": [
+            "Cualquier profesional de salud",
+            "Médico general entrenado",
+            "Especialista en gastroenterología y endoscopia",
+            "Técnico en imágenes diagnósticas"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La atención diagnóstica por colonoscopia corresponde a especialista en gastroenterología y endoscopia.",
+          "dificultad": "facil",
+          "tags": ["talento-humano", "colonoscopia"],
+          "fuente": { "seccion": "12 – Atenciones incluidas y talento humano", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q010",
+          "enunciado": "¿Cuál de los siguientes es un grupo de riesgo que amerita ruta específica según la guía?",
+          "opciones": [
+            "Personas con antecedente de otitis media crónica",
+            "Individuos con poliposis adenomatosa familiar (PAF) clásica",
+            "Personas con antecedente de úlcera péptica",
+            "Individuos con migraña crónica"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "PAF clásica hace parte de los grupos de riesgo que deben seguir la ruta específica para CCR.",
+          "dificultad": "media",
+          "tags": ["riesgo", "PAF", "ruta-especifica"],
+          "fuente": { "seccion": "12 – Tamización por riesgo (grupos)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q011",
+          "enunciado": "La presencia de cuál síntoma/signo debe considerarse señal de alarma en educación para la salud:",
+          "opciones": [
+            "Prurito nasal",
+            "Cambio del hábito intestinal, melenas o sangrado rectal activo, pérdida de peso",
+            "Dolor de oído",
+            "Tos seca nocturna"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se educa sobre señales de alarma como cambios del hábito intestinal, melenas/sangrado rectal y pérdida de peso.",
+          "dificultad": "facil",
+          "tags": ["educacion", "senales-alarma"],
+          "fuente": { "seccion": "12.4.1 – Información para la salud", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q012",
+          "enunciado": "En educación nutricional, se recomienda:",
+          "opciones": [
+            "Aumentar el consumo de carnes procesadas",
+            "Restringir frutas y verduras",
+            "Promover fibra (frutas, verduras, granos integrales) y evitar embutidos",
+            "Dieta líquida permanente"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se promueve una alimentación rica en fibra y evitar carnes procesadas/embutidos.",
+          "dificultad": "facil",
+          "tags": ["educacion", "alimentacion"],
+          "fuente": { "seccion": "12.4.1 – Información para la salud", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q013",
+          "enunciado": "Respecto a actividad física, la directriz indica:",
+          "opciones": [
+            "No es relevante para CCR",
+            "Fomentarla de manera regular como parte del autocuidado",
+            "Solo en personas menores de 50 años",
+            "Únicamente en deportistas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se fomenta la actividad física regular en la población.",
+          "dificultad": "facil",
+          "tags": ["educacion", "actividad-fisica"],
+          "fuente": { "seccion": "12.4.1 – Información para la salud", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q014",
+          "enunciado": "La oportunidad del proceso de tamización (toma, lectura e informe) no debe superar:",
+          "opciones": [
+            "7 días calendario",
+            "10 días calendario",
+            "15 días calendario",
+            "30 días calendario"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La RPMS fija un máximo de 15 días calendario para garantizar oportunidad.",
+          "dificultad": "facil",
+          "tags": ["oportunidad", "plazos"],
+          "fuente": { "seccion": "12.4.3 – Gestión y oportunidad", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q015",
+          "enunciado": "En gestión del programa, ¿qué se debe registrar obligatoriamente?",
+          "opciones": [
+            "Solo el nombre del usuario",
+            "Únicamente el resultado final",
+            "Fecha de orden, realización de pruebas, resultados y hallazgos",
+            "Nada; el registro es opcional"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se debe registrar fecha de orden/realización, resultados y hallazgos en el sistema del programa.",
+          "dificultad": "facil",
+          "tags": ["registro", "trazabilidad"],
+          "fuente": { "seccion": "12.4.3 – Gestión y registros", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q016",
+          "enunciado": "Caso: Hombre de 54 años, asintomático, primera consulta preventiva. ¿Qué corresponde hoy?",
+          "opciones": [
+            "Colonoscopia anual obligatoria",
+            "FIT ahora y, si es negativo, repetir cada 2 años",
+            "Esperar hasta los 60 años",
+            "No realizar tamización por falta de síntomas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Desde los 50 años se puede tamizar con FIT cada dos años si el resultado es negativo.",
+          "dificultad": "facil",
+          "tags": ["caso", "FIT", "50-75"],
+          "fuente": { "seccion": "12 – Métodos de tamización y frecuencia", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q017",
+          "enunciado": "Caso: Mujer de 58 años con FIT positivo. Conducta inmediata según RPMS:",
+          "opciones": [
+            "Repetir FIT en 12 meses",
+            "Solicitar colonoscopia y gestionar su realización",
+            "Indicar dieta rica en fibra y reevaluar luego",
+            "Pedir enema baritado"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "FIT positivo requiere colonoscopia y gestión prioritaria.",
+          "dificultad": "media",
+          "tags": ["caso", "FIT-positivo", "colonoscopia"],
+          "fuente": { "seccion": "12 – Manejo de resultados positivos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q018",
+          "enunciado": "Caso: Hombre de 62 años con padre y hermano con CCR. ¿Qué corresponde?",
+          "opciones": [
+            "Seguir tamización general sin cambios",
+            "Derivar a la Ruta específica por riesgo familiar y manejar según GPC",
+            "Solo dar educación nutricional",
+            "Evitar la colonoscopia por ser invasiva"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Ante riesgo familiar, se debe derivar a la Ruta específica para manejo según la guía.",
+          "dificultad": "media",
+          "tags": ["caso", "riesgo-familiar", "ruta-especifica"],
+          "fuente": { "seccion": "12 – Tamización por riesgo", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q019",
+          "enunciado": "Caso: Mujer de 50 años con pérdida de peso y sangrado rectal activo. ¿Cuál es el enfoque adecuado?",
+          "opciones": [
+            "Esperar el turno del FIT en 2 años",
+            "Indicar únicamente educación en fibra",
+            "Priorizar evaluación diagnóstica (p. ej., colonoscopia) y gestionar la cita durante la misma visita",
+            "Repetir FIT a los 6 meses"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Con señales de alarma se prioriza evaluación diagnóstica y se gestiona la cita en la misma visita.",
+          "dificultad": "dificil",
+          "tags": ["caso", "alarma", "oportunidad"],
+          "fuente": { "seccion": "12.4.1 y 12.4.3 – Educación y oportunidad", "pagina": "s/p" }
+        },
+        {
+          "id": "ccr-Q020",
+          "enunciado": "Caso: Hombre de 67 años, FIT negativo hoy. ¿Qué debe consignar el equipo y cuándo citar?",
+          "opciones": [
+            "No registrar nada y citar si aparecen síntomas",
+            "Registrar fecha/resultado e indicar nuevo FIT en 2 años",
+            "Registrar solo el nombre y citar en 5 años",
+            "Citar colonoscopia inmediata por protocolo"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se registran fecha y resultado, y se agenda el próximo FIT en dos años.",
+          "dificultad": "facil",
+          "tags": ["caso", "registro", "frecuencia"],
+          "fuente": { "seccion": "12 – Gestión y frecuencia", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Detección temprana de cáncer de próstata (RPMS)",
+      "topic_id": "deteccion-temprana-cancer-prostata",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "DETECCIÓN TEMPRANA DE CÁNCER DE PROSTATA.docx",
+        "doc_titulo": "Detección temprana de cáncer de próstata – Directrices RPMS",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "ccp-Q001",
+          "enunciado": "¿Cuál es el objetivo central de la detección temprana de cáncer de próstata en la RPMS?",
+          "opciones": [
+            "Realizar PSA anual a toda la población masculina",
+            "Detectar la enfermedad en estadios tempranos mediante tamización de oportunidad ajustada por edad y riesgos",
+            "Confirmar metástasis en pacientes sintomáticos",
+            "Reemplazar la consulta clínica por pruebas de laboratorio"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La RPMS busca identificar cáncer en fases tempranas usando tamización de oportunidad, según edad y factores de riesgo.",
+          "dificultad": "facil",
+          "tags": ["objetivo", "tamizacion"],
+          "fuente": { "seccion": "11 – Objetivo", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q002",
+          "enunciado": "¿Cuál es la población sujeto para la tamización de rutina?",
+          "opciones": [
+            "Hombres de 40 a 49 años",
+            "Hombres de 50 a 75 años",
+            "Hombres de 55 a 70 años",
+            "Todos los hombres mayores de 35 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La población sujeto corresponde a hombres entre 50 y 75 años, con posibilidad de iniciar antes si hay riesgo.",
+          "dificultad": "facil",
+          "tags": ["poblacion", "edad"],
+          "fuente": { "seccion": "11 – Población sujeto", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q003",
+          "enunciado": "¿En qué condiciones puede iniciarse el tamizaje antes de los 50 años?",
+          "opciones": [
+            "Nunca debe iniciarse antes",
+            "Solo cuando el paciente lo solicite",
+            "En hombres ≥40 años con factores de riesgo (p. ej., antecedente familiar, pertenencia a raza negra)",
+            "Únicamente en deportistas de alto rendimiento"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Puede iniciarse a partir de los 40 años cuando existen factores de riesgo definidos por la RPMS.",
+          "dificultad": "facil",
+          "tags": ["riesgo", "inicio-precoz"],
+          "fuente": { "seccion": "11 – Tamización por riesgo", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q004",
+          "enunciado": "¿Cuáles son las dos pruebas de tamización contempladas y su frecuencia?",
+          "opciones": [
+            "PSA y ecografía; anual",
+            "PSA y tacto rectal; cada 5 años",
+            "PSA y RMN; cada 10 años",
+            "Tacto rectal y biopsia; cada 5 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La RPMS establece PSA cuantitativo y tacto rectal, ambos con periodicidad quinquenal.",
+          "dificultad": "facil",
+          "tags": ["PSA", "tacto-rectal", "frecuencia"],
+          "fuente": { "seccion": "11 – Métodos y frecuencia", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q005",
+          "enunciado": "Respecto a la logística entre PSA y tacto rectal, señale lo correcto:",
+          "opciones": [
+            "Primero tacto rectal y el mismo día PSA",
+            "Indistinto; no hay recomendaciones",
+            "Se sugiere solicitar PSA previamente para disponer del resultado al realizar el tacto rectal",
+            "Solo se hace PSA si el tacto rectal es anormal"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La directriz indica priorizar la toma del PSA antes, para revisar el resultado durante la consulta con tacto rectal.",
+          "dificultad": "media",
+          "tags": ["logistica", "secuencia"],
+          "fuente": { "seccion": "11 – Logística de las pruebas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q006",
+          "enunciado": "Si por alguna razón el tacto rectal se realizó primero, ¿cuándo debe tomarse la muestra para PSA?",
+          "opciones": [
+            "Inmediatamente después del tacto",
+            "Dentro de las 24 horas",
+            "Después de 10 días de haber realizado el tacto rectal",
+            "No es necesario tomar PSA"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Tras un tacto rectal previo, la muestra de PSA debe tomarse luego de 10 días.",
+          "dificultad": "facil",
+          "tags": ["PSA", "tacto-rectal", "tiempos"],
+          "fuente": { "seccion": "11 – Logística de las pruebas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q007",
+          "enunciado": "El tamizaje debe realizarse bajo el principio de:",
+          "opciones": [
+            "Indicación unilateral por el profesional",
+            "Toma de decisiones concertada, informando riesgos y beneficios",
+            "Consentimiento verbal sin información",
+            "Negación de la prueba si el usuario duda"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La RPMS enfatiza la decisión informada y concertada con el usuario.",
+          "dificultad": "facil",
+          "tags": ["decision-concertada", "etica"],
+          "fuente": { "seccion": "11 – Criterio de decisión", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q008",
+          "enunciado": "¿Quiénes pueden realizar el procedimiento de tamización?",
+          "opciones": [
+            "Solo urólogo",
+            "Profesional en medicina general entrenado o urólogo",
+            "Técnico auxiliar sin entrenamiento",
+            "Cualquier profesional de salud"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Debe realizarlo un médico general entrenado o un especialista en urología.",
+          "dificultad": "facil",
+          "tags": ["talento-humano", "competencias"],
+          "fuente": { "seccion": "11 – Talento humano", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q009",
+          "enunciado": "Ante un tacto rectal anormal, la conducta adecuada es:",
+          "opciones": [
+            "Repetir el tacto a los 6 meses",
+            "Remitir y gestionar consulta con urología en no más de 4 semanas",
+            "Solicitar ecografía y esperar resultado",
+            "Indicar antibiótico y reevaluar en 30 días"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El hallazgo anormal exige remisión prioritaria a urología con oportunidad ≤4 semanas.",
+          "dificultad": "media",
+          "tags": ["tacto-rectal", "urologia", "oportunidad"],
+          "fuente": { "seccion": "11 – Manejo de resultados", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q010",
+          "enunciado": "Si el PSA es anormal pero el tacto rectal es normal, la RPMS recomienda:",
+          "opciones": [
+            "Biopsia inmediata",
+            "Repetir el PSA en los meses siguientes y, si persiste elevado, remitir a urología",
+            "No hacer seguimiento",
+            "Solicitar RMN de pelvis de entrada"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Ante PSA elevado con tacto normal, se repite el PSA; persistiendo alto, se remite a urología.",
+          "dificultad": "media",
+          "tags": ["PSA", "seguimiento", "urologia"],
+          "fuente": { "seccion": "11 – Manejo de resultados", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q011",
+          "enunciado": "La oportunidad máxima para el proceso del PSA (toma, lectura e informe) es:",
+          "opciones": [
+            "7 días calendario",
+            "10 días calendario",
+            "15 días calendario",
+            "30 días calendario"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La institución debe garantizar que el proceso completo del PSA no supere los 15 días calendario.",
+          "dificultad": "facil",
+          "tags": ["oportunidad", "PSA"],
+          "fuente": { "seccion": "11 – Gestión y oportunidad", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q012",
+          "enunciado": "Cuando la biopsia resulta anormal, el equipo de salud debe:",
+          "opciones": [
+            "Citar en 6 meses para confirmar",
+            "Generar alerta y gestionar el caso según la Ruta específica de cáncer de próstata",
+            "Solicitar PSA anual sin más",
+            "Dar de alta con recomendaciones generales"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Una biopsia anormal requiere activar la gestión del caso de acuerdo con la Ruta Integral específica.",
+          "dificultad": "media",
+          "tags": ["biopsia", "gestion-caso"],
+          "fuente": { "seccion": "11 – Manejo de resultados", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q013",
+          "enunciado": "En 'Información para la salud', se debe explicar al usuario que un PSA o hallazgo positivo:",
+          "opciones": [
+            "Equivale a diagnóstico definitivo",
+            "No es diagnóstico por sí mismo y puede requerir confirmación",
+            "Impide realizar tacto rectal",
+            "Obliga a repetir todas las pruebas en 48 horas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Un resultado positivo no confirma cáncer; puede requerir confirmación diagnóstica.",
+          "dificultad": "facil",
+          "tags": ["educacion", "consejeria"],
+          "fuente": { "seccion": "11 – Información para la salud", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q014",
+          "enunciado": "¿Qué registros mínimos deben garantizarse en el sistema de información?",
+          "opciones": [
+            "Solo nombre del paciente y edad",
+            "Fecha de toma del PSA, resultado con valores de referencia y fecha de próxima tamización",
+            "Únicamente valor absoluto del PSA",
+            "Solo el resultado de la biopsia"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se debe registrar fecha de toma y resultado del PSA con referencias, y programar la próxima tamización.",
+          "dificultad": "facil",
+          "tags": ["registro", "trazabilidad"],
+          "fuente": { "seccion": "11 – Gestión (registros)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q015",
+          "enunciado": "¿Qué condiciones del entorno/instrumental se requieren para el tacto rectal?",
+          "opciones": [
+            "Cualquier sala disponible, sin insumos específicos",
+            "Privacidad, guantes, bata desechable, lubricante de uso médico y materiales de IEC",
+            "Únicamente guantes",
+            "Solo lubricante con anestésico"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La RPMS exige privacidad y los insumos mínimos: guantes, bata desechable, lubricante y materiales educativos.",
+          "dificultad": "facil",
+          "tags": ["insumos", "privacidad"],
+          "fuente": { "seccion": "11 – Instrumentos/insumos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q016",
+          "enunciado": "Caso: Hombre de 52 años, sin antecedentes, primera consulta preventiva. ¿Cómo proceder hoy según RPMS?",
+          "opciones": [
+            "PSA anual únicamente",
+            "PSA y tacto rectal; periodicidad cada 5 años, con decisión concertada",
+            "Solo tacto rectal; PSA a criterio",
+            "Diferir tamización hasta los 60 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Población 50–75: PSA + tacto rectal cada 5 años, previa explicación de riesgos/beneficios y decisión concertada.",
+          "dificultad": "facil",
+          "tags": ["caso", "50-75", "frecuencia"],
+          "fuente": { "seccion": "11 – Población y frecuencia", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q017",
+          "enunciado": "Caso: Hombre de 62 años llega con tacto rectal normal pero PSA anormal. Conducta más apropiada:",
+          "opciones": [
+            "Remitir a urología sin repetir pruebas",
+            "Repetir PSA en los meses siguientes; si persiste elevado, remitir a urología (≤4 semanas)",
+            "Esperar un año y repetir ambos",
+            "Indicar antibiótico empírico y control en 30 días"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El algoritmo indica repetir PSA y, si persiste elevado, remitir con oportunidad al especialista.",
+          "dificultad": "media",
+          "tags": ["caso", "PSA", "urologia"],
+          "fuente": { "seccion": "11 – Manejo de resultados", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q018",
+          "enunciado": "Caso: Hombre de 55 años tuvo tacto rectal ayer y hoy solicita PSA. Según la logística RPMS:",
+          "opciones": [
+            "Tomar PSA hoy mismo",
+            "Tomar PSA en 48 horas",
+            "Tomar PSA después de 10 días del tacto rectal",
+            "No volver a realizar PSA"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Si el tacto se realizó primero, la muestra de PSA debe tomarse pasados 10 días.",
+          "dificultad": "facil",
+          "tags": ["caso", "logistica", "tiempos"],
+          "fuente": { "seccion": "11 – Logística de las pruebas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q019",
+          "enunciado": "Caso: Hombre de 49 años, padre con cáncer de próstata. ¿Qué indica la RPMS?",
+          "opciones": [
+            "No tamizar hasta los 50 años",
+            "Iniciar tamización por riesgo desde los 40 años con PSA y tacto rectal",
+            "Solo PSA anual desde los 45",
+            "Únicamente tacto rectal desde los 48"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Con factor de riesgo familiar, se permite iniciar tamización desde los 40 años.",
+          "dificultad": "media",
+          "tags": ["caso", "riesgo", "inicio-precoz"],
+          "fuente": { "seccion": "11 – Tamización por riesgo", "pagina": "s/p" }
+        },
+        {
+          "id": "ccp-Q020",
+          "enunciado": "Caso: Hombre de 74 años con tacto rectal anormal. ¿Qué gestión debe garantizar el equipo?",
+          "opciones": [
+            "Repetir el tacto en 6 meses",
+            "Solicitar PSA y esperar 3 meses",
+            "Remitir a urología y gestionar oportunidad de consulta en ≤4 semanas",
+            "Dar recomendaciones y alta"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "El hallazgo anormal exige remitir y gestionar la consulta prioritaria con urología (≤4 semanas).",
+          "dificultad": "media",
+          "tags": ["caso", "urologia", "oportunidad"],
+          "fuente": { "seccion": "11 – Manejo de resultados y oportunidad", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Detección temprana de cáncer de mama (RPMS)",
+      "topic_id": "deteccion-temprana-cancer-mama",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "DETECCIÓN TEMPRANA DE CÁNCER DE MAMA.docx",
+        "doc_titulo": "Detección temprana de cáncer de mama – Directrices RPMS",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "ccm-Q001",
+          "enunciado": "¿Cuál es el objetivo principal de la detección temprana de cáncer de mama en la RPMS?",
+          "opciones": [
+            "Realizar mamografías anuales a toda mujer mayor de 18 años",
+            "Detectar lesiones en estadios tempranos con tamización de base poblacional ajustada por edad",
+            "Confirmar metástasis en mujeres sintomáticas",
+            "Sustituir la consulta clínica por el autoexamen"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La RPMS busca identificar lesiones tempranas mediante tamización poblacional ajustada a la edad (ECM desde los 40; mamografía 50–69).",
+          "dificultad": "facil",
+          "tags": ["objetivo", "tamizacion"],
+          "fuente": { "seccion": "Población/objetivo del procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q002",
+          "enunciado": "En mujeres a partir de los 40 años, la prueba de tamización indicada es:",
+          "opciones": [
+            "Mamografía anual",
+            "Ecografía mamaria anual",
+            "Examen Clínico de la Mama (ECM) anual",
+            "Resonancia magnética bienal"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La RPMS indica ECM anual a partir de los 40 años, hasta los 69.",
+          "dificultad": "facil",
+          "tags": ["ECM", "40-69"],
+          "fuente": { "seccion": "Población y esquemas de tamización", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q003",
+          "enunciado": "En mujeres de 50 a 69 años, la periodicidad de la mamografía de tamización es:",
+          "opciones": [
+            "Anual",
+            "Cada dos años",
+            "Cada tres años",
+            "Únicamente a demanda"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica mamografía bilateral cada dos años entre los 50 y 69 años.",
+          "dificultad": "facil",
+          "tags": ["mamografia", "50-69", "frecuencia"],
+          "fuente": { "seccion": "Población y esquemas de tamización", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q004",
+          "enunciado": "¿Quiénes están habilitados para realizar el Examen Clínico de la Mama (ECM) según la RPMS?",
+          "opciones": [
+            "Solo ginecología",
+            "Profesional en medicina general, medicina familiar o enfermería entrenado y certificado",
+            "Únicamente radiología",
+            "Exclusivamente técnicos auxiliares"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "ECM: profesional de medicina general, medicina familiar o enfermería con entrenamiento/certificación.",
+          "dificultad": "facil",
+          "tags": ["talento-humano", "ECM"],
+          "fuente": { "seccion": "Atenciones incluidas y talento humano", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q005",
+          "enunciado": "Para la mamografía, la RPMS especifica talento humano:",
+          "opciones": [
+            "Profesional en medicina (medicina familiar, ginecología, cirugía general, radiología o cirugía de mama) entrenado",
+            "Únicamente tecnólogo en radiología sin supervisión",
+            "Exclusivamente ginecología",
+            "Cualquier profesional de salud con curso básico"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "La realización/gestión de mamografía corresponde a profesional médico entrenado (med. familiar, ginecología, cirugía general, radiología o cirugía de mama).",
+          "dificultad": "media",
+          "tags": ["talento-humano", "mamografia"],
+          "fuente": { "seccion": "Atenciones incluidas y talento humano", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q006",
+          "enunciado": "En BI-RADS 1–2, la conducta correcta es:",
+          "opciones": [
+            "Biopsia en las próximas 2 semanas",
+            "Repetir mamografía en 6 meses",
+            "Continuar el esquema de tamización cada 2 años",
+            "Suspender tamización definitiva"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Resultados normales (BI-RADS 1–2): continuar tamización bienal hasta los 69 años.",
+          "dificultad": "facil",
+          "tags": ["BI-RADS", "conducta"],
+          "fuente": { "seccion": "Manejo de resultados (BI-RADS)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q007",
+          "enunciado": "Un resultado BI-RADS 3 implica que se debe:",
+          "opciones": [
+            "Dar de alta",
+            "Iniciar quimioterapia",
+            "Adelantar intervenciones diagnósticas/seguimiento según Ruta específica de cáncer de mama",
+            "Tomar mamografía en 10 años"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "BI-RADS 3 requiere intervenciones diagnósticas o seguimiento según la Ruta específica.",
+          "dificultad": "media",
+          "tags": ["BI-RADS 3", "seguimiento"],
+          "fuente": { "seccion": "Manejo de resultados (BI-RADS 3)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q008",
+          "enunciado": "En BI-RADS 4A–5, la RPMS exige:",
+          "opciones": [
+            "Repetir mamografía en 2 años",
+            "Solo observación",
+            "Búsqueda activa, cita prioritaria para entrega de resultados y emisión de orden de biopsia",
+            "Ecografía de control a 1 año"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "BI-RADS 4A–5: búsqueda activa, priorizar entrega de resultados y ordenar biopsia; gestión administrativa para su realización.",
+          "dificultad": "media",
+          "tags": ["BI-RADS 4-5", "biopsia", "prioridad"],
+          "fuente": { "seccion": "Manejo de resultados (BI-RADS 4A–5)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q009",
+          "enunciado": "La oportunidad del proceso de mamografía (toma, lectura e informe) no debe superar:",
+          "opciones": [
+            "7 días calendario",
+            "10 días calendario",
+            "15 días calendario",
+            "30 días calendario"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La RPMS fija un máximo de 15 días calendario para el proceso de tamización por mamografía.",
+          "dificultad": "facil",
+          "tags": ["oportunidad", "plazos"],
+          "fuente": { "seccion": "Gestión y oportunidad – Mamografía", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q010",
+          "enunciado": "En mujeres con mamografía BI-RADS 4 o mayor, el resultado de la biopsia debe entregarse en un máximo de:",
+          "opciones": [
+            "7 días",
+            "15 días",
+            "30 días",
+            "45 días"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La RPMS establece un estándar de 30 días para la entrega de resultados de biopsia.",
+          "dificultad": "facil",
+          "tags": ["biopsia", "oportunidad"],
+          "fuente": { "seccion": "Gestión y oportunidad – Biopsia", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q011",
+          "enunciado": "Sobre educación, la RPMS enfatiza que el autoexamen de mama:",
+          "opciones": [
+            "Reemplaza la mamografía",
+            "Se desaconseja",
+            "Se promueve, pero no reemplaza las pruebas de tamización",
+            "Solo aplica en menores de 40 años"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se debe promover el autoexamen e identificar señales de alarma, aclarando que no sustituye la tamización.",
+          "dificultad": "facil",
+          "tags": ["educacion", "autoexamen"],
+          "fuente": { "seccion": "Información para la salud (autoexamen)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q012",
+          "enunciado": "¿Cuál NO es una señal de alarma que se debe informar a la mujer?",
+          "opciones": [
+            "Masa en mama o axila",
+            "Retracción del pezón de reciente aparición",
+            "Cambio en el color de la piel",
+            "Dolor lumbar crónico aislado"
+          ],
+          "indice_correcto": 3,
+          "explicacion_correcta": "Las señales incluyen masas, cambios cutáneos, retracción del pezón, secreciones, asimetrías y ulceraciones; el dolor lumbar aislado no es señal típica.",
+          "dificultad": "facil",
+          "tags": ["senales-alarma"],
+          "fuente": { "seccion": "Información para la salud (señales de alarma)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q013",
+          "enunciado": "La anamnesis durante la tamización debe enfatizar en:",
+          "opciones": [
+            "Solo hábitos de actividad física",
+            "Factores de riesgo personales y heredo-familiares",
+            "Únicamente antecedente obstétrico",
+            "Preferencias estéticas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se enfatiza en factores de riesgo heredo-familiares y personales.",
+          "dificultad": "facil",
+          "tags": ["anamnesis", "riesgo"],
+          "fuente": { "seccion": "Descripción del procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q014",
+          "enunciado": "Además de realizar la prueba, el equipo debe:",
+          "opciones": [
+            "Evitar entregar resultados por confidencialidad",
+            "Registrar información, asignar próxima cita y remitir a la Ruta Integral de cáncer de mama según hallazgos",
+            "Remitir siempre a cirugía",
+            "No generar alertas administrativas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se debe registrar, programar próxima cita y remitir a la Ruta específica según hallazgos; activar alertas cuando aplique.",
+          "dificultad": "media",
+          "tags": ["gestion", "remision"],
+          "fuente": { "seccion": "Atenciones incluidas / Gestión", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q015",
+          "enunciado": "La entrega de un carné a la mujer tamizada tiene como fin principal:",
+          "opciones": [
+            "Autorizar la quimioterapia",
+            "Registrar fecha, pruebas realizadas e importancia de reclamar el resultado",
+            "Evitar seguimiento clínico",
+            "Sustituir la historia clínica"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El carné debe consignar la fecha de tamización, pruebas realizadas y recordar la importancia de reclamar el resultado.",
+          "dificultad": "facil",
+          "tags": ["carnet", "seguimiento"],
+          "fuente": { "seccion": "Gestión y oportunidad", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q016",
+          "enunciado": "Caso: Mujer de 41 años, primera consulta preventiva, sin síntomas. ¿Qué procede hoy?",
+          "opciones": [
+            "Mamografía de tamización inmediata",
+            "ECM anual a partir de ahora",
+            "Ninguna intervención hasta los 50 años",
+            "Resonancia magnética por tamización"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Desde los 40 años corresponde ECM anual; la mamografía de tamización inicia a los 50 (cada 2 años).",
+          "dificultad": "facil",
+          "tags": ["caso", "ECM", "40-49"],
+          "fuente": { "seccion": "Población y esquemas de tamización", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q017",
+          "enunciado": "Caso: Mujer de 52 años, última mamografía hace 3 años, asintomática. Conducta:",
+          "opciones": [
+            "Programar mamografía ahora (retomar esquema bienal)",
+            "Esperar 2 años más",
+            "Solo ECM anual, sin mamografía",
+            "Remitir a cirugía de mama de inmediato"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "En 50–69 años, la mamografía es bienal; con 3 años desde la última, debe realizarse ahora para retomar el esquema.",
+          "dificultad": "media",
+          "tags": ["caso", "mamografia", "50-69"],
+          "fuente": { "seccion": "Población y esquemas de tamización", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q018",
+          "enunciado": "Caso: Mujer de 57 años con BI-RADS 4B. ¿Cuál es la ruta correcta inmediata?",
+          "opciones": [
+            "Control en 2 años",
+            "Solo ecografía de control",
+            "Cita prioritaria para entrega de resultados y orden de biopsia; gestión administrativa para su realización",
+            "Alta con recomendaciones generales"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "BI-RADS 4B es anormal: se requiere priorizar entrega de resultados, ordenar biopsia y gestionar su pronta realización.",
+          "dificultad": "dificil",
+          "tags": ["caso", "BI-RADS 4", "biopsia"],
+          "fuente": { "seccion": "Manejo de resultados (BI-RADS 4A–5)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q019",
+          "enunciado": "Caso: Mujer de 64 años con mamografía BI-RADS 1. ¿Qué sigue?",
+          "opciones": [
+            "Suspender tamización definitiva",
+            "Repetir mamografía en 6 meses",
+            "Continuar con mamografía en 2 años y ECM anual",
+            "Indicar biopsia por protocolo"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "BI-RADS 1 es normal: continuar el esquema (mamografía bienal hasta los 69 y ECM anual).",
+          "dificultad": "facil",
+          "tags": ["caso", "BI-RADS 1", "seguimiento"],
+          "fuente": { "seccion": "Manejo de resultados (normales)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccm-Q020",
+          "enunciado": "Caso: Mujer de 50 años, ECM detecta masa dura con retracción del pezón reciente. ¿Cuál es la mejor conducta inicial?",
+          "opciones": [
+            "Educar en autoexamen y citar en un año",
+            "Mamografía de tamización en 2 años",
+            "Gestionar tamización/diagnóstico con oportunidad (mamografía ahora) y canalizar a la Ruta específica según hallazgos",
+            "Indicar antibiótico empírico y reevaluar en 30 días"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se trata de signos de alarma: se debe garantizar oportunidad diagnóstica (mamografía inmediata) y remitir a la Ruta según hallazgos.",
+          "dificultad": "media",
+          "tags": ["caso", "senales-alarma", "oportunidad"],
+          "fuente": { "seccion": "Información para la salud / Gestión y oportunidad", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Detección temprana de cáncer de cuello uterino (RPMS)",
+      "topic_id": "deteccion-temprana-ccu",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "DETECCIÓN TEMPRANA DE CÁNCER DE CUELLO UTERINO.docx",
+        "doc_titulo": "Detección temprana de cáncer de cuello uterino – Directrices RPMS",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "ccu-Q001",
+          "enunciado": "¿Cuál es el objetivo principal de la detección temprana de cáncer de cuello uterino en la RPMS?",
+          "opciones": [
+            "Tratar de forma inmediata todo resultado positivo",
+            "Detectar lesiones precancerosas o cáncer en estadios tempranos mediante tamización ajustada por edad y residencia",
+            "Realizar citologías anuales a toda la población femenina",
+            "Confirmar metástasis a distancia en mujeres sintomáticas"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La RPMS busca identificar lesiones precancerosas o cáncer temprano con tamización basada en edad y lugar de residencia (citología, ADN-VPH o VIA/VILI).",
+          "dificultad": "facil",
+          "tags": ["objetivo", "tamizacion"],
+          "fuente": { "seccion": "9.1 – Objetivos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q002",
+          "enunciado": "Para mujeres de 25 a 29 años, la prueba y la periodicidad de tamización indicadas son:",
+          "opciones": [
+            "ADN-VPH, esquema 1-5-5",
+            "Citología (convencional o en base líquida), esquema 1-3-3",
+            "VIA/VILI, esquema 1-3-3",
+            "Citología anual sin esquema"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "En 25–29 años se usa citología con esquema 1-3-3 ante resultados negativos.",
+          "dificultad": "facil",
+          "tags": ["25-29", "citologia", "frecuencia"],
+          "fuente": { "seccion": "9.2 – Población y esquemas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q003",
+          "enunciado": "En mujeres de 30 a 65 años, la estrategia de tamización prioritaria es:",
+          "opciones": [
+            "Citología anual",
+            "ADN-VPH con esquema 1-5-5",
+            "VIA/VILI con esquema 1-3-3",
+            "Solo examen clínico del cuello uterino"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Para 30–65 años se prioriza prueba de ADN-VPH con esquema 1-5-5 ante resultados negativos.",
+          "dificultad": "facil",
+          "tags": ["30-65", "ADN-VPH", "frecuencia"],
+          "fuente": { "seccion": "9.2 – Población y esquemas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q004",
+          "enunciado": "En zonas rurales dispersas para mujeres de 30 a 50 años, el método de tamización recomendado es:",
+          "opciones": [
+            "Citología anual sin esquema",
+            "ADN-VPH con esquema 1-5-5",
+            "VIA/VILI con esquema 1-3-3",
+            "Ecografía transvaginal con esquema 1-3-3"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Para 30–50 años en zonas rurales dispersas se recomienda VIA/VILI con esquema 1-3-3.",
+          "dificultad": "facil",
+          "tags": ["rural-dispersa", "VIA", "VILI"],
+          "fuente": { "seccion": "9.2 – Población y esquemas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q005",
+          "enunciado": "En menores de 25 años, la tamización se realiza:",
+          "opciones": [
+            "De forma universal con ADN-VPH",
+            "Solo con VIA/VILI",
+            "Por oportunidad con citología si hay factores de riesgo (p. ej., inicio sexual <15 años, multiparidad ≥3, múltiples compañeros sexuales)",
+            "No se realiza tamización bajo ninguna circunstancia"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "En <25 años la tamización es de oportunidad con citología solo si hay factores de riesgo definidos, con esquema 1-3-3 si el resultado es negativo.",
+          "dificultad": "facil",
+          "tags": ["<25", "oportunidad", "factores-riesgo"],
+          "fuente": { "seccion": "9.2 – Población y esquemas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q006",
+          "enunciado": "Respecto a mujeres mayores de 65 años, la RPMS indica que:",
+          "opciones": [
+            "Se continúa ADN-VPH cada 5 años de por vida",
+            "Se suspende la tamización si las pruebas ADN-VPH previas en los últimos 5 años fueron negativas",
+            "Se mantiene citología anual indefinidamente",
+            "Solo se realiza VIA/VILI"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "En >65 años se suspende la tamización si el historial reciente de ADN-VPH es negativo; de lo contrario, continúa el seguimiento según algoritmos.",
+          "dificultad": "facil",
+          "tags": [">65", "cese-tamizaje"],
+          "fuente": { "seccion": "9.2 – Población y esquemas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q007",
+          "enunciado": "Sobre el talento humano para la toma de muestras, señale lo correcto:",
+          "opciones": [
+            "VIA/VILI puede ser realizada por técnico auxiliar sin entrenamiento",
+            "Citología solo por ginecología",
+            "Citología/ADN-VPH pueden ser tomados por profesional de medicina, enfermería, bacteriología o cito/histotecnología; en ausencia, técnico auxiliar entrenado y certificado",
+            "Solo bacteriólogos pueden tomar cualquier muestra"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La RPMS habilita varios profesionales para la toma; si no hay disponibilidad, puede hacerlo técnico auxiliar entrenado. VIA/VILI requiere médico o enfermería entrenados y certificados.",
+          "dificultad": "media",
+          "tags": ["talento-humano", "competencias"],
+          "fuente": { "seccion": "9.3 – Atenciones y talento humano", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q008",
+          "enunciado": "Durante la toma de muestras se debe informar a la mujer que un resultado positivo de VPH:",
+          "opciones": [
+            "Confirma cáncer y requiere quimioterapia inmediata",
+            "No equivale a diagnóstico de cáncer y requiere pruebas confirmatorias",
+            "Obliga a repetir la citología a la semana",
+            "Imposibilita la toma de biopsia"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se aclara que VPH positivo no es diagnóstico de cáncer; se requiere confirmación (colposcopia + biopsia).",
+          "dificultad": "facil",
+          "tags": ["consejeria", "VPH"],
+          "fuente": { "seccion": "9.5 – Procedimiento y manejo", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q009",
+          "enunciado": "En 30–65 años, además de la prueba de ADN-VPH, debe tomarse:",
+          "opciones": [
+            "Citología de triage simultánea, que solo se lee si el ADN-VPH resulta positivo",
+            "Colposcopia de rutina",
+            "Biopsia endocervical inmediata",
+            "PCR para genotipificación obligatoria"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "La citología de triage se toma al mismo tiempo pero se procesa únicamente si el ADN-VPH sale positivo; las restantes se descartan.",
+          "dificultad": "media",
+          "tags": ["triage", "ADN-VPH"],
+          "fuente": { "seccion": "9.5 – Procedimiento (toma y tamizaje)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q010",
+          "enunciado": "Si el ADN-VPH es positivo y la citología de triage es negativa, la conducta es:",
+          "opciones": [
+            "Colposcopia y biopsia en ≤30 días",
+            "Repetir ADN-VPH a los 18 meses",
+            "Tratar con crioterapia inmediata",
+            "Suspender tamizaje hasta 5 años"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Ante VPH positivo con triage negativo, se indica control con nueva prueba ADN-VPH a los 18 meses.",
+          "dificultad": "media",
+          "tags": ["seguimiento", "18-meses"],
+          "fuente": { "seccion": "9.5 – Manejo de resultados positivos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q011",
+          "enunciado": "Si el ADN-VPH es positivo y la citología de triage es anormal, la RPMS exige:",
+          "opciones": [
+            "Remitir a colposcopia y biopsia en un tiempo no mayor a 30 días",
+            "Esperar 18 meses y repetir VPH",
+            "Realizar VIA/VILI en el mismo momento",
+            "Diferir el estudio hasta 6 meses"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "Con VPH positivo y triage anormal se debe gestionar colposcopia y biopsia en ≤30 días.",
+          "dificultad": "media",
+          "tags": ["colposcopia", "biopsia", "30-dias"],
+          "fuente": { "seccion": "9.5 – Manejo de resultados positivos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q012",
+          "enunciado": "Si durante la inspección se sospecha carcinoma infiltrante, la conducta correcta es:",
+          "opciones": [
+            "Esperar el resultado de tamización para decidir",
+            "Iniciar tratamiento farmacológico",
+            "Gestionar confirmación diagnóstica con biopsia en ≤1 semana",
+            "Repetir citología en 3 meses"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Ante signos sugestivos de carcinoma infiltrante, se gestiona confirmación por biopsia en no más de una semana, sin esperar tamizaje.",
+          "dificultad": "dificil",
+          "tags": ["carcinoma-infiltrante", "urgencia"],
+          "fuente": { "seccion": "9.5 – Manejo de carcinoma infiltrante", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q013",
+          "enunciado": "La estrategia "ver y tratar" en zonas rurales dispersas (30–50 años) consiste en:",
+          "opciones": [
+            "Tomar citología y esperar 6 meses",
+            "Tratar de inmediato con crioterapia u otro método ablativo cuando VIA/VILI sea positiva, o remitir al especialista",
+            "Aplicar antibióticos y reevaluar",
+            "Remitir siempre antes de cualquier intervención"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Con VIA/VILI positiva se ofrece tratamiento ablativo inmediato (p. ej., crioterapia) o remisión al especialista.",
+          "dificultad": "dificil",
+          "tags": ["ver-y-tratar", "VIA", "VILI", "crioterapia"],
+          "fuente": { "seccion": "9.5 – Estrategia ver y tratar", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q014",
+          "enunciado": "La oportunidad de la toma, lectura y emisión del informe de resultados de tamización no debe superar:",
+          "opciones": [
+            "7 días calendario",
+            "10 días calendario",
+            "15 días calendario",
+            "30 días calendario"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La RPMS define que el proceso completo no debe superar 15 días calendario.",
+          "dificultad": "media",
+          "tags": ["oportunidad", "tiempos"],
+          "fuente": { "seccion": "9.5.3 – Oportunidad (proceso de tamización)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q015",
+          "enunciado": "En gestión de muestras, el tiempo máximo entre la toma y la recepción en laboratorio es:",
+          "opciones": [
+            "48 horas",
+            "3 días",
+            "5 días",
+            "2 semanas"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se establece un máximo de 5 días entre la toma y la recepción de la muestra en el laboratorio.",
+          "dificultad": "media",
+          "tags": ["logistica", "muestras"],
+          "fuente": { "seccion": "9.6 – Gestión y logística (control de muestras)", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q016",
+          "enunciado": "Caso: Mujer de 32 años, residente urbana, primera tamización. ¿Qué corresponde hacer hoy?",
+          "opciones": [
+            "Citología con esquema 1-3-3 y sin otra toma",
+            "ADN-VPH con esquema 1-5-5; además tomar citología de triage simultánea (se lee solo si VPH es positivo)",
+            "Solo examen clínico y control a 5 años",
+            "VIA/VILI con esquema 1-3-3"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "En 30–65 años corresponde ADN-VPH (1-5-5) y se toma citología de triage simultánea, que se procesa solo si VPH resulta positivo.",
+          "dificultad": "media",
+          "tags": ["caso", "30-65", "triage"],
+          "fuente": { "seccion": "9.2 y 9.5 – Esquemas y triage", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q017",
+          "enunciado": "Caso: Joven de 23 años con inicio sexual a los 14 años y múltiples compañeros sexuales. ¿Cómo tamizar?",
+          "opciones": [
+            "ADN-VPH con esquema 1-5-5",
+            "Citología por oportunidad con esquema 1-3-3 si es negativa",
+            "No requiere tamización",
+            "VIA/VILI obligatoria"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "En <25 años se realiza tamización de oportunidad con citología cuando existen factores de riesgo, con esquema 1-3-3 si el resultado es negativo.",
+          "dificultad": "media",
+          "tags": ["caso", "<25", "riesgo"],
+          "fuente": { "seccion": "9.2 – Población y esquemas", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q018",
+          "enunciado": "Caso: Mujer de 45 años en zona rural dispersa con VIA positiva. Conducta inmediata:",
+          "opciones": [
+            "Tomar citología y esperar resultado 6 meses",
+            "Iniciar tratamiento ablativo local (p. ej., crioterapia) o remitir a especialista",
+            "Repetir VIA/VILI en 1 mes",
+            "Solicitar ADN-VPH y esperar para decidir"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La estrategia ver-y-tratar permite tratamiento ablativo inmediato (crioterapia) o remisión, evitando retrasos diagnósticos.",
+          "dificultad": "dificil",
+          "tags": ["caso", "ver-y-tratar", "rural"],
+          "fuente": { "seccion": "9.5 – Estrategia ver y tratar", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q019",
+          "enunciado": "Caso: Mujer de 38 años con resultado ADN-VPH positivo y citología de triage negativa. ¿Cuál es el siguiente paso?",
+          "opciones": [
+            "Colposcopia y biopsia en ≤30 días",
+            "Repetir ADN-VPH en 18 meses",
+            "Suspender tamización por 5 años",
+            "Aplicar VIA/VILI inmediatamente"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "VPH positivo con triage negativo se maneja con control ADN-VPH a los 18 meses.",
+          "dificultad": "media",
+          "tags": ["caso", "seguimiento", "18-meses"],
+          "fuente": { "seccion": "9.5 – Manejo de resultados positivos", "pagina": "s/p" }
+        },
+        {
+          "id": "ccu-Q020",
+          "enunciado": "Caso: Mujer de 29 años con citología reportada como muestra insatisfactoria. Conducta según RPMS:",
+          "opciones": [
+            "Repetir de inmediato el mismo día",
+            "Esperar un año para repetir",
+            "Tomar nueva muestra entre 3 y 4 semanas después",
+            "Solicitar colposcopia inmediata"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Ante citología insatisfactoria se debe tomar una nueva muestra entre 3–4 semanas.",
+          "dificultad": "media",
+          "tags": ["caso", "muestra-insatisfactoria"],
+          "fuente": { "seccion": "9.5.3 – Plan de cuidado (muestra insatisfactoria)", "pagina": "s/p" }
+        }
+      ]
+    },
+    {
+      "tema": "Atención en Salud Bucal (RPMS)",
+      "topic_id": "atencion-salud-bucal-rpms",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "Atención en Salud Bucal.docx",
+        "doc_titulo": "Atención en Salud Bucal – Directrices de obligatorio cumplimiento (RPMS)",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "salud-bucal-Q001",
+          "enunciado": "Según la RPMS, ¿a qué población está dirigida la Atención en Salud Bucal?",
+          "opciones": [
+            "Solo a primera infancia y adolescencia",
+            "A toda la población en los diferentes momentos del curso de vida",
+            "Exclusivamente a población escolar",
+            "Únicamente a gestantes y personas mayores"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La sección de 'Población sujeto' indica que la atención aplica a todas las personas en todos los momentos del curso de vida.",
+          "dificultad": "facil",
+          "tags": ["poblacion-sujeto", "curso-de-vida"],
+          "fuente": { "seccion": "7.2 – Población sujeto", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q002",
+          "enunciado": "¿Cuál NO es un objetivo de la Atención en Salud Bucal?",
+          "opciones": [
+            "Valorar integralmente la salud bucal",
+            "Identificar factores de riesgo y protectores",
+            "Garantizar rehabilitación protésica especializada en todos los casos",
+            "Brindar información para la salud y derivar a rutas según necesidad"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La rehabilitación protésica especializada no es un objetivo general; los objetivos incluyen valoración integral, identificación de riesgos/protectores, información y derivaciones.",
+          "dificultad": "facil",
+          "tags": ["objetivos"],
+          "fuente": { "seccion": "7.1 – Objetivos", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q003",
+          "enunciado": "Dentro de las atenciones incluidas, ¿qué componente se debe valorar de manera explícita?",
+          "opciones": [
+            "Exclusivamente hábitos alimentarios",
+            "Estructuras dentomaxilofaciales y su funcionalidad",
+            "Únicamente estética dental",
+            "Solo articulación temporomandibular"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se debe valorar el estado de las estructuras dentomaxilofaciales y su funcionalidad.",
+          "dificultad": "facil",
+          "tags": ["atenciones-incluidas", "funcionalidad"],
+          "fuente": { "seccion": "7.3 – Atenciones incluidas", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q004",
+          "enunciado": "En la anamnesis, ¿qué aspecto sobre consumo de sustancias se debe indagar?",
+          "opciones": [
+            "Solo consumo de alcohol",
+            "Solo consumo de tabaco",
+            "Tabaco y alcohol, incluyendo formas de consumo como fumar invertido",
+            "Ninguno; se indaga solo dieta"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se debe preguntar por tipo, cantidad y forma de consumo, incluyendo tabaco, alcohol y prácticas como fumar invertido.",
+          "dificultad": "media",
+          "tags": ["anamnesis", "sustancias", "riesgo"],
+          "fuente": { "seccion": "7.4.1 – Anamnesis (hábitos y riesgos)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q005",
+          "enunciado": "¿Qué condiciones sistémicas deben indagarse por su impacto en la salud bucal?",
+          "opciones": [
+            "Solo antecedentes de cirugías bucales",
+            "Diabetes, VIH/SIDA, cáncer, EPOC y cardiovasculares, entre otras",
+            "Únicamente hipertensión",
+            "Ninguna, no se relacionan con la boca"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El documento destaca indagar por enfermedades inmunes y metabólicas (p. ej., diabetes, VIH), cáncer, EPOC y cardiovasculares.",
+          "dificultad": "media",
+          "tags": ["anamnesis", "condiciones-sistemicas"],
+          "fuente": { "seccion": "7.4.1 – Anamnesis (condiciones sistémicas)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q006",
+          "enunciado": "En la anamnesis, respecto a la higiene bucal se debe:",
+          "opciones": [
+            "Registrar si cepilla solo por las noches",
+            "Omitir detalles para agilizar la consulta",
+            "Explorar frecuencia/calidad y verificar acceso a fluoruros por la crema dental",
+            "Limitarse a preguntar marca de cepillo"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se exploran frecuencia y calidad de higiene y se verifica uso de crema con flúor como fuente de fluoruros.",
+          "dificultad": "facil",
+          "tags": ["higiene", "fluoruros"],
+          "fuente": { "seccion": "7.4.1 – Anamnesis (hábitos de higiene)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q007",
+          "enunciado": "Durante el examen físico, si la persona usa prótesis removibles se debe:",
+          "opciones": [
+            "Mantenerla para no incomodar",
+            "Retirarla para evaluar adecuadamente la cavidad bucal",
+            "No evaluar tejidos blandos",
+            "Remitir sin examen"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El examen requiere retirar prótesis removibles para una valoración integral de la cavidad bucal.",
+          "dificultad": "facil",
+          "tags": ["examen-fisico", "protesis"],
+          "fuente": { "seccion": "7.4.2 – Examen físico", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q008",
+          "enunciado": "¿Qué clasificación para el estado de los tejidos dentales se menciona expresamente?",
+          "opciones": [
+            "DMFT exclusivamente",
+            "ICDAS y COP/COP-modificado",
+            "POHRQoL",
+            "NYHA dental"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica usar ICDAS y COP/COP-modificado para evaluar caries, fluorosis, fracturas y rehabilitaciones.",
+          "dificultad": "media",
+          "tags": ["ICDAS", "COP", "caries"],
+          "fuente": { "seccion": "7.4.2 – Examen físico (tejidos dentales)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q009",
+          "enunciado": "Además de estructuras, el examen debe incluir valoración de:",
+          "opciones": [
+            "Saliva (consistencia y volumen) y cantidad de placa",
+            "Exclusivamente estética dental",
+            "Solo ATM",
+            "Ningún otro aspecto"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "Se valora saliva (consistencia/volumen) y la cantidad de placa bacteriana, entre otros.",
+          "dificultad": "facil",
+          "tags": ["saliva", "placa-bacteriana"],
+          "fuente": { "seccion": "7.4.2 – Examen físico (saliva/placa)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q010",
+          "enunciado": "La profilaxis y remoción de placa bacteriana se recomienda, entre otros, con el uso de:",
+          "opciones": [
+            "Sustancias reveladoras de placa y cálculo del índice de O'Leary",
+            "Solo enjuague con agua",
+            "Antibióticos profilácticos de rutina",
+            "Electroestimulación de encías"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "El procedimiento debe utilizar sustancias reveladoras y calcular el índice de O'Leary, además de instruir técnicas de higiene.",
+          "dificultad": "media",
+          "tags": ["profilaxis", "indice-oleary"],
+          "fuente": { "seccion": "7.6.1 – Profilaxis/remoción de placa", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q011",
+          "enunciado": "¿Cuál es la frecuencia de profilaxis/remoción de placa por momento del curso de vida?",
+          "opciones": [
+            "Primera Infancia/Infancia/Adolescencia anual; Juventud y Vejez semestral; Adultez bienal",
+            "Primera Infancia/Infancia/Adolescencia semestral; Juventud anual; Adultez y Vejez bienal",
+            "Toda la población semestral",
+            "Sólo a demanda, sin periodicidad sugerida"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica 2 veces al año para PI/Infancia/Adolescencia; anual en Juventud; cada 2 años en Adultez y Vejez.",
+          "dificultad": "media",
+          "tags": ["frecuencia", "profilaxis"],
+          "fuente": { "seccion": "7.6.1 – Profilaxis/remoción de placa", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q012",
+          "enunciado": "La aplicación de flúor en barniz se recomienda:",
+          "opciones": [
+            "Para 1–17 años, dos veces al año; en riesgo alto/medio, cada 3 meses",
+            "Solo en adultos mayores, anual",
+            "Desde los 6 meses, mensual",
+            "Exclusivamente ante caries activa"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "Se contempla para 1–17 años, semestral; en alto/mediano riesgo, puede ser trimestral.",
+          "dificultad": "media",
+          "tags": ["fluor-barniz", "riesgo"],
+          "fuente": { "seccion": "7.6.2 – Aplicación de flúor", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q013",
+          "enunciado": "La forma de flúor preferida en primeras edades para reducir el riesgo de deglución es:",
+          "opciones": [
+            "Barniz fluorado",
+            "Gel de flúor de alta concentración en cubetas",
+            "Enjuague fluorado diario",
+            "Tabletas masticables de flúor"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "Se usa flúor en barniz porque reduce el riesgo de ingesta durante la aplicación en primeras edades.",
+          "dificultad": "facil",
+          "tags": ["fluor-barniz", "seguridad"],
+          "fuente": { "seccion": "7.6.2 – Aplicación de flúor (consideraciones)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q014",
+          "enunciado": "Sobre los sellantes, señale lo correcto:",
+          "opciones": [
+            "Se indican en 3–15 años según erupción; incluyen molares temporales y primeros/segundos molares permanentes",
+            "Se aplican solo en adultos",
+            "Se limitan a incisivos permanentes",
+            "No requieren control posterior"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "Se sellan molares temporales y 1ros/2dos molares permanentes, según edad y erupción.",
+          "dificultad": "media",
+          "tags": ["sellantes", "poblacion"],
+          "fuente": { "seccion": "7.6.3 – Sellantes", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q015",
+          "enunciado": "¿Cada cuánto debe controlarse la permanencia de los sellantes en personas de bajo riesgo?",
+          "opciones": [
+            "Cada 3 meses",
+            "Cada 6 meses",
+            "Anualmente",
+            "No es necesario control"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El documento indica controlar la permanencia de sellantes cada 6 meses en bajo riesgo.",
+          "dificultad": "facil",
+          "tags": ["sellantes", "seguimiento"],
+          "fuente": { "seccion": "7.6.3 – Sellantes (control)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q016",
+          "enunciado": "El detartraje supragingival se realiza en:",
+          "opciones": [
+            "Toda la población sin restricción de edad",
+            "Personas mayores de 18 años, según criterio clínico",
+            "Solo en primera infancia",
+            "Exclusivamente en población con sangrado gingival"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se contempla para mayores de 18 años y se indica según hallazgos clínicos.",
+          "dificultad": "media",
+          "tags": ["detartraje", "criterio-clinico"],
+          "fuente": { "seccion": "7.6.4 – Detartraje supragingival", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q017",
+          "enunciado": "¿En qué situación NO debe realizarse detartraje supragingival?",
+          "opciones": [
+            "Cuando no se encuentran depósitos calcificados ni manchas extrínsecas",
+            "Ante presencia de cálculo supragingival",
+            "Cuando hay tinciones extrínsecas",
+            "Si hay sangrado al sondaje y cálculo visible"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "El documento advierte no realizarlo sin depósitos o manchas, pues los instrumentos pueden generar efectos no deseados.",
+          "dificultad": "facil",
+          "tags": ["detartraje", "seguridad"],
+          "fuente": { "seccion": "7.6.4 – Detartraje (consideraciones)", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q018",
+          "enunciado": "En 'Información para la salud', ¿qué énfasis debe darse?",
+          "opciones": [
+            "Solo recomendaciones de cepillado",
+            "Derechos en salud, orientaciones de cuidado bucal y recomendaciones sobre alimentación, actividad física e higiene personal",
+            "Únicamente técnicas de uso de hilo dental",
+            "Exclusivamente normas de bioseguridad"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La información incluye derechos en salud y recomendaciones integrales de cuidado, alimentación, AF e higiene.",
+          "dificultad": "facil",
+          "tags": ["educacion", "informacion-para-la-salud"],
+          "fuente": { "seccion": "7.4.3 – Información para la salud", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q019",
+          "enunciado": "Dentro del Plan de Cuidado, además de ordenar intervenciones de salud bucal, se debe:",
+          "opciones": [
+            "Restringir canalizaciones a servicios odontológicos",
+            "Articular con otras atenciones/rutas, derivar a educación grupal/familiar y reportar eventos de interés en salud pública",
+            "Eliminar derivaciones a PIC o servicios sociales",
+            "Evitar verificar consultas de valoración integral"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "El plan incluye articulación con otras rutas, educación (grupal/familiar), derivaciones e incluso notificación obligatoria si aplica.",
+          "dificultad": "media",
+          "tags": ["plan-de-cuidado", "articulacion", "notificacion"],
+          "fuente": { "seccion": "7.4.4 – Plan de cuidado", "pagina": "s/p" }
+        },
+        {
+          "id": "salud-bucal-Q020",
+          "enunciado": "La valoración de hábitos y prácticas debe considerar, además de dieta e higiene:",
+          "opciones": [
+            "Únicamente preferencias estéticas",
+            "Apoyo del cuidador cuando aplique y factores diferenciales (p. ej., por pertenencia étnica)",
+            "Solo uso de prótesis",
+            "Exclusivamente frecuencia de cepillado"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se valora apoyo del cuidador y factores diferenciales como costumbres asociadas a pertenencia étnica.",
+          "dificultad": "media",
+          "tags": ["habitos", "cuidador", "enfoque-diferencial"],
+          "fuente": { "seccion": "7.4.1 – Anamnesis (hábitos/factores diferenciales)", "pagina": "s/p" }
+        }
+      ]
     }
   ]
 }
