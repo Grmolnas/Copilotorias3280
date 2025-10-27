@@ -25,10 +25,13 @@ const Acerca = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-foreground">
-              El Copiloto RIAS 3280 es una herramienta educativa diseñada para apoyar al talento humano en salud en la consulta de información sobre las intervenciones de promoción y mantenimiento establecidas en la <strong>Resolución 3280 de 2018</strong> del Ministerio de Salud y Protección Social de Colombia.
+              El Copiloto RIAS 3280 es una herramienta educativa diseñada para apoyar al talento humano en salud en la
+              consulta de información sobre las intervenciones de promoción y mantenimiento establecidas en la{" "}
+              <strong>Resolución 3280 de 2018</strong> del Ministerio de Salud y Protección Social de Colombia.
             </p>
             <p className="text-muted-foreground">
-              Su propósito es facilitar el acceso rápido y confiable a lineamientos técnicos, promoviendo la calidad y estandarización en la atención de las Rutas Integrales de Atención en Salud (RIAS).
+              Su propósito es facilitar el acceso rápido y confiable a lineamientos técnicos, promoviendo la calidad y
+              estandarización en la atención de las Rutas Integrales de Atención en Salud (RIAS).
             </p>
           </CardContent>
         </Card>
@@ -43,11 +46,10 @@ const Acerca = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-3">
-              <p className="text-foreground font-medium">
-                ¿Qué es RAG (Retrieval Augmented Generation)?
-              </p>
+              <p className="text-foreground font-medium">¿Qué es RAG (Retrieval Augmented Generation)?</p>
               <p className="text-muted-foreground">
-                RAG es una técnica que combina la búsqueda de información específica en documentos con la generación de respuestas por inteligencia artificial. Esto permite que el Copiloto:
+                RAG es una técnica que combina la búsqueda de información específica en documentos con la generación de
+                respuestas por inteligencia artificial. Esto permite que el Copiloto:
               </p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
                 <li>Extraiga información directamente de las fichas técnicas validadas</li>
@@ -59,7 +61,9 @@ const Acerca = () => {
 
             <div className="mt-6 p-4 bg-accent/20 rounded-lg border border-accent">
               <p className="text-sm text-foreground">
-                <strong>Corpus cerrado:</strong> El Copiloto <strong>NO</strong> tiene acceso a internet ni a fuentes externas. Solo consulta las fichas técnicas que han sido validadas e indexadas en su base de conocimiento interna.
+                <strong>Corpus cerrado:</strong> El Copiloto <strong>NO</strong> tiene acceso a internet ni a fuentes
+                externas. Solo consulta las fichas técnicas que han sido validadas e indexadas en su base de
+                conocimiento interna.
               </p>
             </div>
           </CardContent>
@@ -75,7 +79,8 @@ const Acerca = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-muted-foreground">
-              La sección de Recursos proporciona acceso directo a las fichas técnicas validadas y material educativo complementario:
+              La sección de Recursos proporciona acceso directo a las fichas técnicas validadas y material educativo
+              complementario:
             </p>
             <ul className="space-y-2 text-muted-foreground ml-4">
               <li className="flex items-start gap-2">
@@ -84,7 +89,10 @@ const Acerca = () => {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Guías de práctica clínica (GPC) sobre cáncer de mama, próstata, colon, cuello uterino, planificación familiar, lactancia materna y salud bucal</span>
+                <span>
+                  Guías de práctica clínica (GPC) sobre cáncer de mama, próstata, colon, cuello uterino, planificación
+                  familiar, lactancia materna y salud bucal
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
@@ -92,7 +100,10 @@ const Acerca = () => {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Material de consulta organizado por: Primera Infancia, Infancia, Adolescencia, Juventud, Adultez y Vejez</span>
+                <span>
+                  Material de consulta organizado por: Primera Infancia, Infancia, Adolescencia, Juventud, Adultez y
+                  Vejez
+                </span>
               </li>
             </ul>
             <div className="pt-4">
@@ -116,24 +127,36 @@ const Acerca = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-muted-foreground">
-              Evalúa y fortalece tu comprensión sobre las intervenciones de la RIAS 3280 mediante un sistema interactivo de preguntas:
+              Evalúa y fortalece tu comprensión sobre las intervenciones de la RIAS 3280 mediante un sistema interactivo
+              de preguntas:
             </p>
             <ul className="space-y-2 text-muted-foreground ml-4">
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span><strong>12 temas disponibles:</strong> Cursos de vida (Primera Infancia, Infancia, Adolescencia, Juventud, Adultez, Vejez) y temas específicos (Planificación Familiar, Lactancia Materna, Salud Bucal, Cáncer de Mama, Cáncer de Próstata, Cáncer de Cuello Uterino)</span>
+                <span>
+                  <strong>12 temas disponibles:</strong> Cursos de vida (Primera Infancia, Infancia, Adolescencia,
+                  Juventud, Adultez, Vejez) y temas específicos (Planificación Familiar, Lactancia Materna, Salud Bucal,
+                  Cáncer de Mama, Cáncer de Próstata, Cáncer de Cuello Uterino)
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span><strong>250 preguntas en total:</strong> Banco extenso de preguntas validadas</span>
+                <span>
+                  <strong>250 preguntas en total:</strong> Banco extenso de preguntas validadas
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span><strong>5 preguntas por sesión:</strong> Selección aleatoria para cada evaluación</span>
+                <span>
+                  <strong>5 preguntas por sesión:</strong> Selección aleatoria para cada evaluación
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span><strong>Retroalimentación inmediata:</strong> Explicaciones detalladas con referencias a las fichas técnicas</span>
+                <span>
+                  <strong>Retroalimentación inmediata:</strong> Explicaciones detalladas con referencias a las fichas
+                  técnicas
+                </span>
               </li>
             </ul>
             <div className="pt-4">
@@ -158,7 +181,8 @@ const Acerca = () => {
           <CardContent>
             <div className="space-y-6">
               <p className="text-muted-foreground">
-                La información del Copiloto se actualiza siguiendo un proceso riguroso para garantizar la calidad y validez de los contenidos:
+                La información del Copiloto se actualiza siguiendo un proceso riguroso para garantizar la calidad y
+                validez de los contenidos:
               </p>
 
               <div className="space-y-4">
@@ -224,7 +248,10 @@ const Acerca = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-muted-foreground">
-              Esta herramienta educativa fue desarrollada por el <strong className="text-foreground">Dr. Gabriel Molina</strong>, Médico especialista en Medicina Familiar, con el objetivo de facilitar el acceso a información validada sobre las Rutas Integrales de Atención en Salud establecidas en la Resolución 3280/2018.
+              Esta herramienta educativa fue desarrollada por el{" "}
+              <strong className="text-foreground">Dr. Gabriel Molina</strong>, Médico especialista en Medicina Familiar,
+              con el objetivo de facilitar el acceso a información validada sobre las Rutas Integrales de Atención en
+              Salud establecidas en la Resolución 3280/2018.
             </p>
 
             <div className="mt-6 p-4 bg-muted rounded-lg">
@@ -239,11 +266,8 @@ const Acerca = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4 text-primary" />
-                  <a 
-                    href="mailto:familiarmdrss@gmail.com" 
-                    className="text-sm text-primary hover:underline"
-                  >
-                    familiarmdrss@gmail.com
+                  <a href="mailto:familiarmdrss@gmail.com" className="text-sm text-primary hover:underline">
+                    familiarmdrs@gmail.com
                   </a>
                 </div>
               </div>
@@ -255,7 +279,9 @@ const Acerca = () => {
         <Card className="bg-accent/20 border-accent">
           <CardContent className="pt-6">
             <p className="text-sm text-muted-foreground">
-              <strong className="text-foreground">Importante:</strong> El Copiloto RIAS 3280 es una herramienta de apoyo educativo. Las respuestas que proporciona deben ser verificadas con las fichas técnicas originales y no reemplazan el juicio clínico profesional ni la supervisión de personal calificado.
+              <strong className="text-foreground">Importante:</strong> El Copiloto RIAS 3280 es una herramienta de apoyo
+              educativo. Las respuestas que proporciona deben ser verificadas con las fichas técnicas originales y no
+              reemplazan el juicio clínico profesional ni la supervisión de personal calificado.
             </p>
           </CardContent>
         </Card>
