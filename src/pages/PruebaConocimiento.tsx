@@ -5,7 +5,13 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Progress } from "@/components/ui/progress";
 import { QuestionCard } from "@/components/QuestionCard";
 import { ResultsSummary } from "@/components/ResultsSummary";
-import { preguntasRPMS, Pregunta, filtrarPreguntas, mezclarPreguntas } from "@/data/preguntas";
+import { 
+  getTemasDisponibles, 
+  getTodasLasPreguntas, 
+  filtrarPreguntas, 
+  mezclarPreguntas,
+  type Pregunta 
+} from "@/data/preguntas";
 import { BookOpen, Target } from "lucide-react";
 
 const PruebaConocimiento = () => {
@@ -13,7 +19,6 @@ const PruebaConocimiento = () => {
   const [finished, setFinished] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [preguntas, setPreguntas] = useState<Pregunta[]>([]);
-  const [respuestasUsuario, setRespuestasUsuario] = useState<Record<number, number>>({});
   const [correctas, setCorrectas] = useState(0);
   const [incorrectas, setIncorrectas] = useState(0);
   const [preguntasIncorrectas, setPreguntasIncorrectas] = useState<Array<{
@@ -21,21 +26,19 @@ const PruebaConocimiento = () => {
     respuestaUsuario: number;
   }>>([]);
 
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState<string>("Todas");
-  const [cursoDeVidaSeleccionado, setCursoDeVidaSeleccionado] = useState<string>("Todos");
+  const [temaSeleccionado, setTemaSeleccionado] = useState<string>("todas");
 
-  const categorias = ["Todas", "RPMS", "CCU", "Rutas de atención", "Valoración integral", "Intervenciones", "Normativa general"];
-  const cursosDeVida = ["Todos", "Primera Infancia", "Infancia", "Adolescencia", "Juventud", "Adultez", "Vejez", "General"];
+  const temasDisponibles = getTemasDisponibles();
+  const todasLasPreguntas = getTodasLasPreguntas();
 
   const handleStart = () => {
     const preguntasFiltradas = filtrarPreguntas(
-      preguntasRPMS,
-      categoriaSeleccionada === "Todas" ? undefined : categoriaSeleccionada,
-      cursoDeVidaSeleccionado === "Todos" ? undefined : cursoDeVidaSeleccionado
+      todasLasPreguntas,
+      temaSeleccionado === "todas" ? undefined : temaSeleccionado
     );
 
     if (preguntasFiltradas.length === 0) {
-      alert("No hay preguntas disponibles con los filtros seleccionados. Por favor, selecciona otros criterios.");
+      alert("No hay preguntas disponibles para el tema seleccionado.");
       return;
     }
 
@@ -43,7 +46,6 @@ const PruebaConocimiento = () => {
     setPreguntas(preguntasMezcladas);
     setStarted(true);
     setCurrentIndex(0);
-    setRespuestasUsuario({});
     setCorrectas(0);
     setIncorrectas(0);
     setPreguntasIncorrectas([]);
@@ -52,10 +54,6 @@ const PruebaConocimiento = () => {
 
   const handleAnswer = (respuestaSeleccionada: number, esCorrecta: boolean) => {
     const preguntaActual = preguntas[currentIndex];
-    setRespuestasUsuario((prev) => ({
-      ...prev,
-      [preguntaActual.id]: respuestaSeleccionada,
-    }));
 
     if (esCorrecta) {
       setCorrectas((prev) => prev + 1);
@@ -81,12 +79,10 @@ const PruebaConocimiento = () => {
     setFinished(false);
     setCurrentIndex(0);
     setPreguntas([]);
-    setRespuestasUsuario({});
     setCorrectas(0);
     setIncorrectas(0);
     setPreguntasIncorrectas([]);
-    setCategoriaSeleccionada("Todas");
-    setCursoDeVidaSeleccionado("Todos");
+    setTemaSeleccionado("todas");
   };
 
   const progreso = preguntas.length > 0 ? ((currentIndex + 1) / preguntas.length) * 100 : 0;
@@ -101,11 +97,11 @@ const PruebaConocimiento = () => {
           </div>
           <h1 className="text-4xl font-bold text-foreground mb-2">Prueba tu Conocimiento</h1>
           <p className="text-lg text-muted-foreground">
-            Responde preguntas sobre la Resolución 3280 y refuerza tu aprendizaje
+            Responde preguntas sobre las Rutas Integrales de Atención en Salud (RIAS)
           </p>
         </div>
 
-        {/* Pantalla inicial: Filtros */}
+        {/* Pantalla inicial: Selector de tema */}
         {!started && !finished && (
           <Card className="w-full max-w-2xl mx-auto">
             <CardHeader>
@@ -114,46 +110,27 @@ const PruebaConocimiento = () => {
                 Configura tu prueba
               </CardTitle>
               <CardDescription>
-                Selecciona los filtros para personalizar tu prueba de conocimiento
+                Selecciona el tema para comenzar tu evaluación
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="space-y-4">
-                <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
-                    Categoría
-                  </label>
-                  <Select value={categoriaSeleccionada} onValueChange={setCategoriaSeleccionada}>
-                    <SelectTrigger aria-label="Seleccionar categoría">
-                      <SelectValue placeholder="Selecciona una categoría" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {categorias.map((cat) => (
-                        <SelectItem key={cat} value={cat}>
-                          {cat}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
-                    Curso de vida
-                  </label>
-                  <Select value={cursoDeVidaSeleccionado} onValueChange={setCursoDeVidaSeleccionado}>
-                    <SelectTrigger aria-label="Seleccionar curso de vida">
-                      <SelectValue placeholder="Selecciona un curso de vida" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {cursosDeVida.map((curso) => (
-                        <SelectItem key={curso} value={curso}>
-                          {curso}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+              <div>
+                <label className="text-sm font-medium text-foreground mb-2 block">
+                  Tema
+                </label>
+                <Select value={temaSeleccionado} onValueChange={setTemaSeleccionado}>
+                  <SelectTrigger aria-label="Seleccionar tema">
+                    <SelectValue placeholder="Selecciona un tema" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="todas">Todos los temas</SelectItem>
+                    {temasDisponibles.map((tema) => (
+                      <SelectItem key={tema.id} value={tema.id}>
+                        {tema.nombre}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
               </div>
 
               <div className="pt-4">
@@ -161,7 +138,7 @@ const PruebaConocimiento = () => {
                   Comenzar prueba
                 </Button>
                 <p className="text-xs text-muted-foreground text-center mt-3">
-                  Total de preguntas disponibles: {preguntasRPMS.length}
+                  Total de preguntas disponibles: {todasLasPreguntas.length}
                 </p>
               </div>
             </CardContent>

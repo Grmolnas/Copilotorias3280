@@ -1,0 +1,307 @@
+{
+  "temas": [
+    {
+      "tema": "Primera Infancia – Intervención Individual (RPMS)",
+      "topic_id": "primera-infancia-intervencion-individual",
+      "version": "1.0",
+      "idioma": "es",
+      "fuente_global": {
+        "doc_id": "Primera Infancia Intervención Individual y Directrices de obligatorio cumplimiento.docx",
+        "doc_titulo": "Primera Infancia – Intervención Individual y Directrices de obligatorio cumplimiento",
+        "doc_fecha": ""
+      },
+      "preguntas": [
+        {
+          "id": "primera-infancia-Q001",
+          "enunciado": "Según el esquema de consultas, ¿cuántas atenciones por medicina general, pediatría o medicina familiar están programadas en la primera infancia?",
+          "opciones": ["4", "6", "8", "10"],
+          "indice_correcto": 2,
+          "explicacion_correcta": "El Cuadro de Frecuencia de Consultas establece 8 atenciones por medicina general/pediatría/medicina familiar en edades específicas.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "medicina", "CUPS 890201"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q002",
+          "enunciado": "¿Cuántas atenciones por profesional de enfermería están programadas en la primera infancia?",
+          "opciones": ["4", "5", "6", "8"],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La tabla de frecuencias indica 6 consultas por enfermería: 2–3M, 6–8M, 12–18M, 24–29M, 30–35M y 4A.",
+          "dificultad": "facil",
+          "tags": ["frecuencia", "enfermeria", "CUPS 890205"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q003",
+          "enunciado": "La atención en salud bucal por odontología se programa:",
+          "opciones": [
+            "Cada 6 meses desde el nacimiento",
+            "Una vez al año a partir de los 6 meses de edad",
+            "Solo después de los 3 años",
+            "Únicamente ante presencia de caries"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica una atención anual desde los 6 meses de edad con profesional en odontología.",
+          "dificultad": "facil",
+          "tags": ["odontologia", "frecuencia", "CUPS 890203"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q004",
+          "enunciado": "La atención para la promoción y apoyo de la lactancia materna se indica:",
+          "opciones": [
+            "Al nacer y a los 15 días",
+            "Al primer mes y según hallazgos/criterio profesional",
+            "Únicamente si hay bajo peso",
+            "Solo durante hospitalización"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "La guía fija una atención al mes y posteriores según hallazgos y criterio del profesional.",
+          "dificultad": "facil",
+          "tags": ["lactancia", "CUPS 890305"],
+          "fuente": { "seccion": "1.3 – Frecuencia de Consultas (Cuadro 1)", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q005",
+          "enunciado": "La fortificación casera con micronutrientes en polvo se ordena:",
+          "opciones": [
+            "De 24 a 59 meses, mensual",
+            "De 6 a 23 meses, con un ciclo cada seis meses",
+            "Solo ante anemia confirmada",
+            "Desde el nacimiento, semanal"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se define entre 6 y 23 meses con un ciclo cada seis meses.",
+          "dificultad": "media",
+          "tags": ["micronutrientes", "proteccion-especifica"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q006",
+          "enunciado": "Para niños de 24 a 59 meses, la suplementación con hierro y vitamina A se indica:",
+          "opciones": [
+            "Hierro diario 1 mg/kg y Vitamina A trimestral",
+            "Hierro 3 mg/kg/día y Vitamina A 200.000 UI, ambas 2 veces al año",
+            "Solo Vitamina A 200.000 UI anual",
+            "Hierro 5 mg/kg/día continuo sin control"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica hierro 3 mg/kg/día y Vitamina A 200.000 UI, ambas dos veces al año.",
+          "dificultad": "media",
+          "tags": ["suplementacion", "hierro", "vitaminaA"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q007",
+          "enunciado": "La desparasitación intestinal antihelmíntica se recomienda:",
+          "opciones": [
+            "Desde los 6 meses, mensual",
+            "A partir del año, dos veces al año; 12–23 meses: albendazol 200 mg VO dosis única",
+            "Solo en edad escolar",
+            "Únicamente si hay eosinofilia"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica desde 12 meses dos veces al año, con albendazol 200 mg dosis única en 12–23 meses.",
+          "dificultad": "media",
+          "tags": ["desparasitacion", "antihelminticos"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q008",
+          "enunciado": "El tamizaje para hemoglobina en la primera infancia debe realizarse:",
+          "opciones": [
+            "De forma universal cada 6 meses",
+            "Únicamente en escolares",
+            "Según el riesgo identificado",
+            "Solo ante palidez clínica evidente"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La guía lo establece de acuerdo con el riesgo identificado durante la valoración.",
+          "dificultad": "facil",
+          "tags": ["tamizaje", "hemoglobina"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q009",
+          "enunciado": "Si el tamizaje auditivo neonatal no se realizó en los tiempos de la ruta materno-perinatal, ¿cuándo debe garantizarse su toma?",
+          "opciones": [
+            "Antes de cumplir 1 año",
+            "En los primeros 6 meses",
+            "En los primeros 3 meses de vida",
+            "Al ingresar a preescolar"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Debe ordenarse y garantizarse en los primeros 3 meses de vida si no se hizo oportunamente.",
+          "dificultad": "facil",
+          "tags": ["tamizaje-auditivo", "neonatal"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q010",
+          "enunciado": "¿Cuál es el instrumento señalado para la evaluación del desarrollo infantil durante la consulta?",
+          "opciones": [
+            "Escala Abreviada de Desarrollo-3 (EAD-3)",
+            "Cuestionario VALE",
+            "m-Chat",
+            "APGAR familiar"
+          ],
+          "indice_correcto": 0,
+          "explicacion_correcta": "La EAD-3 se aplica de forma directa para valorar el desarrollo.",
+          "dificultad": "facil",
+          "tags": ["desarrollo", "EAD-3"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q011",
+          "enunciado": "El test m-Chat debe aplicarse obligatoriamente en niñas y niños:",
+          "opciones": [
+            "De 6 a 12 meses",
+            "De 12 a 18 meses",
+            "De 18 a 30 meses",
+            "De 30 a 59 meses"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se establece su aplicación obligatoria entre los 18 y 30 meses como tamizaje de autismo.",
+          "dificultad": "facil",
+          "tags": ["m-chat", "neurodesarrollo"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q012",
+          "enunciado": "El cuestionario VALE está orientado a la valoración de:",
+          "opciones": [
+            "Salud visual",
+            "Salud auditiva y comunicativa",
+            "Estado nutricional",
+            "Dinámica familiar"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica el uso del cuestionario VALE para salud auditiva y comunicativa.",
+          "dificultad": "facil",
+          "tags": ["VALE", "auditiva", "comunicativa"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q013",
+          "enunciado": "La valoración de agudeza visual con optotipos morfoscópicos o angulares inicia a partir de:",
+          "opciones": [
+            "6 meses",
+            "1 año",
+            "3 años",
+            "5 años"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se recomienda a partir de los 3 años con optotipos morfoscópicos o angulares.",
+          "dificultad": "facil",
+          "tags": ["vision", "agudeza-visual"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q014",
+          "enunciado": "La toma de tensión arterial (TA) durante la consulta es obligatoria:",
+          "opciones": [
+            "En todos los menores de 3 años sin excepción",
+            "Solo en escolares",
+            "En >3 años o en menores con síntomas recurrentes o antecedente de cateterización umbilical",
+            "Únicamente ante fiebre"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se exige TA en mayores de 3 años y en menores con síntomas o antecedente de cateterización umbilical.",
+          "dificultad": "media",
+          "tags": ["tension-arterial", "signos-vitales"],
+          "fuente": { "seccion": "1.5.2 – Examen Físico", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q015",
+          "enunciado": "Durante la consulta de valoración, respecto a la presencia del cuidador:",
+          "opciones": [
+            "No es necesaria",
+            "Es opcional según disponibilidad",
+            "Se requiere la presencia del cuidador y/o acompañante del niño(a)",
+            "Está contraindicada por sesgar la anamnesis"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "La descripción del procedimiento exige la presencia del cuidador/acompañante.",
+          "dificultad": "facil",
+          "tags": ["cuidador", "procedimiento"],
+          "fuente": { "seccion": "1.5 – Descripción del Procedimiento", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q016",
+          "enunciado": "La educación individual (padres/cuidadores) tiene una duración por sesión de:",
+          "opciones": [
+            "10 a 15 minutos",
+            "20 a 30 minutos",
+            "45 minutos",
+            "60 minutos"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se fija una duración de 20 a 30 minutos por sesión, ajustada a necesidades.",
+          "dificultad": "facil",
+          "tags": ["educacion-individual", "CUPS 9902"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q017",
+          "enunciado": "Los ciclos de educación grupal para familias durante la primera infancia deben ser como mínimo:",
+          "opciones": [
+            "1 ciclo por momento del curso de vida",
+            "2 ciclos por momento del curso de vida",
+            "3 ciclos por momento del curso de vida",
+            "Libre, sin mínimo definido"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se establecen al menos dos ciclos educativos por momento del curso de vida (cada ciclo de 3 a 6 sesiones).",
+          "dificultad": "media",
+          "tags": ["educacion-grupal", "familia"],
+          "fuente": { "seccion": "3 – Intervenciones de Educación y Familia", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q018",
+          "enunciado": "La aplicación de sellantes dentales se contempla:",
+          "opciones": [
+            "Desde los 6 meses",
+            "Desde los 3 años hasta los 15 años",
+            "Solo en presencia de caries activa",
+            "Únicamente en adolescentes"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se especifica su indicación desde los 3 años hasta los 15 años para reducir riesgo de caries.",
+          "dificultad": "media",
+          "tags": ["salud-bucal", "sellantes"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q019",
+          "enunciado": "La aplicación de flúor en barniz se recomienda:",
+          "opciones": [
+            "Mensual desde los 6 meses",
+            "Dos veces al año a partir del primer año de edad",
+            "Anual desde los 3 años",
+            "Solo ante hipoplasia del esmalte"
+          ],
+          "indice_correcto": 1,
+          "explicacion_correcta": "Se indica dos veces por año (una por semestre) a partir del primer año de vida.",
+          "dificultad": "facil",
+          "tags": ["salud-bucal", "fluor"],
+          "fuente": { "seccion": "2 – Intervenciones de Protección Específica y Suministro", "pagina": "s/p" }
+        },
+        {
+          "id": "primera-infancia-Q020",
+          "enunciado": "Según el talento humano requerido, el tamizaje de agudeza visual debe ser realizado por:",
+          "opciones": [
+            "Profesional de enfermería general",
+            "Profesional de odontología",
+            "Médico general, especialista u optómetra entrenado",
+            "Solo oftalmólogo pediatra"
+          ],
+          "indice_correcto": 2,
+          "explicacion_correcta": "Se establece que el tamizaje visual lo realice personal entrenado: médico general, especialista u optómetra.",
+          "dificultad": "media",
+          "tags": ["talento-humano", "tamizaje-visual"],
+          "fuente": { "seccion": "1.4 – Talento Humano Requerido", "pagina": "s/p" }
+        }
+      ]
+    }
+  ]
+}

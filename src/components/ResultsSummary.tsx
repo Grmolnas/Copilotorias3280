@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { CheckCircle2, XCircle, RotateCcw, TrendingUp } from "lucide-react";
-import { Pregunta } from "@/data/preguntas";
+import type { Pregunta } from "@/data/preguntas";
 import { Separator } from "./ui/separator";
 
 interface ResultsSummaryProps {
@@ -95,16 +95,8 @@ export const ResultsSummary = ({
                         <span className="text-sm font-medium text-muted-foreground">
                           Pregunta {index + 1}
                         </span>
-                        <div className="flex gap-2">
-                          <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                            {pregunta.categoria}
-                          </span>
-                          <span className="text-xs bg-secondary/50 text-secondary-foreground px-2 py-1 rounded">
-                            {pregunta.cursoDeVida}
-                          </span>
-                        </div>
                       </div>
-                      <CardTitle className="text-base">{pregunta.pregunta}</CardTitle>
+                      <CardTitle className="text-base">{pregunta.enunciado}</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-2">
                       <div className="space-y-2">
@@ -119,13 +111,18 @@ export const ResultsSummary = ({
                           <CheckCircle2 className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
                           <div>
                             <span className="font-medium text-green-700 dark:text-green-300">Respuesta correcta:</span>{" "}
-                            <span className="text-foreground">{pregunta.opciones[pregunta.respuestaCorrecta]}</span>
+                            <span className="text-foreground">{pregunta.opciones[pregunta.indice_correcto]}</span>
                           </div>
                         </div>
                       </div>
                       <div className="mt-3 p-3 rounded bg-muted text-sm">
                         <p className="font-medium mb-1">Explicación:</p>
-                        <p className="text-foreground/90">{pregunta.explicacion}</p>
+                        <p className="text-foreground/90">{pregunta.explicacion_correcta}</p>
+                        {pregunta.fuente && (
+                          <p className="text-xs text-muted-foreground mt-2">
+                            📚 {pregunta.fuente.seccion} (pág. {pregunta.fuente.pagina})
+                          </p>
+                        )}
                       </div>
                     </CardContent>
                   </Card>
