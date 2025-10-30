@@ -142,7 +142,7 @@ const Inicio = () => {
                   <div className="w-24 h-24 rounded-3xl bg-primary text-white flex items-center justify-center text-4xl font-serif font-medium shadow-card-float">
                     1
                   </div>
-                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1">
+                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1 z-10">
                     Inicio
                   </Badge>
                 </div>
