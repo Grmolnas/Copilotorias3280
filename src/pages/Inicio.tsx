@@ -4,7 +4,7 @@ import { CardElevated, CardElevatedContent } from "@/components/ui/card-elevated
 import { Badge } from "@/components/ui/badge";
 import { MessageSquare, Users, Brain, BookOpen, CheckCircle, Search, Sparkles, Shield, Zap } from "lucide-react";
 const Inicio = () => {
-  return <div className="animate-fade-in">
+  return <div className="bg-transparent animate-fade-in">
       {/* Hero Section */}
       <section className="py-20 md:py-32">
         <div className="container mx-auto px-4">
@@ -121,7 +121,7 @@ const Inicio = () => {
       </section>
 
       {/* How to Use Section */}
-      <section className="py-20 md:py-32 bg-white/50">
+      <section className="py-20 md:py-32 bg-transparent">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="font-serif text-4xl md:text-5xl font-normal text-gray-900 mb-6">

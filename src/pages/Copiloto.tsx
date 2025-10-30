@@ -37,7 +37,7 @@ const Copiloto: React.FC = () => {
   };
 
   return (
-    <main className="max-w-7xl mx-auto px-4 py-8 md:py-12">
+    <main className="bg-transparent max-w-7xl mx-auto px-4 py-8 md:py-12">
       <div className="grid lg:grid-cols-[320px_1fr] gap-8 md:gap-12">
         {/* Panel de Ideas - Arriba en móvil, izquierda en desktop */}
         <aside className="order-1 lg:order-1 space-y-6 relative z-10">

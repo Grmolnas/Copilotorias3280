@@ -146,7 +146,7 @@ const Recursos = () => {
   );
 
   return (
-    <div className="container mx-auto px-4 py-8 md:py-12">
+    <div className="bg-transparent container mx-auto px-4 py-8 md:py-12">
       <div className="max-w-7xl mx-auto space-y-8 md:space-y-12">
         {/* Header */}
         <div className="text-center space-y-6 animate-fade-in">

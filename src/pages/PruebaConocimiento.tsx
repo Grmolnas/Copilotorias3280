@@ -96,7 +96,7 @@ const PruebaConocimiento = () => {
   const progreso = preguntas.length > 0 ? ((currentIndex + 1) / preguntas.length) * 100 : 0;
 
   return (
-    <div className="min-h-screen py-8 px-4 md:py-12">
+    <div className="bg-transparent min-h-screen py-8 px-4 md:py-12">
       <div className="container mx-auto max-w-4xl">
         {/* Header */}
         <div className="text-center mb-8 md:mb-12 animate-fade-in">
