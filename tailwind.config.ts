@@ -13,7 +13,14 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
+        'gradient-start': 'hsl(197, 71%, 95%)',
+        'gradient-mid': 'hsl(207, 69%, 90%)',
+        'gradient-end': 'hsl(206, 68%, 80%)',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -146,6 +153,8 @@ export default {
       boxShadow: {
         'soft': 'var(--shadow-soft)',
         'medium': 'var(--shadow-medium)',
+        'card-float': '0 20px 60px rgba(59, 130, 246, 0.12)',
+        'card-hover': '0 30px 80px rgba(59, 130, 246, 0.18)',
       },
     },
   },

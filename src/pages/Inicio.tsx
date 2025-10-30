@@ -1,195 +1,239 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { CardElevated, CardElevatedContent } from "@/components/ui/card-elevated";
 import { Badge } from "@/components/ui/badge";
-import FeatureCard from "@/components/FeatureCard";
-import { MessageSquare, Users, Brain, Layers, BookOpen, CheckCircle, Search } from "lucide-react";
+import { MessageSquare, Users, Brain, BookOpen, CheckCircle, Search, Sparkles, Shield, Zap } from "lucide-react";
 
 const Inicio = () => {
   return (
     <div className="animate-fade-in">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/5 to-accent/20 py-16 md:py-24">
+      <section className="py-20 md:py-32">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-            {/* Hero Content */}
-            <div className="space-y-6 text-center lg:text-left">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Copiloto RIAS 3280
-              </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-                Asistente educativo para talento humano en salud
-              </p>
-              <p className="text-base md:text-lg text-muted-foreground">
-                Consulta información validada sobre promoción y mantenimiento de la salud según la Resolución 3280/2018
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-                <Link to="/copiloto">
-                  <Button size="lg" className="w-full sm:w-auto shadow-medium hover:shadow-soft transition-all">
-                    <MessageSquare className="mr-2 h-5 w-5" />
-                    Abrir Copiloto
-                  </Button>
-                </Link>
-                <Link to="/recursos">
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto shadow-soft hover:shadow-medium transition-all">
-                    <BookOpen className="mr-2 h-5 w-5" />
-                    Ver Recursos
-                  </Button>
-                </Link>
-              </div>
-            </div>
+          <div className="text-center max-w-5xl mx-auto space-y-8">
+            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-normal text-gray-900 leading-tight">
+              Copiloto RIAS 3280
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Asistente educativo para talento humano en salud basado en la Resolución 3280/2018
+            </p>
 
-            {/* Hero Illustration */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="w-full max-w-md lg:max-w-lg">
-                <img 
-                  src="/img/hero-salud.svg" 
-                  alt="Ilustración de salud y medicina" 
-                  className="w-full h-auto drop-shadow-lg"
-                />
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+              <Link to="/copiloto">
+                <Button variant="premium" size="lg" className="w-full sm:w-auto">
+                  <MessageSquare className="mr-2 h-5 w-5" />
+                  Abrir Copiloto
+                </Button>
+              </Link>
+              <Link to="/recursos">
+                <Button size="lg" variant="outline" className="w-full sm:w-auto rounded-full px-8 shadow-soft hover:shadow-medium transition-all">
+                  <BookOpen className="mr-2 h-5 w-5" />
+                  Ver Recursos
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <FeatureCard
-            icon={<Brain className="w-6 h-6" />}
-            title="¿Qué hace?"
-            description="Responde consultas sobre intervenciones de la RIAS, extrayendo información exclusivamente de fichas técnicas validadas."
-          />
-          <FeatureCard
-            icon={<Users className="w-6 h-6" />}
-            title="¿Para quién?"
-            description="Personal de salud: médicos, enfermeras, auxiliares y promotores que necesitan consultar lineamientos de la Resolución 3280/2018."
-          />
-          <FeatureCard
-            icon={<Layers className="w-6 h-6" />}
-            title="¿Cómo funciona?"
-            description="Utiliza RAG (Retrieval Augmented Generation) sobre un corpus cerrado de PDFs validados, sin acceso a internet ni otras fuentes."
-          />
+      {/* Features Grid Section */}
+      <section className="py-20 md:py-24 container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 max-w-7xl mx-auto">
+          {/* Feature 1 */}
+          <CardElevated className="animate-fade-in-up delay-100">
+            <Badge className="inline-block mb-4 bg-primary/10 text-primary border-0 hover:bg-primary/20">
+              PARA PROFESIONALES
+            </Badge>
+            
+            <div className="mb-4">
+              <Brain className="w-10 h-10 text-primary" />
+            </div>
+            
+            <h3 className="font-serif text-2xl md:text-3xl mb-3 text-gray-900">
+              Copiloto RAG
+            </h3>
+            
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Responde consultas sobre intervenciones de la RIAS, extrayendo información exclusivamente de fichas técnicas validadas.
+            </p>
+
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 aspect-video flex items-center justify-center">
+              <Sparkles className="w-16 h-16 text-primary/40" />
+            </div>
+          </CardElevated>
+
+          {/* Feature 2 */}
+          <CardElevated className="animate-fade-in-up delay-200">
+            <Badge className="inline-block mb-4 bg-primary/10 text-primary border-0 hover:bg-primary/20">
+              CONFIABLE
+            </Badge>
+            
+            <div className="mb-4">
+              <Shield className="w-10 h-10 text-primary" />
+            </div>
+            
+            <h3 className="font-serif text-2xl md:text-3xl mb-3 text-gray-900">
+              Información Validada
+            </h3>
+            
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Utiliza RAG (Retrieval Augmented Generation) sobre un corpus cerrado de PDFs validados, sin acceso a internet ni otras fuentes.
+            </p>
+
+            <div className="space-y-3">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span className="text-gray-700 text-sm">25 fichas técnicas validadas</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span className="text-gray-700 text-sm">Actualización constante</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span className="text-gray-700 text-sm">Respuestas con citas directas</span>
+              </div>
+            </div>
+          </CardElevated>
+
+          {/* Feature 3 */}
+          <CardElevated className="animate-fade-in-up delay-300">
+            <Badge className="inline-block mb-4 bg-primary/10 text-primary border-0 hover:bg-primary/20">
+              ACCESO RÁPIDO
+            </Badge>
+            
+            <div className="mb-4">
+              <Zap className="w-10 h-10 text-primary" />
+            </div>
+            
+            <h3 className="font-serif text-2xl md:text-3xl mb-3 text-gray-900">
+              Para Todo el Equipo
+            </h3>
+            
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Diseñado para médicos, enfermeras, auxiliares y promotores que necesitan consultar lineamientos de la Resolución 3280/2018.
+            </p>
+
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 aspect-video flex items-center justify-center">
+              <Users className="w-16 h-16 text-primary/40" />
+            </div>
+          </CardElevated>
         </div>
       </section>
 
       {/* How to Use Section */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 md:py-32 bg-white/50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="font-serif text-4xl md:text-5xl font-normal text-gray-900 mb-6">
               Cómo usarlo
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
               Tres pasos simples para acceder a información validada
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-6xl mx-auto">
             {/* Step 1 */}
-            <Card className="border-border shadow-soft hover:shadow-medium transition-all rounded-2xl">
-              <CardContent className="pt-8 pb-8 px-6">
-                <div className="flex flex-col items-center text-center space-y-6">
-                  <div className="relative">
-                    <div className="w-20 h-20 rounded-2xl bg-primary text-primary-foreground flex items-center justify-center text-3xl font-bold shadow-medium">
-                      1
-                    </div>
-                    <Badge className="absolute -top-2 -right-2 bg-accent text-accent-foreground border-0">
-                      Inicio
-                    </Badge>
+            <CardElevated>
+              <CardElevatedContent className="flex flex-col items-center text-center space-y-6">
+                <div className="relative">
+                  <div className="w-24 h-24 rounded-3xl bg-primary text-white flex items-center justify-center text-4xl font-serif font-medium shadow-card-float">
+                    1
                   </div>
-                  <div className="space-y-3">
-                    <h3 className="text-xl font-bold text-foreground">Pregunta</h3>
-                    <p className="text-muted-foreground leading-relaxed">
-                      Formula tu consulta sobre una intervención específica o procedimiento de la RIAS
-                    </p>
-                  </div>
-                  <MessageSquare className="w-12 h-12 text-primary/40" />
+                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1">
+                    Inicio
+                  </Badge>
                 </div>
-              </CardContent>
-            </Card>
+                <div className="space-y-3">
+                  <h3 className="font-serif text-2xl text-gray-900">Pregunta</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Formula tu consulta sobre una intervención específica o procedimiento de la RIAS
+                  </p>
+                </div>
+                <MessageSquare className="w-16 h-16 text-primary/20" />
+              </CardElevatedContent>
+            </CardElevated>
 
             {/* Step 2 */}
-            <Card className="border-border shadow-soft hover:shadow-medium transition-all rounded-2xl">
-              <CardContent className="pt-8 pb-8 px-6">
-                <div className="flex flex-col items-center text-center space-y-6">
-                  <div className="relative">
-                    <div className="w-20 h-20 rounded-2xl bg-primary text-primary-foreground flex items-center justify-center text-3xl font-bold shadow-medium">
-                      2
-                    </div>
-                    <Badge className="absolute -top-2 -right-2 bg-accent text-accent-foreground border-0">
-                      Citas
-                    </Badge>
+            <CardElevated>
+              <CardElevatedContent className="flex flex-col items-center text-center space-y-6">
+                <div className="relative">
+                  <div className="w-24 h-24 rounded-3xl bg-primary text-white flex items-center justify-center text-4xl font-serif font-medium shadow-card-float">
+                    2
                   </div>
-                  <div className="space-y-3">
-                    <h3 className="text-xl font-bold text-foreground">Respuesta con citas</h3>
-                    <p className="text-muted-foreground leading-relaxed">
-                      Recibe información validada con referencias exactas a las fichas técnicas
-                    </p>
-                  </div>
-                  <BookOpen className="w-12 h-12 text-primary/40" />
+                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1">
+                    Citas
+                  </Badge>
                 </div>
-              </CardContent>
-            </Card>
+                <div className="space-y-3">
+                  <h3 className="font-serif text-2xl text-gray-900">Respuesta con citas</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Recibe información validada con referencias exactas a las fichas técnicas
+                  </p>
+                </div>
+                <BookOpen className="w-16 h-16 text-primary/20" />
+              </CardElevatedContent>
+            </CardElevated>
 
             {/* Step 3 */}
-            <Card className="border-border shadow-soft hover:shadow-medium transition-all rounded-2xl">
-              <CardContent className="pt-8 pb-8 px-6">
-                <div className="flex flex-col items-center text-center space-y-6">
-                  <div className="relative">
-                    <div className="w-20 h-20 rounded-2xl bg-primary text-primary-foreground flex items-center justify-center text-3xl font-bold shadow-medium">
-                      3
-                    </div>
-                    <Badge className="absolute -top-2 -right-2 bg-accent text-accent-foreground border-0">
-                      Checklist
-                    </Badge>
+            <CardElevated>
+              <CardElevatedContent className="flex flex-col items-center text-center space-y-6">
+                <div className="relative">
+                  <div className="w-24 h-24 rounded-3xl bg-primary text-white flex items-center justify-center text-4xl font-serif font-medium shadow-card-float">
+                    3
                   </div>
-                  <div className="space-y-3">
-                    <h3 className="text-xl font-bold text-foreground">Verifica</h3>
-                    <p className="text-muted-foreground leading-relaxed">
-                      Contrasta con las fichas originales disponibles en la Biblioteca
-                    </p>
-                  </div>
-                  <CheckCircle className="w-12 h-12 text-primary/40" />
+                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1">
+                    Verifica
+                  </Badge>
                 </div>
-              </CardContent>
-            </Card>
+                <div className="space-y-3">
+                  <h3 className="font-serif text-2xl text-gray-900">Verifica</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Contrasta con las fichas originales disponibles en la Biblioteca
+                  </p>
+                </div>
+                <CheckCircle className="w-16 h-16 text-primary/20" />
+              </CardElevatedContent>
+            </CardElevated>
           </div>
         </div>
       </section>
 
       {/* Metrics Section */}
-      <section className="py-16 container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-          <Card className="border-border shadow-soft">
-            <CardContent className="pt-6 text-center">
-              <Search className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <p className="text-3xl font-bold text-foreground mb-2">25</p>
-              <p className="text-muted-foreground">Fichas validadas</p>
-            </CardContent>
-          </Card>
-          <Card className="border-border shadow-soft">
-            <CardContent className="pt-6 text-center">
-              <CheckCircle className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <p className="text-3xl font-bold text-foreground mb-2">26/10/2025</p>
-              <p className="text-muted-foreground">Última actualización del corpus</p>
-            </CardContent>
-          </Card>
+      <section className="py-20 md:py-24 container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
+          <CardElevated className="text-center">
+            <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-6">
+              <Search className="w-8 h-8 text-primary" />
+            </div>
+            <p className="font-serif text-5xl md:text-6xl font-medium text-primary mb-3">25</p>
+            <p className="text-gray-600 text-lg">Fichas técnicas validadas</p>
+          </CardElevated>
+          
+          <CardElevated className="text-center">
+            <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-6">
+              <CheckCircle className="w-8 h-8 text-primary" />
+            </div>
+            <p className="font-serif text-3xl md:text-4xl font-medium text-primary mb-3">26/10/2025</p>
+            <p className="text-gray-600 text-lg">Última actualización del corpus</p>
+          </CardElevated>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
+      <section className="py-20 md:py-32 bg-primary text-white">
+        <div className="container mx-auto px-4 text-center max-w-4xl">
+          <h2 className="font-serif text-4xl md:text-5xl font-normal mb-6">
             Comienza a consultar ahora
           </h2>
-          <p className="text-lg mb-8 opacity-90">
+          <p className="text-xl md:text-2xl mb-10 opacity-90 leading-relaxed">
             Accede a información validada y confiable para tu práctica profesional
           </p>
           <Link to="/copiloto">
-            <Button size="lg" variant="secondary">
+            <Button size="lg" className="bg-white text-primary hover:bg-white/90 rounded-full px-10 py-6 text-lg shadow-xl hover:shadow-2xl transition-all">
+              <MessageSquare className="mr-2 h-5 w-5" />
               Abrir Copiloto
             </Button>
           </Link>
