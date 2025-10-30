@@ -42,7 +42,7 @@ const Layout = ({ children }: LayoutProps) => {
       <MedicalBackground />
       
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-white/95 backdrop-blur-md shadow-soft">
+      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-white/90 backdrop-blur-md shadow-soft">
         <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
@@ -99,7 +99,7 @@ const Layout = ({ children }: LayoutProps) => {
       <main className="flex-grow relative z-10">{children}</main>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 bg-white/95 backdrop-blur-md mt-auto">
+      <footer className="border-t border-white/10 bg-white/90 backdrop-blur-md mt-auto">
         <div className="container mx-auto px-4 py-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Proyecto */}

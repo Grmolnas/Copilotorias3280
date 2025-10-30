@@ -5,7 +5,7 @@ const MedicalBackground = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-[#1e3a5f] via-[#1e3a5f] to-[#2874A6]" />
       
       {/* Patrón SVG de hexágonos y cruces médicas */}
-      <div className="absolute inset-0 opacity-[0.15]">
+      <div className="absolute inset-0 opacity-[0.25]">
         <svg width="100%" height="100%" className="w-full h-full">
           <defs>
             <pattern id="hexagon-pattern" x="0" y="0" width="120" height="104" patternUnits="userSpaceOnUse">
@@ -35,17 +35,11 @@ const MedicalBackground = () => {
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#hexagon-pattern)" />
-        </svg>
+      </svg>
       </div>
-
-      {/* Overlay blanco sutil */}
-      <div className="absolute inset-0 bg-white/5" />
 
       {/* Gradiente superior para mejor legibilidad del navbar */}
       <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0a1628]/90 to-transparent" />
-      
-      {/* Overlay sutil para integración con cards blancas */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/3" />
     </div>
   );
 };
