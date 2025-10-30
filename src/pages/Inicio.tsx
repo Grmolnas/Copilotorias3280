@@ -3,10 +3,8 @@ import { Button } from "@/components/ui/button";
 import { CardElevated, CardElevatedContent } from "@/components/ui/card-elevated";
 import { Badge } from "@/components/ui/badge";
 import { MessageSquare, Users, Brain, BookOpen, CheckCircle, Search, Sparkles, Shield, Zap } from "lucide-react";
-
 const Inicio = () => {
-  return (
-    <div className="animate-fade-in">
+  return <div className="animate-fade-in">
       {/* Hero Section */}
       <section className="py-20 md:py-32">
         <div className="container mx-auto px-4">
@@ -142,9 +140,7 @@ const Inicio = () => {
                   <div className="w-24 h-24 rounded-3xl bg-primary text-white flex items-center justify-center text-4xl font-serif font-medium shadow-card-float">
                     1
                   </div>
-                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1 z-10">
-                    Inicio
-                  </Badge>
+                  
                 </div>
                 <div className="space-y-3">
                   <h3 className="font-serif text-2xl text-gray-900">Pregunta</h3>
@@ -163,9 +159,7 @@ const Inicio = () => {
                   <div className="w-24 h-24 rounded-3xl bg-primary text-white flex items-center justify-center text-4xl font-serif font-medium shadow-card-float">
                     2
                   </div>
-                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1">
-                    Citas
-                  </Badge>
+                  
                 </div>
                 <div className="space-y-3">
                   <h3 className="font-serif text-2xl text-gray-900">Respuesta con citas</h3>
@@ -184,9 +178,7 @@ const Inicio = () => {
                   <div className="w-24 h-24 rounded-3xl bg-primary text-white flex items-center justify-center text-4xl font-serif font-medium shadow-card-float">
                     3
                   </div>
-                  <Badge className="absolute -top-2 -right-2 bg-primary/10 text-primary border-0 px-3 py-1">
-                    Verifica
-                  </Badge>
+                  
                 </div>
                 <div className="space-y-3">
                   <h3 className="font-serif text-2xl text-gray-900">Verifica</h3>
@@ -239,8 +231,6 @@ const Inicio = () => {
           </Link>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Inicio;
