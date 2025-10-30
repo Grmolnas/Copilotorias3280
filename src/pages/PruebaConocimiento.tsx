@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { CardElevated, CardElevatedContent, CardElevatedDescription, CardElevatedHeader, CardElevatedTitle } from "@/components/ui/card-elevated";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Progress } from "@/components/ui/progress";
@@ -92,34 +93,36 @@ const PruebaConocimiento = () => {
   const progreso = preguntas.length > 0 ? ((currentIndex + 1) / preguntas.length) * 100 : 0;
 
   return (
-    <div className="min-h-screen bg-background py-8 px-4">
+    <div className="min-h-screen py-8 px-4 md:py-12">
       <div className="container mx-auto max-w-4xl">
         {/* Header */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-8 md:mb-12 animate-fade-in">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
             <BookOpen className="h-8 w-8 text-primary" />
           </div>
-          <h1 className="text-4xl font-bold text-foreground mb-2">Prueba tu Conocimiento</h1>
-          <p className="text-lg text-muted-foreground">
+          <h1 className="font-serif text-5xl md:text-6xl font-normal text-gray-900 mb-4">
+            Prueba tu Conocimiento
+          </h1>
+          <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
             Responde preguntas sobre las Rutas Integrales de Atención en Salud (RIAS)
           </p>
         </div>
 
         {/* Pantalla inicial: Selector de tema */}
         {!started && !finished && (
-          <Card className="w-full max-w-2xl mx-auto">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
+          <CardElevated className="w-full max-w-2xl mx-auto animate-fade-in delay-100">
+            <CardElevatedHeader>
+              <CardElevatedTitle className="flex items-center gap-2 font-serif text-2xl">
                 <Target className="h-5 w-5" />
                 Configura tu prueba
-              </CardTitle>
-              <CardDescription>
+              </CardElevatedTitle>
+              <CardElevatedDescription>
                 Selecciona el tema para comenzar tu evaluación
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-6">
+              </CardElevatedDescription>
+            </CardElevatedHeader>
+            <CardElevatedContent className="space-y-6">
               <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">
+                <label className="text-sm font-medium text-gray-900 mb-2 block">
                   Tema
                 </label>
                 <Select value={temaSeleccionado} onValueChange={setTemaSeleccionado}>
@@ -138,33 +141,33 @@ const PruebaConocimiento = () => {
               </div>
 
               <div className="pt-4">
-                <Button size="lg" className="w-full" onClick={handleStart}>
+                <Button size="lg" variant="premium" className="w-full" onClick={handleStart}>
                   Comenzar prueba
                 </Button>
-                <p className="text-xs text-muted-foreground text-center mt-3">
+                <p className="text-xs text-gray-600 text-center mt-3">
                   Se seleccionarán {LIMITE_PREGUNTAS} preguntas aleatorias del banco disponible ({todasLasPreguntas.length} preguntas en total)
                 </p>
               </div>
-            </CardContent>
-          </Card>
+            </CardElevatedContent>
+          </CardElevated>
         )}
 
         {/* Pantalla de prueba: Progreso + Pregunta */}
         {started && !finished && preguntas.length > 0 && (
           <div className="space-y-6">
             {/* Panel de progreso */}
-            <Card>
+            <Card className="bg-white/95 backdrop-blur-sm">
               <CardContent className="pt-6">
                 <div className="space-y-3">
                   <div className="flex justify-between items-center text-sm">
-                    <span className="font-medium text-foreground">
+                    <span className="font-medium text-gray-900">
                       Progreso: {currentIndex + 1} de {preguntas.length}
                     </span>
                     <div className="flex gap-4">
-                      <span className="text-green-600 dark:text-green-400">
+                      <span className="text-green-600">
                         ✓ Correctas: {correctas}
                       </span>
-                      <span className="text-red-600 dark:text-red-400">
+                      <span className="text-red-600">
                         ✗ Incorrectas: {incorrectas}
                       </span>
                     </div>

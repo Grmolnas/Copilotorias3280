@@ -1,4 +1,5 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { CardElevated, CardElevatedContent, CardElevatedHeader, CardElevatedTitle, CardElevatedDescription } from "./ui/card-elevated";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { CheckCircle2, XCircle, RotateCcw, TrendingUp } from "lucide-react";
 import type { Pregunta } from "@/data/preguntas";
@@ -39,16 +40,16 @@ export const ResultsSummary = ({
 
   return (
     <div className="w-full max-w-3xl mx-auto space-y-6 animate-fade-in">
-      <Card>
-        <CardHeader className="text-center">
+      <CardElevated>
+        <CardElevatedHeader className="text-center">
           <div className="mx-auto mb-4 w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
             <TrendingUp className="h-10 w-10 text-primary" />
           </div>
-          <CardTitle className="text-2xl">Resultados de tu Prueba</CardTitle>
-          <CardDescription>Aquí está tu desempeño en la prueba de conocimiento</CardDescription>
-        </CardHeader>
+          <CardElevatedTitle className="font-serif text-3xl">Resultados de tu Prueba</CardElevatedTitle>
+          <CardElevatedDescription>Aquí está tu desempeño en la prueba de conocimiento</CardElevatedDescription>
+        </CardElevatedHeader>
 
-        <CardContent className="space-y-6">
+        <CardElevatedContent className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="text-center p-4 rounded-lg bg-muted">
               <div className="text-3xl font-bold text-foreground">{totalPreguntas}</div>
@@ -146,8 +147,8 @@ export const ResultsSummary = ({
               Realizar nueva prueba
             </Button>
           </div>
-        </CardContent>
-      </Card>
+        </CardElevatedContent>
+      </CardElevated>
     </div>
   );
 };

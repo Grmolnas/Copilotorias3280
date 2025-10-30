@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { CardElevated, CardElevatedContent, CardElevatedHeader, CardElevatedTitle } from "./ui/card-elevated";
 import { RadioGroup, RadioGroupItem } from "./ui/radio-group";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";
@@ -55,17 +55,17 @@ export const QuestionCard = ({
   };
 
   return (
-    <Card className="w-full max-w-3xl mx-auto">
-      <CardHeader>
+    <CardElevated className="w-full max-w-3xl mx-auto animate-fade-in">
+      <CardElevatedHeader>
         <div className="flex items-center justify-between mb-2">
-          <span className="text-sm font-medium text-muted-foreground">
+          <span className="text-sm font-medium text-gray-600">
             Pregunta {numeroPregunta} de {totalPreguntas}
           </span>
         </div>
-        <CardTitle className="text-xl">{pregunta.enunciado}</CardTitle>
-      </CardHeader>
+        <CardElevatedTitle className="font-serif text-2xl">{pregunta.enunciado}</CardElevatedTitle>
+      </CardElevatedHeader>
 
-      <CardContent className="space-y-6">
+      <CardElevatedContent className="space-y-6">
         <RadioGroup
           value={selectedOption?.toString()}
           onValueChange={(value) => !hasAnswered && setSelectedOption(parseInt(value))}
@@ -165,7 +165,7 @@ export const QuestionCard = ({
             </>
           )}
         </div>
-      </CardContent>
-    </Card>
+      </CardElevatedContent>
+    </CardElevated>
   );
 };
