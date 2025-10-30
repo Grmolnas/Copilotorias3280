@@ -84,8 +84,8 @@ const Copiloto: React.FC = () => {
         </aside>
 
         {/* Card del Chat - Abajo en móvil, derecha en desktop */}
-        <CardElevated className="order-2 lg:order-2 rounded-3xl border-2 border-white/20 overflow-hidden relative z-0 animate-fade-in delay-200">
-          <CardElevatedHeader className="border-b border-gray-100">
+        <CardElevated className="order-2 lg:order-2 rounded-3xl border-2 border-white/20 overflow-hidden relative z-10 animate-fade-in delay-200 !p-0">
+          <CardElevatedHeader className="border-b border-gray-100 p-8 md:p-10">
             <div className="flex items-start justify-between gap-4">
               <div className="flex-1">
                 <CardElevatedTitle className="font-serif text-3xl">Copiloto RIAS 3280</CardElevatedTitle>
