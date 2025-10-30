@@ -100,12 +100,48 @@ export default {
             transform: "translateY(0)"
           }
         },
+        "float-slow": {
+          "0%, 100%": {
+            transform: "translate(0, 0) rotate(0deg)"
+          },
+          "25%": {
+            transform: "translate(10px, -15px) rotate(5deg)"
+          },
+          "50%": {
+            transform: "translate(-5px, -30px) rotate(-3deg)"
+          },
+          "75%": {
+            transform: "translate(-15px, -15px) rotate(2deg)"
+          }
+        },
+        "float-medium": {
+          "0%, 100%": {
+            transform: "translate(0, 0) rotate(0deg)"
+          },
+          "33%": {
+            transform: "translate(-12px, -20px) rotate(-4deg)"
+          },
+          "66%": {
+            transform: "translate(8px, -25px) rotate(3deg)"
+          }
+        },
+        "float-slower": {
+          "0%, 100%": {
+            transform: "translate(0, 0) rotate(0deg)"
+          },
+          "50%": {
+            transform: "translate(5px, -35px) rotate(-2deg)"
+          }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.5s ease-out",
         "slide-up": "slide-up 0.6s ease-out",
+        "float-slow": "float-slow 50s ease-in-out infinite",
+        "float-medium": "float-medium 55s ease-in-out infinite",
+        "float-slower": "float-slower 60s ease-in-out infinite",
       },
       boxShadow: {
         'soft': 'var(--shadow-soft)',

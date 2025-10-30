@@ -2,6 +2,7 @@ import { ReactNode, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import MedicalBackground from "./MedicalBackground";
 interface LayoutProps {
   children: ReactNode;
 }
@@ -36,7 +37,10 @@ const Layout = ({ children }: LayoutProps) => {
   ];
   const isActive = (path: string) => location.pathname === path;
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col bg-background relative">
+      {/* Medical Background */}
+      <MedicalBackground />
+      
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b border-border bg-card shadow-soft">
         <nav className="container mx-auto px-4 py-4">
@@ -92,7 +96,7 @@ const Layout = ({ children }: LayoutProps) => {
       </header>
 
       {/* Main Content */}
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow relative z-10">{children}</main>
 
       {/* Footer */}
       <footer className="border-t border-border bg-card mt-auto">
