@@ -82,3 +82,26 @@ export const mezclarPreguntas = (preguntas: Pregunta[]): Pregunta[] => {
   }
   return preguntasCopia;
 };
+
+// Función para aleatorizar el orden de las opciones de una pregunta
+export const aleatorizarOpciones = (pregunta: Pregunta): Pregunta => {
+  const indices = [0, 1, 2, 3]; // Array de posiciones originales
+  
+  // Algoritmo Fisher-Yates para mezclar índices
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  
+  // Crear nuevo array de opciones en el orden aleatorio
+  const opcionesAleatorias = indices.map(i => pregunta.opciones[i]);
+  
+  // Encontrar la nueva posición de la respuesta correcta
+  const nuevoIndice = indices.indexOf(pregunta.indice_correcto);
+  
+  return {
+    ...pregunta,
+    opciones: opcionesAleatorias,
+    indice_correcto: nuevoIndice
+  };
+};

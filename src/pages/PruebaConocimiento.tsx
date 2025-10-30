@@ -11,6 +11,7 @@ import {
   getTodasLasPreguntas, 
   filtrarPreguntas, 
   mezclarPreguntas,
+  aleatorizarOpciones,
   type Pregunta 
 } from "@/data/preguntas";
 import { BookOpen, Target } from "lucide-react";
@@ -46,7 +47,9 @@ const PruebaConocimiento = () => {
     }
 
     const preguntasMezcladas = mezclarPreguntas(preguntasFiltradas);
-    const preguntasLimitadas = preguntasMezcladas.slice(0, LIMITE_PREGUNTAS);
+    // Aleatorizar opciones de cada pregunta
+    const preguntasConOpcionesAleatorias = preguntasMezcladas.map(aleatorizarOpciones);
+    const preguntasLimitadas = preguntasConOpcionesAleatorias.slice(0, LIMITE_PREGUNTAS);
     
     setPreguntas(preguntasLimitadas);
     setStarted(true);
